@@ -1,0 +1,55 @@
+/home/xianlli/anaconda3/envs/spectralnet-20240530/lib/python3.11/site-packages/finch/finch.py:13: UserWarning: pynndescent not installed: No module named 'pynndescent'
+  warnings.warn('pynndescent not installed: {}'.format(e))
+hello world
+/home/xianlli/anaconda3/envs/spectralnet-20240530/lib/python3.11/site-packages/sklearn/preprocessing/_data.py:240: UserWarning: Numerical issues were encountered when centering the data and might not be solved. Dataset may contain too large values. You may need to prescale your features.
+  warnings.warn(
+/home/xianlli/anaconda3/envs/spectralnet-20240530/lib/python3.11/site-packages/sklearn/preprocessing/_data.py:259: UserWarning: Numerical issues were encountered when scaling the data and might not be solved. The standard deviation of the data is probably very close to 0.
+  warnings.warn(
+x_patches shape: (130, 130, 8, 7, 7), labels: [0 1 2 3 4 5 6 7]
+/home/xianlli/anaconda3/envs/spectralnet-20240530/lib/python3.11/site-packages/sklearn/preprocessing/_data.py:240: UserWarning: Numerical issues were encountered when centering the data and might not be solved. Dataset may contain too large values. You may need to prescale your features.
+  warnings.warn(
+/home/xianlli/anaconda3/envs/spectralnet-20240530/lib/python3.11/site-packages/sklearn/preprocessing/_data.py:259: UserWarning: Numerical issues were encountered when scaling the data and might not be solved. The standard deviation of the data is probably very close to 0.
+  warnings.warn(
+x_patches shape: (130, 130, 8, 7, 7), labels: [0 1 2 3 4 5 6 7]
+/home/xianlli/anaconda3/envs/spectralnet-20240530/lib/python3.11/site-packages/sklearn/preprocessing/_data.py:240: UserWarning: Numerical issues were encountered when centering the data and might not be solved. Dataset may contain too large values. You may need to prescale your features.
+  warnings.warn(
+/home/xianlli/anaconda3/envs/spectralnet-20240530/lib/python3.11/site-packages/sklearn/preprocessing/_data.py:259: UserWarning: Numerical issues were encountered when scaling the data and might not be solved. The standard deviation of the data is probably very close to 0.
+  warnings.warn(
+num_ber_sample: 6104
+1825
+acc: 0.6322083879423329 kappa 0.5248680049250007 nmi: 0.5936509250925478 ari: 0.5334222802785689 pur: 0.689875491480996 ca [0.46497765 1.         0.         1.         0.00769231 0.
+ 0.46289308]
+410
+acc: 0.6323722149410222 kappa 0.5251350322264536 nmi: 0.5933808563503091 ari: 0.5337091467625049 pur: 0.6897116644823067 ca [0.46497765 1.         0.         1.         0.00769231 0.
+ 0.46415094]
+4507
+acc: 0.6322083879423329 kappa 0.5248988586253511 nmi: 0.593454929160856 ari: 0.5335667557037235 pur: 0.689875491480996 ca [0.46497765 1.         0.         1.         0.00769231 0.
+ 0.46289308]
+4013
+acc: 0.6323722149410222 kappa 0.5251350322264536 nmi: 0.5933808563503092 ari: 0.5337091467625049 pur: 0.6897116644823067 ca [0.46497765 1.         0.         1.         0.00769231 0.
+ 0.46415094]
+3658
+acc: 0.6322083879423329 kappa 0.5248308532682052 nmi: 0.5933581563802159 ari: 0.5330887357135915 pur: 0.6895478374836173 ca [0.46497765 1.         0.         1.         0.         0.
+ 0.46415094]
+2287
+acc: 0.6323722149410222 kappa 0.5251350322264536 nmi: 0.5933808563503093 ari: 0.5337091467625049 pur: 0.6897116644823067 ca [0.46497765 1.         0.         1.         0.00769231 0.
+ 0.46415094]
+1680
+acc: 0.6323722149410222 kappa 0.5250733546836999 nmi: 0.5937107987123027 ari: 0.5333488688042652 pur: 0.6897116644823067 ca [0.46497765 1.         0.         1.         0.00769231 0.
+ 0.46415094]
+8936
+acc: 0.6323722149410222 kappa 0.5250709669500491 nmi: 0.5937107987123027 ari: 0.5333488688042652 pur: 0.6897116644823067 ca [0.46497765 1.         0.         1.         0.00769231 0.
+ 0.46415094]
+1425
+acc: 0.6323722149410222 kappa 0.5250709669500491 nmi: 0.5937107987123027 ari: 0.5333488688042652 pur: 0.6897116644823067 ca [0.46497765 1.         0.         1.         0.00769231 0.
+ 0.46415094]
+9675
+acc: 0.6323722149410222 kappa 0.5250733546836999 nmi: 0.5937107987123026 ari: 0.5333488688042652 pur: 0.6897116644823067 ca [0.46497765 1.         0.         1.         0.00769231 0.
+ 0.46415094]
+Average Run Time: 7.3190 ± 3.0559 seconds
+ACC: 63.23 ± 0.01
+NMI: 0.5935 ± 0.0002
+Kappa: 0.5250 ± 0.0001
+ACC List (10 runs): [63.22, 63.24, 63.22, 63.24, 63.22, 63.24, 63.24, 63.24, 63.24, 63.24]
+NMI List (10 runs): [0.5937, 0.5934, 0.5935, 0.5934, 0.5934, 0.5934, 0.5937, 0.5937, 0.5937, 0.5937]
+Kappa List (10 runs): [0.5249, 0.5251, 0.5249, 0.5251, 0.5248, 0.5251, 0.5251, 0.5251, 0.5251, 0.5251]

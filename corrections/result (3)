@@ -1,0 +1,4193 @@
+/home/xianlli/anaconda3/envs/tf2_gpu/bin/python /home/xianlli/code/Signal_processing/DEKM-main/DEKM.py
+2024-05-17 14:18:13.356019: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudart.so.11.0
+/home/xianlli/anaconda3/envs/tf2_gpu/lib/python3.8/site-packages/sklearn/preprocessing/_data.py:174: UserWarning: Numerical issues were encountered when centering the data and might not be solved. Dataset may contain too large values. You may need to prescale your features.
+  warnings.warn("Numerical issues were encountered "
+/home/xianlli/anaconda3/envs/tf2_gpu/lib/python3.8/site-packages/sklearn/preprocessing/_data.py:191: UserWarning: Numerical issues were encountered when scaling the data and might not be solved. The standard deviation of the data is probably very close to 0. 
+  warnings.warn("Numerical issues were encountered "
+x_patches shape: (130, 130, 8, 17, 17), labels: [0 1 2 3 4 5 6 7]
+/home/xianlli/anaconda3/envs/tf2_gpu/lib/python3.8/site-packages/sklearn/preprocessing/_data.py:174: UserWarning: Numerical issues were encountered when centering the data and might not be solved. Dataset may contain too large values. You may need to prescale your features.
+  warnings.warn("Numerical issues were encountered "
+/home/xianlli/anaconda3/envs/tf2_gpu/lib/python3.8/site-packages/sklearn/preprocessing/_data.py:191: UserWarning: Numerical issues were encountered when scaling the data and might not be solved. The standard deviation of the data is probably very close to 0. 
+  warnings.warn("Numerical issues were encountered "
+step1ok
+x_patches shape: (130, 130, 8, 7, 7), labels: [0 1 2 3 4 5 6 7]
+/home/xianlli/anaconda3/envs/tf2_gpu/lib/python3.8/site-packages/sklearn/preprocessing/_data.py:174: UserWarning: Numerical issues were encountered when centering the data and might not be solved. Dataset may contain too large values. You may need to prescale your features.
+  warnings.warn("Numerical issues were encountered "
+/home/xianlli/anaconda3/envs/tf2_gpu/lib/python3.8/site-packages/sklearn/preprocessing/_data.py:191: UserWarning: Numerical issues were encountered when scaling the data and might not be solved. The standard deviation of the data is probably very close to 0. 
+  warnings.warn("Numerical issues were encountered "
+/home/xianlli/anaconda3/envs/tf2_gpu/lib/python3.8/site-packages/sklearn/preprocessing/_data.py:174: UserWarning: Numerical issues were encountered when centering the data and might not be solved. Dataset may contain too large values. You may need to prescale your features.
+  warnings.warn("Numerical issues were encountered "
+/home/xianlli/anaconda3/envs/tf2_gpu/lib/python3.8/site-packages/sklearn/preprocessing/_data.py:191: UserWarning: Numerical issues were encountered when scaling the data and might not be solved. The standard deviation of the data is probably very close to 0. 
+  warnings.warn("Numerical issues were encountered "
+2024-05-17 14:18:19.606021: I tensorflow/compiler/jit/xla_cpu_device.cc:41] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2024-05-17 14:18:19.610221: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcuda.so.1
+2024-05-17 14:18:19.664037: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1720] Found device 0 with properties: 
+pciBusID: 0000:17:00.0 name: NVIDIA GeForce RTX 4060 Ti computeCapability: 8.9
+coreClock: 2.61GHz coreCount: 34 deviceMemorySize: 15.70GiB deviceMemoryBandwidth: 268.25GiB/s
+2024-05-17 14:18:19.664332: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1720] Found device 1 with properties: 
+pciBusID: 0000:65:00.0 name: NVIDIA GeForce RTX 4060 Ti computeCapability: 8.9
+coreClock: 2.61GHz coreCount: 34 deviceMemorySize: 15.70GiB deviceMemoryBandwidth: 268.25GiB/s
+2024-05-17 14:18:19.664372: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudart.so.11.0
+2024-05-17 14:18:19.684566: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcublas.so.11
+2024-05-17 14:18:19.684703: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcublasLt.so.11
+2024-05-17 14:18:19.695959: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcufft.so.10
+2024-05-17 14:18:19.699062: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcurand.so.10
+2024-05-17 14:18:19.717926: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcusolver.so.10
+2024-05-17 14:18:19.722287: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcusparse.so.11
+2024-05-17 14:18:19.724073: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudnn.so.8
+2024-05-17 14:18:19.726518: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1862] Adding visible gpu devices: 0, 1
+2024-05-17 14:18:19.731481: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 AVX512F FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2024-05-17 14:18:19.732679: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2024-05-17 14:18:19.864282: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1720] Found device 0 with properties: 
+pciBusID: 0000:17:00.0 name: NVIDIA GeForce RTX 4060 Ti computeCapability: 8.9
+coreClock: 2.61GHz coreCount: 34 deviceMemorySize: 15.70GiB deviceMemoryBandwidth: 268.25GiB/s
+2024-05-17 14:18:19.864500: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1720] Found device 1 with properties: 
+pciBusID: 0000:65:00.0 name: NVIDIA GeForce RTX 4060 Ti computeCapability: 8.9
+coreClock: 2.61GHz coreCount: 34 deviceMemorySize: 15.70GiB deviceMemoryBandwidth: 268.25GiB/s
+2024-05-17 14:18:19.864526: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudart.so.11.0
+2024-05-17 14:18:19.864565: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcublas.so.11
+2024-05-17 14:18:19.864576: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcublasLt.so.11
+2024-05-17 14:18:19.864587: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcufft.so.10
+2024-05-17 14:18:19.864597: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcurand.so.10
+2024-05-17 14:18:19.864607: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcusolver.so.10
+2024-05-17 14:18:19.864618: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcusparse.so.11
+2024-05-17 14:18:19.864628: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudnn.so.8
+2024-05-17 14:18:19.865203: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1862] Adding visible gpu devices: 0, 1
+2024-05-17 14:18:19.865612: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudart.so.11.0
+2024-05-17 14:18:21.162341: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1261] Device interconnect StreamExecutor with strength 1 edge matrix:
+2024-05-17 14:18:21.162374: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1267]      0 1 
+2024-05-17 14:18:21.162381: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1280] 0:   N N 
+2024-05-17 14:18:21.162387: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1280] 1:   N N 
+2024-05-17 14:18:21.164673: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1406] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 14806 MB memory) -> physical GPU (device: 0, name: NVIDIA GeForce RTX 4060 Ti, pci bus id: 0000:17:00.0, compute capability: 8.9)
+2024-05-17 14:18:21.168805: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1406] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:1 with 14022 MB memory) -> physical GPU (device: 1, name: NVIDIA GeForce RTX 4060 Ti, pci bus id: 0000:65:00.0, compute capability: 8.9)
+Epoch 1/200
+2024-05-17 14:18:22.150769: I tensorflow/compiler/mlir/mlir_graph_optimization_pass.cc:116] None of the MLIR optimization passes are enabled (registered 2)
+2024-05-17 14:18:22.182551: I tensorflow/core/platform/profile_utils/cpu_utils.cc:112] CPU Frequency: 3600000000 Hz
+2024-05-17 14:18:22.322379: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcublas.so.11
+2024-05-17 14:18:23.557694: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcublasLt.so.11
+2024-05-17 14:18:23.576115: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudnn.so.8
+2024-05-17 14:18:28.745747: W tensorflow/stream_executor/gpu/asm_compiler.cc:63] Running ptxas --version returned 256
+2024-05-17 14:18:28.876022: W tensorflow/stream_executor/gpu/redzone_allocator.cc:314] Internal: ptxas exited with non-zero error code 256, output: 
+Relying on driver to perform ptx compilation. 
+Modify $PATH to customize ptxas location.
+This message will be only logged once.
+2024-05-17 14:18:35.360278: I tensorflow/stream_executor/cuda/cuda_blas.cc:1838] TensorFloat-32 will be used for the matrix multiplication. This will only be logged once.
+24/24 - 34s - loss: 0.9308
+Epoch 2/200
+24/24 - 0s - loss: 0.6097
+Epoch 3/200
+24/24 - 0s - loss: 0.5111
+Epoch 4/200
+24/24 - 0s - loss: 0.4872
+Epoch 5/200
+24/24 - 0s - loss: 0.4575
+Epoch 6/200
+24/24 - 0s - loss: 0.4257
+Epoch 7/200
+24/24 - 0s - loss: 0.4114
+Epoch 8/200
+24/24 - 0s - loss: 0.4018
+Epoch 9/200
+24/24 - 0s - loss: 0.3895
+Epoch 10/200
+24/24 - 0s - loss: 0.3837
+Epoch 11/200
+24/24 - 0s - loss: 0.3783
+Epoch 12/200
+24/24 - 0s - loss: 0.3781
+Epoch 13/200
+24/24 - 0s - loss: 0.3778
+Epoch 14/200
+24/24 - 0s - loss: 0.3624
+Epoch 15/200
+24/24 - 0s - loss: 0.3622
+Epoch 16/200
+24/24 - 0s - loss: 0.3501
+Epoch 17/200
+24/24 - 0s - loss: 0.3582
+Epoch 18/200
+24/24 - 0s - loss: 0.3524
+Epoch 19/200
+24/24 - 0s - loss: 0.3507
+Epoch 20/200
+24/24 - 0s - loss: 0.3560
+Epoch 21/200
+24/24 - 0s - loss: 0.3492
+Epoch 22/200
+24/24 - 0s - loss: 0.3422
+Epoch 23/200
+24/24 - 0s - loss: 0.3452
+Epoch 24/200
+24/24 - 0s - loss: 0.3438
+Epoch 25/200
+24/24 - 0s - loss: 0.3338
+Epoch 26/200
+24/24 - 0s - loss: 0.3239
+Epoch 27/200
+24/24 - 0s - loss: 0.3224
+Epoch 28/200
+24/24 - 0s - loss: 0.3204
+Epoch 29/200
+24/24 - 0s - loss: 0.3183
+Epoch 30/200
+24/24 - 0s - loss: 0.3174
+Epoch 31/200
+24/24 - 0s - loss: 0.3111
+Epoch 32/200
+24/24 - 0s - loss: 0.3144
+Epoch 33/200
+24/24 - 0s - loss: 0.3166
+Epoch 34/200
+24/24 - 0s - loss: 0.3167
+Epoch 35/200
+24/24 - 0s - loss: 0.3152
+Epoch 36/200
+24/24 - 0s - loss: 0.3211
+Epoch 37/200
+24/24 - 0s - loss: 0.3133
+Epoch 38/200
+24/24 - 0s - loss: 0.3108
+Epoch 39/200
+24/24 - 0s - loss: 0.3056
+Epoch 40/200
+24/24 - 0s - loss: 0.3017
+Epoch 41/200
+24/24 - 0s - loss: 0.3016
+Epoch 42/200
+24/24 - 0s - loss: 0.3015
+Epoch 43/200
+24/24 - 0s - loss: 0.3001
+Epoch 44/200
+24/24 - 0s - loss: 0.2940
+Epoch 45/200
+24/24 - 0s - loss: 0.2915
+Epoch 46/200
+24/24 - 0s - loss: 0.2920
+Epoch 47/200
+24/24 - 0s - loss: 0.2898
+Epoch 48/200
+24/24 - 0s - loss: 0.2898
+Epoch 49/200
+24/24 - 0s - loss: 0.2857
+Epoch 50/200
+24/24 - 0s - loss: 0.2874
+Epoch 51/200
+24/24 - 0s - loss: 0.2898
+Epoch 52/200
+24/24 - 0s - loss: 0.2821
+Epoch 53/200
+24/24 - 0s - loss: 0.2822
+Epoch 54/200
+24/24 - 0s - loss: 0.2794
+Epoch 55/200
+24/24 - 0s - loss: 0.2828
+Epoch 56/200
+24/24 - 0s - loss: 0.2829
+Epoch 57/200
+24/24 - 0s - loss: 0.2845
+Epoch 58/200
+24/24 - 0s - loss: 0.2826
+Epoch 59/200
+24/24 - 0s - loss: 0.2828
+Epoch 60/200
+24/24 - 0s - loss: 0.2808
+Epoch 61/200
+24/24 - 0s - loss: 0.2767
+Epoch 62/200
+24/24 - 0s - loss: 0.2765
+Epoch 63/200
+24/24 - 0s - loss: 0.2740
+Epoch 64/200
+24/24 - 0s - loss: 0.2802
+Epoch 65/200
+24/24 - 0s - loss: 0.2731
+Epoch 66/200
+24/24 - 0s - loss: 0.2733
+Epoch 67/200
+24/24 - 0s - loss: 0.2741
+Epoch 68/200
+24/24 - 0s - loss: 0.2706
+Epoch 69/200
+24/24 - 0s - loss: 0.2704
+Epoch 70/200
+24/24 - 0s - loss: 0.2734
+Epoch 71/200
+24/24 - 0s - loss: 0.2697
+Epoch 72/200
+24/24 - 0s - loss: 0.2703
+Epoch 73/200
+24/24 - 0s - loss: 0.2699
+Epoch 74/200
+24/24 - 0s - loss: 0.2720
+Epoch 75/200
+24/24 - 0s - loss: 0.2748
+Epoch 76/200
+24/24 - 0s - loss: 0.2731
+Epoch 77/200
+24/24 - 0s - loss: 0.2709
+Epoch 78/200
+24/24 - 0s - loss: 0.2709
+Epoch 79/200
+24/24 - 0s - loss: 0.2707
+Epoch 80/200
+24/24 - 0s - loss: 0.2733
+Epoch 81/200
+24/24 - 0s - loss: 0.2710
+Epoch 82/200
+24/24 - 0s - loss: 0.2700
+Epoch 83/200
+24/24 - 0s - loss: 0.2709
+Epoch 84/200
+24/24 - 0s - loss: 0.2649
+Epoch 85/200
+24/24 - 0s - loss: 0.2703
+Epoch 86/200
+24/24 - 0s - loss: 0.2681
+Epoch 87/200
+24/24 - 0s - loss: 0.2671
+Epoch 88/200
+24/24 - 0s - loss: 0.2666
+Epoch 89/200
+24/24 - 0s - loss: 0.2678
+Epoch 90/200
+24/24 - 0s - loss: 0.2611
+Epoch 91/200
+24/24 - 0s - loss: 0.2659
+Epoch 92/200
+24/24 - 0s - loss: 0.2679
+Epoch 93/200
+24/24 - 0s - loss: 0.2629
+Epoch 94/200
+24/24 - 0s - loss: 0.2616
+Epoch 95/200
+24/24 - 0s - loss: 0.2620
+Epoch 96/200
+24/24 - 0s - loss: 0.2575
+Epoch 97/200
+24/24 - 0s - loss: 0.2603
+Epoch 98/200
+24/24 - 0s - loss: 0.2586
+Epoch 99/200
+24/24 - 0s - loss: 0.2615
+Epoch 100/200
+24/24 - 0s - loss: 0.2614
+Epoch 101/200
+24/24 - 0s - loss: 0.2632
+Epoch 102/200
+24/24 - 0s - loss: 0.2624
+Epoch 103/200
+24/24 - 0s - loss: 0.2603
+Epoch 104/200
+24/24 - 0s - loss: 0.2612
+Epoch 105/200
+24/24 - 0s - loss: 0.2618
+Epoch 106/200
+24/24 - 0s - loss: 0.2557
+Epoch 107/200
+24/24 - 0s - loss: 0.2612
+Epoch 108/200
+24/24 - 0s - loss: 0.2563
+Epoch 109/200
+24/24 - 0s - loss: 0.2564
+Epoch 110/200
+24/24 - 0s - loss: 0.2570
+Epoch 111/200
+24/24 - 0s - loss: 0.2527
+Epoch 112/200
+24/24 - 0s - loss: 0.2525
+Epoch 113/200
+24/24 - 0s - loss: 0.2526
+Epoch 114/200
+24/24 - 0s - loss: 0.2554
+Epoch 115/200
+24/24 - 0s - loss: 0.2549
+Epoch 116/200
+24/24 - 0s - loss: 0.2500
+Epoch 117/200
+24/24 - 0s - loss: 0.2521
+Epoch 118/200
+24/24 - 0s - loss: 0.2499
+Epoch 119/200
+24/24 - 0s - loss: 0.2535
+Epoch 120/200
+24/24 - 0s - loss: 0.2510
+Epoch 121/200
+24/24 - 0s - loss: 0.2503
+Epoch 122/200
+24/24 - 0s - loss: 0.2553
+Epoch 123/200
+24/24 - 0s - loss: 0.2562
+Epoch 124/200
+24/24 - 0s - loss: 0.2585
+Epoch 125/200
+24/24 - 0s - loss: 0.2571
+Epoch 126/200
+24/24 - 0s - loss: 0.2558
+Epoch 127/200
+24/24 - 0s - loss: 0.2539
+Epoch 128/200
+24/24 - 0s - loss: 0.2527
+Epoch 129/200
+24/24 - 0s - loss: 0.2508
+Epoch 130/200
+24/24 - 0s - loss: 0.2510
+Epoch 131/200
+24/24 - 0s - loss: 0.2517
+Epoch 132/200
+24/24 - 0s - loss: 0.2502
+Epoch 133/200
+24/24 - 0s - loss: 0.2517
+Epoch 134/200
+24/24 - 0s - loss: 0.2552
+Epoch 135/200
+24/24 - 0s - loss: 0.2528
+Epoch 136/200
+24/24 - 0s - loss: 0.2513
+Epoch 137/200
+24/24 - 0s - loss: 0.2493
+Epoch 138/200
+24/24 - 0s - loss: 0.2482
+Epoch 139/200
+24/24 - 0s - loss: 0.2483
+Epoch 140/200
+24/24 - 0s - loss: 0.2510
+Epoch 141/200
+24/24 - 0s - loss: 0.2483
+Epoch 142/200
+24/24 - 0s - loss: 0.2480
+Epoch 143/200
+24/24 - 0s - loss: 0.2522
+Epoch 144/200
+24/24 - 0s - loss: 0.2513
+Epoch 145/200
+24/24 - 0s - loss: 0.2500
+Epoch 146/200
+24/24 - 0s - loss: 0.2543
+Epoch 147/200
+24/24 - 0s - loss: 0.2518
+Epoch 148/200
+24/24 - 0s - loss: 0.2497
+Epoch 149/200
+24/24 - 0s - loss: 0.2527
+Epoch 150/200
+24/24 - 0s - loss: 0.2484
+Epoch 151/200
+24/24 - 0s - loss: 0.2540
+Epoch 152/200
+24/24 - 0s - loss: 0.2519
+Epoch 153/200
+24/24 - 0s - loss: 0.2510
+Epoch 154/200
+24/24 - 0s - loss: 0.2507
+Epoch 155/200
+24/24 - 0s - loss: 0.2483
+Epoch 156/200
+24/24 - 0s - loss: 0.2501
+Epoch 157/200
+24/24 - 0s - loss: 0.2545
+Epoch 158/200
+24/24 - 0s - loss: 0.2530
+Epoch 159/200
+24/24 - 0s - loss: 0.2497
+Epoch 160/200
+24/24 - 0s - loss: 0.2518
+Epoch 161/200
+24/24 - 0s - loss: 0.2497
+Epoch 162/200
+24/24 - 0s - loss: 0.2472
+Epoch 163/200
+24/24 - 0s - loss: 0.2476
+Epoch 164/200
+24/24 - 0s - loss: 0.2505
+Epoch 165/200
+24/24 - 0s - loss: 0.2493
+Epoch 166/200
+24/24 - 0s - loss: 0.2486
+Epoch 167/200
+24/24 - 0s - loss: 0.2477
+Epoch 168/200
+24/24 - 0s - loss: 0.2465
+Epoch 169/200
+24/24 - 0s - loss: 0.2466
+Epoch 170/200
+24/24 - 0s - loss: 0.2512
+Epoch 171/200
+24/24 - 0s - loss: 0.2475
+Epoch 172/200
+24/24 - 0s - loss: 0.2486
+Epoch 173/200
+24/24 - 0s - loss: 0.2507
+Epoch 174/200
+24/24 - 0s - loss: 0.2523
+Epoch 175/200
+24/24 - 0s - loss: 0.2544
+Epoch 176/200
+24/24 - 0s - loss: 0.2547
+Epoch 177/200
+24/24 - 0s - loss: 0.2496
+Epoch 178/200
+24/24 - 0s - loss: 0.2534
+Epoch 179/200
+24/24 - 0s - loss: 0.2474
+Epoch 180/200
+24/24 - 0s - loss: 0.2452
+Epoch 181/200
+24/24 - 0s - loss: 0.2434
+Epoch 182/200
+24/24 - 0s - loss: 0.2441
+Epoch 183/200
+24/24 - 0s - loss: 0.2401
+Epoch 184/200
+24/24 - 0s - loss: 0.2434
+Epoch 185/200
+24/24 - 0s - loss: 0.2407
+Epoch 186/200
+24/24 - 0s - loss: 0.2392
+Epoch 187/200
+24/24 - 0s - loss: 0.2382
+Epoch 188/200
+24/24 - 0s - loss: 0.2399
+Epoch 189/200
+24/24 - 0s - loss: 0.2387
+Epoch 190/200
+24/24 - 0s - loss: 0.2391
+Epoch 191/200
+24/24 - 0s - loss: 0.2415
+Epoch 192/200
+24/24 - 0s - loss: 0.2407
+Epoch 193/200
+24/24 - 0s - loss: 0.2391
+Epoch 194/200
+24/24 - 0s - loss: 0.2421
+Epoch 195/200
+24/24 - 0s - loss: 0.2409
+Epoch 196/200
+24/24 - 0s - loss: 0.2442
+Epoch 197/200
+24/24 - 0s - loss: 0.2446
+Epoch 198/200
+24/24 - 0s - loss: 0.2422
+Epoch 199/200
+24/24 - 0s - loss: 0.2452
+Epoch 200/200
+24/24 - 0s - loss: 0.2430
+model_conv: weights was loaded
+iter 0; acc, nmi, kappa = (0.5928899082568808, 0.6888354373188642, 0.47222385465756056); loss:0.00000; n_changed_assignment:6104; time:95.205
+iter 1; acc, nmi, kappa = (0.5925622542595019, 0.7107868305865354, 0.47381520929406484); loss:0.74184; n_changed_assignment:65; time:105.141
+iter 2; acc, nmi, kappa = (0.5920707732634338, 0.7167839268667604, 0.4732980028415438); loss:1.38131; n_changed_assignment:30; time:109.407
+end
+0.5920707732634338 0.4732980028415438 0.7167839268667604 [0.46497765 1.         0.         1.         0.94615385 0.
+ 0.00125786]
+109.72547340393066
+Epoch 1/200
+24/24 - 1s - loss: 0.8461
+Epoch 2/200
+24/24 - 0s - loss: 0.5528
+Epoch 3/200
+24/24 - 0s - loss: 0.4989
+Epoch 4/200
+24/24 - 0s - loss: 0.4643
+Epoch 5/200
+24/24 - 0s - loss: 0.4422
+Epoch 6/200
+24/24 - 0s - loss: 0.4212
+Epoch 7/200
+24/24 - 0s - loss: 0.4033
+Epoch 8/200
+24/24 - 0s - loss: 0.3928
+Epoch 9/200
+24/24 - 0s - loss: 0.3875
+Epoch 10/200
+24/24 - 0s - loss: 0.3828
+Epoch 11/200
+24/24 - 0s - loss: 0.3777
+Epoch 12/200
+24/24 - 0s - loss: 0.3814
+Epoch 13/200
+24/24 - 0s - loss: 0.3674
+Epoch 14/200
+24/24 - 0s - loss: 0.3599
+Epoch 15/200
+24/24 - 0s - loss: 0.3524
+Epoch 16/200
+24/24 - 0s - loss: 0.3436
+Epoch 17/200
+24/24 - 0s - loss: 0.3396
+Epoch 18/200
+24/24 - 0s - loss: 0.3380
+Epoch 19/200
+24/24 - 0s - loss: 0.3332
+Epoch 20/200
+24/24 - 0s - loss: 0.3297
+Epoch 21/200
+24/24 - 0s - loss: 0.3308
+Epoch 22/200
+24/24 - 0s - loss: 0.3289
+Epoch 23/200
+24/24 - 0s - loss: 0.3237
+Epoch 24/200
+24/24 - 0s - loss: 0.3283
+Epoch 25/200
+24/24 - 0s - loss: 0.3237
+Epoch 26/200
+24/24 - 0s - loss: 0.3222
+Epoch 27/200
+24/24 - 0s - loss: 0.3245
+Epoch 28/200
+24/24 - 0s - loss: 0.3161
+Epoch 29/200
+24/24 - 0s - loss: 0.3223
+Epoch 30/200
+24/24 - 0s - loss: 0.3182
+Epoch 31/200
+24/24 - 0s - loss: 0.3084
+Epoch 32/200
+24/24 - 0s - loss: 0.3088
+Epoch 33/200
+24/24 - 0s - loss: 0.3052
+Epoch 34/200
+24/24 - 0s - loss: 0.2997
+Epoch 35/200
+24/24 - 0s - loss: 0.2996
+Epoch 36/200
+24/24 - 0s - loss: 0.2980
+Epoch 37/200
+24/24 - 0s - loss: 0.2954
+Epoch 38/200
+24/24 - 0s - loss: 0.2988
+Epoch 39/200
+24/24 - 0s - loss: 0.2968
+Epoch 40/200
+24/24 - 0s - loss: 0.2921
+Epoch 41/200
+24/24 - 0s - loss: 0.2917
+Epoch 42/200
+24/24 - 0s - loss: 0.2937
+Epoch 43/200
+24/24 - 0s - loss: 0.2884
+Epoch 44/200
+24/24 - 0s - loss: 0.2900
+Epoch 45/200
+24/24 - 0s - loss: 0.2893
+Epoch 46/200
+24/24 - 0s - loss: 0.2917
+Epoch 47/200
+24/24 - 0s - loss: 0.2879
+Epoch 48/200
+24/24 - 0s - loss: 0.2867
+Epoch 49/200
+24/24 - 0s - loss: 0.2866
+Epoch 50/200
+24/24 - 0s - loss: 0.2889
+Epoch 51/200
+24/24 - 0s - loss: 0.2859
+Epoch 52/200
+24/24 - 0s - loss: 0.2881
+Epoch 53/200
+24/24 - 0s - loss: 0.2859
+Epoch 54/200
+24/24 - 0s - loss: 0.2846
+Epoch 55/200
+24/24 - 0s - loss: 0.2812
+Epoch 56/200
+24/24 - 0s - loss: 0.2831
+Epoch 57/200
+24/24 - 0s - loss: 0.2819
+Epoch 58/200
+24/24 - 0s - loss: 0.2825
+Epoch 59/200
+24/24 - 0s - loss: 0.2846
+Epoch 60/200
+24/24 - 0s - loss: 0.2844
+Epoch 61/200
+24/24 - 0s - loss: 0.2801
+Epoch 62/200
+24/24 - 0s - loss: 0.2823
+Epoch 63/200
+24/24 - 0s - loss: 0.2733
+Epoch 64/200
+24/24 - 0s - loss: 0.2782
+Epoch 65/200
+24/24 - 0s - loss: 0.2743
+Epoch 66/200
+24/24 - 0s - loss: 0.2713
+Epoch 67/200
+24/24 - 0s - loss: 0.2737
+Epoch 68/200
+24/24 - 0s - loss: 0.2745
+Epoch 69/200
+24/24 - 0s - loss: 0.2744
+Epoch 70/200
+24/24 - 0s - loss: 0.2726
+Epoch 71/200
+24/24 - 0s - loss: 0.2734
+Epoch 72/200
+24/24 - 0s - loss: 0.2715
+Epoch 73/200
+24/24 - 0s - loss: 0.2673
+Epoch 74/200
+24/24 - 0s - loss: 0.2716
+Epoch 75/200
+24/24 - 0s - loss: 0.2692
+Epoch 76/200
+24/24 - 0s - loss: 0.2729
+Epoch 77/200
+24/24 - 0s - loss: 0.2659
+Epoch 78/200
+24/24 - 0s - loss: 0.2657
+Epoch 79/200
+24/24 - 0s - loss: 0.2653
+Epoch 80/200
+24/24 - 0s - loss: 0.2635
+Epoch 81/200
+24/24 - 0s - loss: 0.2671
+Epoch 82/200
+24/24 - 0s - loss: 0.2653
+Epoch 83/200
+24/24 - 0s - loss: 0.2679
+Epoch 84/200
+24/24 - 0s - loss: 0.2685
+Epoch 85/200
+24/24 - 0s - loss: 0.2667
+Epoch 86/200
+24/24 - 0s - loss: 0.2674
+Epoch 87/200
+24/24 - 0s - loss: 0.2692
+Epoch 88/200
+24/24 - 0s - loss: 0.2672
+Epoch 89/200
+24/24 - 0s - loss: 0.2673
+Epoch 90/200
+24/24 - 0s - loss: 0.2686
+Epoch 91/200
+24/24 - 0s - loss: 0.2610
+Epoch 92/200
+24/24 - 0s - loss: 0.2640
+Epoch 93/200
+24/24 - 0s - loss: 0.2629
+Epoch 94/200
+24/24 - 0s - loss: 0.2622
+Epoch 95/200
+24/24 - 0s - loss: 0.2607
+Epoch 96/200
+24/24 - 0s - loss: 0.2645
+Epoch 97/200
+24/24 - 0s - loss: 0.2671
+Epoch 98/200
+24/24 - 0s - loss: 0.2643
+Epoch 99/200
+24/24 - 0s - loss: 0.2596
+Epoch 100/200
+24/24 - 0s - loss: 0.2653
+Epoch 101/200
+24/24 - 0s - loss: 0.2649
+Epoch 102/200
+24/24 - 0s - loss: 0.2655
+Epoch 103/200
+24/24 - 0s - loss: 0.2686
+Epoch 104/200
+24/24 - 0s - loss: 0.2702
+Epoch 105/200
+24/24 - 0s - loss: 0.2691
+Epoch 106/200
+24/24 - 0s - loss: 0.2689
+Epoch 107/200
+24/24 - 0s - loss: 0.2676
+Epoch 108/200
+24/24 - 0s - loss: 0.2662
+Epoch 109/200
+24/24 - 0s - loss: 0.2637
+Epoch 110/200
+24/24 - 0s - loss: 0.2656
+Epoch 111/200
+24/24 - 0s - loss: 0.2623
+Epoch 112/200
+24/24 - 0s - loss: 0.2637
+Epoch 113/200
+24/24 - 0s - loss: 0.2591
+Epoch 114/200
+24/24 - 0s - loss: 0.2629
+Epoch 115/200
+24/24 - 0s - loss: 0.2640
+Epoch 116/200
+24/24 - 0s - loss: 0.2600
+Epoch 117/200
+24/24 - 0s - loss: 0.2629
+Epoch 118/200
+24/24 - 0s - loss: 0.2609
+Epoch 119/200
+24/24 - 0s - loss: 0.2605
+Epoch 120/200
+24/24 - 0s - loss: 0.2586
+Epoch 121/200
+24/24 - 0s - loss: 0.2561
+Epoch 122/200
+24/24 - 0s - loss: 0.2539
+Epoch 123/200
+24/24 - 0s - loss: 0.2541
+Epoch 124/200
+24/24 - 0s - loss: 0.2543
+Epoch 125/200
+24/24 - 0s - loss: 0.2576
+Epoch 126/200
+24/24 - 0s - loss: 0.2537
+Epoch 127/200
+24/24 - 0s - loss: 0.2539
+Epoch 128/200
+24/24 - 0s - loss: 0.2545
+Epoch 129/200
+24/24 - 0s - loss: 0.2520
+Epoch 130/200
+24/24 - 0s - loss: 0.2495
+Epoch 131/200
+24/24 - 0s - loss: 0.2507
+Epoch 132/200
+24/24 - 0s - loss: 0.2506
+Epoch 133/200
+24/24 - 0s - loss: 0.2531
+Epoch 134/200
+24/24 - 0s - loss: 0.2489
+Epoch 135/200
+24/24 - 0s - loss: 0.2481
+Epoch 136/200
+24/24 - 0s - loss: 0.2498
+Epoch 137/200
+24/24 - 0s - loss: 0.2496
+Epoch 138/200
+24/24 - 0s - loss: 0.2511
+Epoch 139/200
+24/24 - 0s - loss: 0.2509
+Epoch 140/200
+24/24 - 0s - loss: 0.2518
+Epoch 141/200
+24/24 - 0s - loss: 0.2550
+Epoch 142/200
+24/24 - 0s - loss: 0.2525
+Epoch 143/200
+24/24 - 0s - loss: 0.2517
+Epoch 144/200
+24/24 - 0s - loss: 0.2482
+Epoch 145/200
+24/24 - 0s - loss: 0.2503
+Epoch 146/200
+24/24 - 0s - loss: 0.2513
+Epoch 147/200
+24/24 - 0s - loss: 0.2534
+Epoch 148/200
+24/24 - 0s - loss: 0.2508
+Epoch 149/200
+24/24 - 0s - loss: 0.2495
+Epoch 150/200
+24/24 - 0s - loss: 0.2494
+Epoch 151/200
+24/24 - 0s - loss: 0.2498
+Epoch 152/200
+24/24 - 0s - loss: 0.2478
+Epoch 153/200
+24/24 - 0s - loss: 0.2497
+Epoch 154/200
+24/24 - 0s - loss: 0.2501
+Epoch 155/200
+24/24 - 0s - loss: 0.2499
+Epoch 156/200
+24/24 - 0s - loss: 0.2496
+Epoch 157/200
+24/24 - 0s - loss: 0.2502
+Epoch 158/200
+24/24 - 0s - loss: 0.2470
+Epoch 159/200
+24/24 - 0s - loss: 0.2513
+Epoch 160/200
+24/24 - 0s - loss: 0.2493
+Epoch 161/200
+24/24 - 0s - loss: 0.2520
+Epoch 162/200
+24/24 - 0s - loss: 0.2500
+Epoch 163/200
+24/24 - 0s - loss: 0.2481
+Epoch 164/200
+24/24 - 0s - loss: 0.2491
+Epoch 165/200
+24/24 - 0s - loss: 0.2479
+Epoch 166/200
+24/24 - 0s - loss: 0.2447
+Epoch 167/200
+24/24 - 0s - loss: 0.2450
+Epoch 168/200
+24/24 - 0s - loss: 0.2458
+Epoch 169/200
+24/24 - 0s - loss: 0.2445
+Epoch 170/200
+24/24 - 0s - loss: 0.2469
+Epoch 171/200
+24/24 - 0s - loss: 0.2460
+Epoch 172/200
+24/24 - 0s - loss: 0.2457
+Epoch 173/200
+24/24 - 0s - loss: 0.2488
+Epoch 174/200
+24/24 - 0s - loss: 0.2504
+Epoch 175/200
+24/24 - 0s - loss: 0.2473
+Epoch 176/200
+24/24 - 0s - loss: 0.2478
+Epoch 177/200
+24/24 - 0s - loss: 0.2473
+Epoch 178/200
+24/24 - 0s - loss: 0.2466
+Epoch 179/200
+24/24 - 0s - loss: 0.2459
+Epoch 180/200
+24/24 - 0s - loss: 0.2463
+Epoch 181/200
+24/24 - 0s - loss: 0.2463
+Epoch 182/200
+24/24 - 0s - loss: 0.2537
+Epoch 183/200
+24/24 - 0s - loss: 0.2503
+Epoch 184/200
+24/24 - 0s - loss: 0.2476
+Epoch 185/200
+24/24 - 0s - loss: 0.2502
+Epoch 186/200
+24/24 - 0s - loss: 0.2496
+Epoch 187/200
+24/24 - 0s - loss: 0.2500
+Epoch 188/200
+24/24 - 0s - loss: 0.2429
+Epoch 189/200
+24/24 - 0s - loss: 0.2463
+Epoch 190/200
+24/24 - 0s - loss: 0.2463
+Epoch 191/200
+24/24 - 0s - loss: 0.2478
+Epoch 192/200
+24/24 - 0s - loss: 0.2460
+Epoch 193/200
+24/24 - 0s - loss: 0.2521
+Epoch 194/200
+24/24 - 0s - loss: 0.2453
+Epoch 195/200
+24/24 - 0s - loss: 0.2429
+Epoch 196/200
+24/24 - 0s - loss: 0.2477
+Epoch 197/200
+24/24 - 0s - loss: 0.2477
+Epoch 198/200
+24/24 - 0s - loss: 0.2442
+Epoch 199/200
+24/24 - 0s - loss: 0.2440
+Epoch 200/200
+24/24 - 0s - loss: 0.2421
+model_conv: weights was loaded
+iter 0; acc, nmi, kappa = (0.6417103538663171, 0.6177367455124978, 0.5262942911417734); loss:0.00000; n_changed_assignment:6104; time:160.508
+iter 1; acc, nmi, kappa = (0.6385976408912188, 0.6081587202183024, 0.5217768812239854); loss:1.15300; n_changed_assignment:67; time:165.067
+iter 2; acc, nmi, kappa = (0.6215596330275229, 0.5643360495931578, 0.4944952002060704); loss:4.76238; n_changed_assignment:283; time:168.066
+iter 3; acc, nmi, kappa = (0.6110747051114024, 0.5387796981348134, 0.47733500037168597); loss:0.29495; n_changed_assignment:145; time:173.120
+iter 4; acc, nmi, kappa = (0.608781127129751, 0.5332324463118062, 0.47391785918035023); loss:0.82635; n_changed_assignment:60; time:177.105
+iter 5; acc, nmi, kappa = (0.6099279161205766, 0.5375651974773558, 0.4761226652990378); loss:1.71995; n_changed_assignment:79; time:181.388
+iter 6; acc, nmi, kappa = (0.6077981651376148, 0.538126880654732, 0.47462445995490676); loss:0.09214; n_changed_assignment:101; time:183.847
+iter 7; acc, nmi, kappa = (0.6061598951507208, 0.5395682990095302, 0.47250701963196307); loss:2.46315; n_changed_assignment:31; time:188.570
+iter 8; acc, nmi, kappa = (0.6315530799475754, 0.6134465584754718, 0.5122447637419453); loss:0.88094; n_changed_assignment:390; time:189.902
+iter 9; acc, nmi, kappa = (0.6318807339449541, 0.6126578469556629, 0.5128441096235083); loss:0.10919; n_changed_assignment:58; time:192.770
+iter 10; acc, nmi, kappa = (0.632699868938401, 0.6176269307298065, 0.5142033517320861); loss:0.21749; n_changed_assignment:21; time:194.264
+end
+0.632699868938401 0.5142033517320861 0.6176269307298065 [0.3681073  1.         0.6827957  1.         0.93076923 0.
+ 0.        ]
+194.57086491584778
+Epoch 1/200
+24/24 - 1s - loss: 0.9040
+Epoch 2/200
+24/24 - 0s - loss: 0.6330
+Epoch 3/200
+24/24 - 0s - loss: 0.5250
+Epoch 4/200
+24/24 - 0s - loss: 0.4736
+Epoch 5/200
+24/24 - 0s - loss: 0.4373
+Epoch 6/200
+24/24 - 0s - loss: 0.4257
+Epoch 7/200
+24/24 - 0s - loss: 0.4281
+Epoch 8/200
+24/24 - 0s - loss: 0.4163
+Epoch 9/200
+24/24 - 0s - loss: 0.4064
+Epoch 10/200
+24/24 - 0s - loss: 0.4060
+Epoch 11/200
+24/24 - 0s - loss: 0.4014
+Epoch 12/200
+24/24 - 0s - loss: 0.3925
+Epoch 13/200
+24/24 - 0s - loss: 0.3772
+Epoch 14/200
+24/24 - 0s - loss: 0.3755
+Epoch 15/200
+24/24 - 0s - loss: 0.3657
+Epoch 16/200
+24/24 - 0s - loss: 0.3603
+Epoch 17/200
+24/24 - 0s - loss: 0.3515
+Epoch 18/200
+24/24 - 0s - loss: 0.3547
+Epoch 19/200
+24/24 - 0s - loss: 0.3453
+Epoch 20/200
+24/24 - 0s - loss: 0.3419
+Epoch 21/200
+24/24 - 0s - loss: 0.3386
+Epoch 22/200
+24/24 - 0s - loss: 0.3352
+Epoch 23/200
+24/24 - 0s - loss: 0.3286
+Epoch 24/200
+24/24 - 0s - loss: 0.3268
+Epoch 25/200
+24/24 - 0s - loss: 0.3263
+Epoch 26/200
+24/24 - 0s - loss: 0.3279
+Epoch 27/200
+24/24 - 0s - loss: 0.3245
+Epoch 28/200
+24/24 - 0s - loss: 0.3190
+Epoch 29/200
+24/24 - 0s - loss: 0.3230
+Epoch 30/200
+24/24 - 0s - loss: 0.3206
+Epoch 31/200
+24/24 - 0s - loss: 0.3231
+Epoch 32/200
+24/24 - 0s - loss: 0.3222
+Epoch 33/200
+24/24 - 0s - loss: 0.3218
+Epoch 34/200
+24/24 - 0s - loss: 0.3142
+Epoch 35/200
+24/24 - 0s - loss: 0.3082
+Epoch 36/200
+24/24 - 0s - loss: 0.3045
+Epoch 37/200
+24/24 - 0s - loss: 0.3014
+Epoch 38/200
+24/24 - 0s - loss: 0.3044
+Epoch 39/200
+24/24 - 0s - loss: 0.3016
+Epoch 40/200
+24/24 - 0s - loss: 0.3011
+Epoch 41/200
+24/24 - 0s - loss: 0.3046
+Epoch 42/200
+24/24 - 0s - loss: 0.3007
+Epoch 43/200
+24/24 - 0s - loss: 0.3009
+Epoch 44/200
+24/24 - 0s - loss: 0.3010
+Epoch 45/200
+24/24 - 0s - loss: 0.2945
+Epoch 46/200
+24/24 - 0s - loss: 0.2897
+Epoch 47/200
+24/24 - 0s - loss: 0.2910
+Epoch 48/200
+24/24 - 0s - loss: 0.2924
+Epoch 49/200
+24/24 - 0s - loss: 0.2863
+Epoch 50/200
+24/24 - 0s - loss: 0.2904
+Epoch 51/200
+24/24 - 0s - loss: 0.2886
+Epoch 52/200
+24/24 - 0s - loss: 0.2862
+Epoch 53/200
+24/24 - 0s - loss: 0.2872
+Epoch 54/200
+24/24 - 0s - loss: 0.2867
+Epoch 55/200
+24/24 - 0s - loss: 0.2817
+Epoch 56/200
+24/24 - 0s - loss: 0.2825
+Epoch 57/200
+24/24 - 0s - loss: 0.2841
+Epoch 58/200
+24/24 - 0s - loss: 0.2807
+Epoch 59/200
+24/24 - 0s - loss: 0.2820
+Epoch 60/200
+24/24 - 0s - loss: 0.2885
+Epoch 61/200
+24/24 - 0s - loss: 0.2816
+Epoch 62/200
+24/24 - 0s - loss: 0.2791
+Epoch 63/200
+24/24 - 0s - loss: 0.2845
+Epoch 64/200
+24/24 - 0s - loss: 0.2814
+Epoch 65/200
+24/24 - 0s - loss: 0.2805
+Epoch 66/200
+24/24 - 0s - loss: 0.2781
+Epoch 67/200
+24/24 - 0s - loss: 0.2759
+Epoch 68/200
+24/24 - 0s - loss: 0.2760
+Epoch 69/200
+24/24 - 0s - loss: 0.2773
+Epoch 70/200
+24/24 - 0s - loss: 0.2774
+Epoch 71/200
+24/24 - 0s - loss: 0.2813
+Epoch 72/200
+24/24 - 0s - loss: 0.2814
+Epoch 73/200
+24/24 - 0s - loss: 0.2811
+Epoch 74/200
+24/24 - 0s - loss: 0.2866
+Epoch 75/200
+24/24 - 0s - loss: 0.2803
+Epoch 76/200
+24/24 - 0s - loss: 0.2819
+Epoch 77/200
+24/24 - 0s - loss: 0.2775
+Epoch 78/200
+24/24 - 0s - loss: 0.2747
+Epoch 79/200
+24/24 - 0s - loss: 0.2702
+Epoch 80/200
+24/24 - 0s - loss: 0.2699
+Epoch 81/200
+24/24 - 0s - loss: 0.2675
+Epoch 82/200
+24/24 - 0s - loss: 0.2684
+Epoch 83/200
+24/24 - 0s - loss: 0.2717
+Epoch 84/200
+24/24 - 0s - loss: 0.2651
+Epoch 85/200
+24/24 - 0s - loss: 0.2689
+Epoch 86/200
+24/24 - 0s - loss: 0.2642
+Epoch 87/200
+24/24 - 0s - loss: 0.2672
+Epoch 88/200
+24/24 - 0s - loss: 0.2652
+Epoch 89/200
+24/24 - 0s - loss: 0.2626
+Epoch 90/200
+24/24 - 0s - loss: 0.2615
+Epoch 91/200
+24/24 - 0s - loss: 0.2612
+Epoch 92/200
+24/24 - 0s - loss: 0.2625
+Epoch 93/200
+24/24 - 0s - loss: 0.2635
+Epoch 94/200
+24/24 - 0s - loss: 0.2661
+Epoch 95/200
+24/24 - 0s - loss: 0.2677
+Epoch 96/200
+24/24 - 0s - loss: 0.2612
+Epoch 97/200
+24/24 - 0s - loss: 0.2655
+Epoch 98/200
+24/24 - 0s - loss: 0.2637
+Epoch 99/200
+24/24 - 0s - loss: 0.2654
+Epoch 100/200
+24/24 - 0s - loss: 0.2657
+Epoch 101/200
+24/24 - 0s - loss: 0.2621
+Epoch 102/200
+24/24 - 0s - loss: 0.2623
+Epoch 103/200
+24/24 - 0s - loss: 0.2625
+Epoch 104/200
+24/24 - 0s - loss: 0.2612
+Epoch 105/200
+24/24 - 0s - loss: 0.2604
+Epoch 106/200
+24/24 - 0s - loss: 0.2630
+Epoch 107/200
+24/24 - 0s - loss: 0.2614
+Epoch 108/200
+24/24 - 0s - loss: 0.2599
+Epoch 109/200
+24/24 - 0s - loss: 0.2608
+Epoch 110/200
+24/24 - 0s - loss: 0.2646
+Epoch 111/200
+24/24 - 0s - loss: 0.2652
+Epoch 112/200
+24/24 - 0s - loss: 0.2632
+Epoch 113/200
+24/24 - 0s - loss: 0.2610
+Epoch 114/200
+24/24 - 0s - loss: 0.2621
+Epoch 115/200
+24/24 - 0s - loss: 0.2590
+Epoch 116/200
+24/24 - 0s - loss: 0.2595
+Epoch 117/200
+24/24 - 0s - loss: 0.2588
+Epoch 118/200
+24/24 - 0s - loss: 0.2560
+Epoch 119/200
+24/24 - 0s - loss: 0.2562
+Epoch 120/200
+24/24 - 0s - loss: 0.2586
+Epoch 121/200
+24/24 - 0s - loss: 0.2598
+Epoch 122/200
+24/24 - 0s - loss: 0.2577
+Epoch 123/200
+24/24 - 0s - loss: 0.2599
+Epoch 124/200
+24/24 - 0s - loss: 0.2568
+Epoch 125/200
+24/24 - 0s - loss: 0.2538
+Epoch 126/200
+24/24 - 0s - loss: 0.2582
+Epoch 127/200
+24/24 - 0s - loss: 0.2575
+Epoch 128/200
+24/24 - 0s - loss: 0.2562
+Epoch 129/200
+24/24 - 0s - loss: 0.2532
+Epoch 130/200
+24/24 - 0s - loss: 0.2534
+Epoch 131/200
+24/24 - 0s - loss: 0.2519
+Epoch 132/200
+24/24 - 0s - loss: 0.2544
+Epoch 133/200
+24/24 - 0s - loss: 0.2532
+Epoch 134/200
+24/24 - 0s - loss: 0.2532
+Epoch 135/200
+24/24 - 0s - loss: 0.2541
+Epoch 136/200
+24/24 - 0s - loss: 0.2546
+Epoch 137/200
+24/24 - 0s - loss: 0.2535
+Epoch 138/200
+24/24 - 0s - loss: 0.2554
+Epoch 139/200
+24/24 - 0s - loss: 0.2552
+Epoch 140/200
+24/24 - 0s - loss: 0.2577
+Epoch 141/200
+24/24 - 0s - loss: 0.2540
+Epoch 142/200
+24/24 - 0s - loss: 0.2486
+Epoch 143/200
+24/24 - 0s - loss: 0.2511
+Epoch 144/200
+24/24 - 0s - loss: 0.2506
+Epoch 145/200
+24/24 - 0s - loss: 0.2508
+Epoch 146/200
+24/24 - 0s - loss: 0.2496
+Epoch 147/200
+24/24 - 0s - loss: 0.2520
+Epoch 148/200
+24/24 - 0s - loss: 0.2501
+Epoch 149/200
+24/24 - 0s - loss: 0.2519
+Epoch 150/200
+24/24 - 0s - loss: 0.2516
+Epoch 151/200
+24/24 - 0s - loss: 0.2505
+Epoch 152/200
+24/24 - 0s - loss: 0.2469
+Epoch 153/200
+24/24 - 0s - loss: 0.2487
+Epoch 154/200
+24/24 - 0s - loss: 0.2469
+Epoch 155/200
+24/24 - 0s - loss: 0.2464
+Epoch 156/200
+24/24 - 0s - loss: 0.2464
+Epoch 157/200
+24/24 - 0s - loss: 0.2461
+Epoch 158/200
+24/24 - 0s - loss: 0.2474
+Epoch 159/200
+24/24 - 0s - loss: 0.2465
+Epoch 160/200
+24/24 - 0s - loss: 0.2488
+Epoch 161/200
+24/24 - 0s - loss: 0.2507
+Epoch 162/200
+24/24 - 0s - loss: 0.2458
+Epoch 163/200
+24/24 - 0s - loss: 0.2511
+Epoch 164/200
+24/24 - 0s - loss: 0.2503
+Epoch 165/200
+24/24 - 0s - loss: 0.2482
+Epoch 166/200
+24/24 - 0s - loss: 0.2472
+Epoch 167/200
+24/24 - 0s - loss: 0.2507
+Epoch 168/200
+24/24 - 0s - loss: 0.2505
+Epoch 169/200
+24/24 - 0s - loss: 0.2513
+Epoch 170/200
+24/24 - 0s - loss: 0.2516
+Epoch 171/200
+24/24 - 0s - loss: 0.2449
+Epoch 172/200
+24/24 - 0s - loss: 0.2456
+Epoch 173/200
+24/24 - 0s - loss: 0.2446
+Epoch 174/200
+24/24 - 0s - loss: 0.2450
+Epoch 175/200
+24/24 - 0s - loss: 0.2460
+Epoch 176/200
+24/24 - 0s - loss: 0.2426
+Epoch 177/200
+24/24 - 0s - loss: 0.2435
+Epoch 178/200
+24/24 - 0s - loss: 0.2464
+Epoch 179/200
+24/24 - 0s - loss: 0.2438
+Epoch 180/200
+24/24 - 0s - loss: 0.2428
+Epoch 181/200
+24/24 - 0s - loss: 0.2416
+Epoch 182/200
+24/24 - 0s - loss: 0.2420
+Epoch 183/200
+24/24 - 0s - loss: 0.2398
+Epoch 184/200
+24/24 - 0s - loss: 0.2416
+Epoch 185/200
+24/24 - 0s - loss: 0.2394
+Epoch 186/200
+24/24 - 0s - loss: 0.2413
+Epoch 187/200
+24/24 - 0s - loss: 0.2406
+Epoch 188/200
+24/24 - 0s - loss: 0.2410
+Epoch 189/200
+24/24 - 0s - loss: 0.2406
+Epoch 190/200
+24/24 - 0s - loss: 0.2399
+Epoch 191/200
+24/24 - 0s - loss: 0.2395
+Epoch 192/200
+24/24 - 0s - loss: 0.2431
+Epoch 193/200
+24/24 - 0s - loss: 0.2377
+Epoch 194/200
+24/24 - 0s - loss: 0.2383
+Epoch 195/200
+24/24 - 0s - loss: 0.2417
+Epoch 196/200
+24/24 - 0s - loss: 0.2427
+Epoch 197/200
+24/24 - 0s - loss: 0.2410
+Epoch 198/200
+24/24 - 0s - loss: 0.2413
+Epoch 199/200
+24/24 - 0s - loss: 0.2411
+Epoch 200/200
+24/24 - 0s - loss: 0.2471
+model_conv: weights was loaded
+iter 0; acc, nmi, kappa = (0.5920707732634338, 0.7166617460638834, 0.4732802428177887); loss:0.00000; n_changed_assignment:6104; time:246.421
+iter 1; acc, nmi, kappa = (0.5925622542595019, 0.7166538000617159, 0.47429988512315213); loss:0.71336; n_changed_assignment:21; time:251.071
+end
+0.5925622542595019 0.47429988512315213 0.7166538000617159 [0.46497765 1.         0.         1.         0.96153846 0.
+ 0.00251572]
+251.4814257621765
+Epoch 1/200
+24/24 - 1s - loss: 0.9225
+Epoch 2/200
+24/24 - 0s - loss: 0.5999
+Epoch 3/200
+24/24 - 0s - loss: 0.5126
+Epoch 4/200
+24/24 - 0s - loss: 0.4769
+Epoch 5/200
+24/24 - 0s - loss: 0.4542
+Epoch 6/200
+24/24 - 0s - loss: 0.4349
+Epoch 7/200
+24/24 - 0s - loss: 0.4227
+Epoch 8/200
+24/24 - 0s - loss: 0.4112
+Epoch 9/200
+24/24 - 0s - loss: 0.4028
+Epoch 10/200
+24/24 - 0s - loss: 0.3906
+Epoch 11/200
+24/24 - 0s - loss: 0.3858
+Epoch 12/200
+24/24 - 0s - loss: 0.3741
+Epoch 13/200
+24/24 - 0s - loss: 0.3735
+Epoch 14/200
+24/24 - 0s - loss: 0.3669
+Epoch 15/200
+24/24 - 0s - loss: 0.3608
+Epoch 16/200
+24/24 - 0s - loss: 0.3631
+Epoch 17/200
+24/24 - 0s - loss: 0.3542
+Epoch 18/200
+24/24 - 0s - loss: 0.3479
+Epoch 19/200
+24/24 - 0s - loss: 0.3474
+Epoch 20/200
+24/24 - 0s - loss: 0.3425
+Epoch 21/200
+24/24 - 0s - loss: 0.3417
+Epoch 22/200
+24/24 - 0s - loss: 0.3388
+Epoch 23/200
+24/24 - 0s - loss: 0.3328
+Epoch 24/200
+24/24 - 0s - loss: 0.3287
+Epoch 25/200
+24/24 - 0s - loss: 0.3228
+Epoch 26/200
+24/24 - 0s - loss: 0.3208
+Epoch 27/200
+24/24 - 0s - loss: 0.3213
+Epoch 28/200
+24/24 - 0s - loss: 0.3146
+Epoch 29/200
+24/24 - 0s - loss: 0.3093
+Epoch 30/200
+24/24 - 0s - loss: 0.3078
+Epoch 31/200
+24/24 - 0s - loss: 0.3129
+Epoch 32/200
+24/24 - 0s - loss: 0.3078
+Epoch 33/200
+24/24 - 0s - loss: 0.3011
+Epoch 34/200
+24/24 - 0s - loss: 0.3044
+Epoch 35/200
+24/24 - 0s - loss: 0.2999
+Epoch 36/200
+24/24 - 0s - loss: 0.3032
+Epoch 37/200
+24/24 - 0s - loss: 0.3007
+Epoch 38/200
+24/24 - 0s - loss: 0.2967
+Epoch 39/200
+24/24 - 0s - loss: 0.2943
+Epoch 40/200
+24/24 - 0s - loss: 0.2931
+Epoch 41/200
+24/24 - 0s - loss: 0.2942
+Epoch 42/200
+24/24 - 0s - loss: 0.2915
+Epoch 43/200
+24/24 - 0s - loss: 0.2892
+Epoch 44/200
+24/24 - 0s - loss: 0.2923
+Epoch 45/200
+24/24 - 0s - loss: 0.2901
+Epoch 46/200
+24/24 - 0s - loss: 0.2921
+Epoch 47/200
+24/24 - 0s - loss: 0.2907
+Epoch 48/200
+24/24 - 0s - loss: 0.2877
+Epoch 49/200
+24/24 - 0s - loss: 0.2887
+Epoch 50/200
+24/24 - 0s - loss: 0.2878
+Epoch 51/200
+24/24 - 0s - loss: 0.2880
+Epoch 52/200
+24/24 - 0s - loss: 0.2869
+Epoch 53/200
+24/24 - 0s - loss: 0.2886
+Epoch 54/200
+24/24 - 0s - loss: 0.2833
+Epoch 55/200
+24/24 - 0s - loss: 0.2793
+Epoch 56/200
+24/24 - 0s - loss: 0.2817
+Epoch 57/200
+24/24 - 0s - loss: 0.2811
+Epoch 58/200
+24/24 - 0s - loss: 0.2776
+Epoch 59/200
+24/24 - 0s - loss: 0.2788
+Epoch 60/200
+24/24 - 0s - loss: 0.2764
+Epoch 61/200
+24/24 - 0s - loss: 0.2797
+Epoch 62/200
+24/24 - 0s - loss: 0.2760
+Epoch 63/200
+24/24 - 0s - loss: 0.2789
+Epoch 64/200
+24/24 - 0s - loss: 0.2751
+Epoch 65/200
+24/24 - 0s - loss: 0.2751
+Epoch 66/200
+24/24 - 0s - loss: 0.2729
+Epoch 67/200
+24/24 - 0s - loss: 0.2725
+Epoch 68/200
+24/24 - 0s - loss: 0.2740
+Epoch 69/200
+24/24 - 0s - loss: 0.2731
+Epoch 70/200
+24/24 - 0s - loss: 0.2697
+Epoch 71/200
+24/24 - 0s - loss: 0.2758
+Epoch 72/200
+24/24 - 0s - loss: 0.2731
+Epoch 73/200
+24/24 - 0s - loss: 0.2672
+Epoch 74/200
+24/24 - 0s - loss: 0.2693
+Epoch 75/200
+24/24 - 0s - loss: 0.2683
+Epoch 76/200
+24/24 - 0s - loss: 0.2725
+Epoch 77/200
+24/24 - 0s - loss: 0.2727
+Epoch 78/200
+24/24 - 0s - loss: 0.2694
+Epoch 79/200
+24/24 - 0s - loss: 0.2693
+Epoch 80/200
+24/24 - 0s - loss: 0.2668
+Epoch 81/200
+24/24 - 0s - loss: 0.2659
+Epoch 82/200
+24/24 - 0s - loss: 0.2672
+Epoch 83/200
+24/24 - 0s - loss: 0.2705
+Epoch 84/200
+24/24 - 0s - loss: 0.2656
+Epoch 85/200
+24/24 - 0s - loss: 0.2669
+Epoch 86/200
+24/24 - 0s - loss: 0.2605
+Epoch 87/200
+24/24 - 0s - loss: 0.2594
+Epoch 88/200
+24/24 - 0s - loss: 0.2625
+Epoch 89/200
+24/24 - 0s - loss: 0.2614
+Epoch 90/200
+24/24 - 0s - loss: 0.2617
+Epoch 91/200
+24/24 - 0s - loss: 0.2611
+Epoch 92/200
+24/24 - 0s - loss: 0.2638
+Epoch 93/200
+24/24 - 0s - loss: 0.2653
+Epoch 94/200
+24/24 - 0s - loss: 0.2619
+Epoch 95/200
+24/24 - 0s - loss: 0.2604
+Epoch 96/200
+24/24 - 0s - loss: 0.2632
+Epoch 97/200
+24/24 - 0s - loss: 0.2605
+Epoch 98/200
+24/24 - 0s - loss: 0.2560
+Epoch 99/200
+24/24 - 0s - loss: 0.2587
+Epoch 100/200
+24/24 - 0s - loss: 0.2618
+Epoch 101/200
+24/24 - 0s - loss: 0.2565
+Epoch 102/200
+24/24 - 0s - loss: 0.2578
+Epoch 103/200
+24/24 - 0s - loss: 0.2574
+Epoch 104/200
+24/24 - 0s - loss: 0.2571
+Epoch 105/200
+24/24 - 0s - loss: 0.2589
+Epoch 106/200
+24/24 - 0s - loss: 0.2571
+Epoch 107/200
+24/24 - 0s - loss: 0.2561
+Epoch 108/200
+24/24 - 0s - loss: 0.2559
+Epoch 109/200
+24/24 - 0s - loss: 0.2534
+Epoch 110/200
+24/24 - 0s - loss: 0.2564
+Epoch 111/200
+24/24 - 0s - loss: 0.2561
+Epoch 112/200
+24/24 - 0s - loss: 0.2545
+Epoch 113/200
+24/24 - 0s - loss: 0.2546
+Epoch 114/200
+24/24 - 0s - loss: 0.2526
+Epoch 115/200
+24/24 - 0s - loss: 0.2538
+Epoch 116/200
+24/24 - 0s - loss: 0.2532
+Epoch 117/200
+24/24 - 0s - loss: 0.2529
+Epoch 118/200
+24/24 - 0s - loss: 0.2540
+Epoch 119/200
+24/24 - 0s - loss: 0.2521
+Epoch 120/200
+24/24 - 0s - loss: 0.2544
+Epoch 121/200
+24/24 - 0s - loss: 0.2512
+Epoch 122/200
+24/24 - 0s - loss: 0.2507
+Epoch 123/200
+24/24 - 0s - loss: 0.2531
+Epoch 124/200
+24/24 - 0s - loss: 0.2524
+Epoch 125/200
+24/24 - 0s - loss: 0.2533
+Epoch 126/200
+24/24 - 0s - loss: 0.2559
+Epoch 127/200
+24/24 - 0s - loss: 0.2528
+Epoch 128/200
+24/24 - 0s - loss: 0.2543
+Epoch 129/200
+24/24 - 0s - loss: 0.2526
+Epoch 130/200
+24/24 - 0s - loss: 0.2526
+Epoch 131/200
+24/24 - 0s - loss: 0.2550
+Epoch 132/200
+24/24 - 0s - loss: 0.2528
+Epoch 133/200
+24/24 - 0s - loss: 0.2531
+Epoch 134/200
+24/24 - 0s - loss: 0.2536
+Epoch 135/200
+24/24 - 0s - loss: 0.2499
+Epoch 136/200
+24/24 - 0s - loss: 0.2501
+Epoch 137/200
+24/24 - 0s - loss: 0.2483
+Epoch 138/200
+24/24 - 0s - loss: 0.2456
+Epoch 139/200
+24/24 - 0s - loss: 0.2452
+Epoch 140/200
+24/24 - 0s - loss: 0.2465
+Epoch 141/200
+24/24 - 0s - loss: 0.2448
+Epoch 142/200
+24/24 - 0s - loss: 0.2463
+Epoch 143/200
+24/24 - 0s - loss: 0.2466
+Epoch 144/200
+24/24 - 0s - loss: 0.2469
+Epoch 145/200
+24/24 - 0s - loss: 0.2465
+Epoch 146/200
+24/24 - 0s - loss: 0.2446
+Epoch 147/200
+24/24 - 0s - loss: 0.2461
+Epoch 148/200
+24/24 - 0s - loss: 0.2457
+Epoch 149/200
+24/24 - 0s - loss: 0.2478
+Epoch 150/200
+24/24 - 0s - loss: 0.2484
+Epoch 151/200
+24/24 - 0s - loss: 0.2476
+Epoch 152/200
+24/24 - 0s - loss: 0.2434
+Epoch 153/200
+24/24 - 0s - loss: 0.2457
+Epoch 154/200
+24/24 - 0s - loss: 0.2448
+Epoch 155/200
+24/24 - 0s - loss: 0.2424
+Epoch 156/200
+24/24 - 0s - loss: 0.2450
+Epoch 157/200
+24/24 - 0s - loss: 0.2465
+Epoch 158/200
+24/24 - 0s - loss: 0.2452
+Epoch 159/200
+24/24 - 0s - loss: 0.2443
+Epoch 160/200
+24/24 - 0s - loss: 0.2432
+Epoch 161/200
+24/24 - 0s - loss: 0.2422
+Epoch 162/200
+24/24 - 0s - loss: 0.2453
+Epoch 163/200
+24/24 - 0s - loss: 0.2444
+Epoch 164/200
+24/24 - 0s - loss: 0.2433
+Epoch 165/200
+24/24 - 0s - loss: 0.2419
+Epoch 166/200
+24/24 - 0s - loss: 0.2432
+Epoch 167/200
+24/24 - 0s - loss: 0.2415
+Epoch 168/200
+24/24 - 0s - loss: 0.2399
+Epoch 169/200
+24/24 - 0s - loss: 0.2406
+Epoch 170/200
+24/24 - 0s - loss: 0.2416
+Epoch 171/200
+24/24 - 0s - loss: 0.2420
+Epoch 172/200
+24/24 - 0s - loss: 0.2414
+Epoch 173/200
+24/24 - 0s - loss: 0.2415
+Epoch 174/200
+24/24 - 0s - loss: 0.2414
+Epoch 175/200
+24/24 - 0s - loss: 0.2430
+Epoch 176/200
+24/24 - 0s - loss: 0.2416
+Epoch 177/200
+24/24 - 0s - loss: 0.2414
+Epoch 178/200
+24/24 - 0s - loss: 0.2403
+Epoch 179/200
+24/24 - 0s - loss: 0.2399
+Epoch 180/200
+24/24 - 0s - loss: 0.2392
+Epoch 181/200
+24/24 - 0s - loss: 0.2404
+Epoch 182/200
+24/24 - 0s - loss: 0.2409
+Epoch 183/200
+24/24 - 0s - loss: 0.2390
+Epoch 184/200
+24/24 - 0s - loss: 0.2387
+Epoch 185/200
+24/24 - 0s - loss: 0.2400
+Epoch 186/200
+24/24 - 0s - loss: 0.2402
+Epoch 187/200
+24/24 - 0s - loss: 0.2390
+Epoch 188/200
+24/24 - 0s - loss: 0.2398
+Epoch 189/200
+24/24 - 0s - loss: 0.2387
+Epoch 190/200
+24/24 - 0s - loss: 0.2398
+Epoch 191/200
+24/24 - 0s - loss: 0.2367
+Epoch 192/200
+24/24 - 0s - loss: 0.2353
+Epoch 193/200
+24/24 - 0s - loss: 0.2373
+Epoch 194/200
+24/24 - 0s - loss: 0.2386
+Epoch 195/200
+24/24 - 0s - loss: 0.2394
+Epoch 196/200
+24/24 - 0s - loss: 0.2398
+Epoch 197/200
+24/24 - 0s - loss: 0.2401
+Epoch 198/200
+24/24 - 0s - loss: 0.2431
+Epoch 199/200
+24/24 - 0s - loss: 0.2426
+Epoch 200/200
+24/24 - 0s - loss: 0.2400
+model_conv: weights was loaded
+iter 0; acc, nmi, kappa = (0.59305373525557, 0.6857412935302469, 0.4719011450944006); loss:0.00000; n_changed_assignment:6104; time:303.728
+iter 1; acc, nmi, kappa = (0.6246723460026212, 0.6578871853846574, 0.514132859223418); loss:1.21587; n_changed_assignment:582; time:306.118
+iter 2; acc, nmi, kappa = (0.6389252948885976, 0.6954601301343016, 0.5365540763432999); loss:2.34682; n_changed_assignment:335; time:307.996
+iter 3; acc, nmi, kappa = (0.643348623853211, 0.6993955318944483, 0.5427263635449856); loss:0.14809; n_changed_assignment:86; time:311.011
+iter 4; acc, nmi, kappa = (0.6515399737876801, 0.7142626300020977, 0.5518051042446377); loss:1.79420; n_changed_assignment:127; time:312.891
+iter 5; acc, nmi, kappa = (0.651867627785059, 0.7202506964954346, 0.5518938280983747); loss:3.07297; n_changed_assignment:68; time:315.310
+iter 6; acc, nmi, kappa = (0.6579292267365662, 0.7400413145885238, 0.5597968216293472); loss:0.19259; n_changed_assignment:105; time:317.358
+iter 7; acc, nmi, kappa = (0.6602228047182175, 0.7444620842346573, 0.5627844214345491); loss:0.64088; n_changed_assignment:48; time:319.370
+iter 8; acc, nmi, kappa = (0.6602228047182175, 0.7473749088142858, 0.5628511669650642); loss:0.82030; n_changed_assignment:23; time:320.780
+end
+0.6602228047182175 0.5628511669650642 0.7473749088142858 [0.46497765 1.         0.96774194 1.         0.         0.
+ 0.        ]
+321.3246066570282
+Epoch 1/200
+24/24 - 1s - loss: 0.8703
+Epoch 2/200
+24/24 - 0s - loss: 0.5751
+Epoch 3/200
+24/24 - 0s - loss: 0.5066
+Epoch 4/200
+24/24 - 0s - loss: 0.4820
+Epoch 5/200
+24/24 - 0s - loss: 0.4742
+Epoch 6/200
+24/24 - 0s - loss: 0.4532
+Epoch 7/200
+24/24 - 0s - loss: 0.4241
+Epoch 8/200
+24/24 - 0s - loss: 0.4056
+Epoch 9/200
+24/24 - 0s - loss: 0.3916
+Epoch 10/200
+24/24 - 0s - loss: 0.3995
+Epoch 11/200
+24/24 - 0s - loss: 0.3972
+Epoch 12/200
+24/24 - 0s - loss: 0.4063
+Epoch 13/200
+24/24 - 0s - loss: 0.3908
+Epoch 14/200
+24/24 - 0s - loss: 0.3783
+Epoch 15/200
+24/24 - 0s - loss: 0.3721
+Epoch 16/200
+24/24 - 0s - loss: 0.3671
+Epoch 17/200
+24/24 - 0s - loss: 0.3609
+Epoch 18/200
+24/24 - 0s - loss: 0.3561
+Epoch 19/200
+24/24 - 0s - loss: 0.3583
+Epoch 20/200
+24/24 - 0s - loss: 0.3602
+Epoch 21/200
+24/24 - 0s - loss: 0.3588
+Epoch 22/200
+24/24 - 0s - loss: 0.3543
+Epoch 23/200
+24/24 - 0s - loss: 0.3481
+Epoch 24/200
+24/24 - 0s - loss: 0.3451
+Epoch 25/200
+24/24 - 0s - loss: 0.3427
+Epoch 26/200
+24/24 - 0s - loss: 0.3370
+Epoch 27/200
+24/24 - 0s - loss: 0.3361
+Epoch 28/200
+24/24 - 0s - loss: 0.3300
+Epoch 29/200
+24/24 - 0s - loss: 0.3287
+Epoch 30/200
+24/24 - 0s - loss: 0.3281
+Epoch 31/200
+24/24 - 0s - loss: 0.3231
+Epoch 32/200
+24/24 - 0s - loss: 0.3247
+Epoch 33/200
+24/24 - 0s - loss: 0.3137
+Epoch 34/200
+24/24 - 0s - loss: 0.3148
+Epoch 35/200
+24/24 - 0s - loss: 0.3158
+Epoch 36/200
+24/24 - 0s - loss: 0.3144
+Epoch 37/200
+24/24 - 0s - loss: 0.3165
+Epoch 38/200
+24/24 - 0s - loss: 0.3170
+Epoch 39/200
+24/24 - 0s - loss: 0.3115
+Epoch 40/200
+24/24 - 0s - loss: 0.3152
+Epoch 41/200
+24/24 - 0s - loss: 0.3131
+Epoch 42/200
+24/24 - 0s - loss: 0.3067
+Epoch 43/200
+24/24 - 0s - loss: 0.3135
+Epoch 44/200
+24/24 - 0s - loss: 0.3050
+Epoch 45/200
+24/24 - 0s - loss: 0.3028
+Epoch 46/200
+24/24 - 0s - loss: 0.3031
+Epoch 47/200
+24/24 - 0s - loss: 0.2998
+Epoch 48/200
+24/24 - 0s - loss: 0.3012
+Epoch 49/200
+24/24 - 0s - loss: 0.2956
+Epoch 50/200
+24/24 - 0s - loss: 0.2957
+Epoch 51/200
+24/24 - 0s - loss: 0.2948
+Epoch 52/200
+24/24 - 0s - loss: 0.2931
+Epoch 53/200
+24/24 - 0s - loss: 0.2920
+Epoch 54/200
+24/24 - 0s - loss: 0.2954
+Epoch 55/200
+24/24 - 0s - loss: 0.2897
+Epoch 56/200
+24/24 - 0s - loss: 0.2859
+Epoch 57/200
+24/24 - 0s - loss: 0.2888
+Epoch 58/200
+24/24 - 0s - loss: 0.2847
+Epoch 59/200
+24/24 - 0s - loss: 0.2833
+Epoch 60/200
+24/24 - 0s - loss: 0.2842
+Epoch 61/200
+24/24 - 0s - loss: 0.2830
+Epoch 62/200
+24/24 - 0s - loss: 0.2801
+Epoch 63/200
+24/24 - 0s - loss: 0.2841
+Epoch 64/200
+24/24 - 0s - loss: 0.2792
+Epoch 65/200
+24/24 - 0s - loss: 0.2800
+Epoch 66/200
+24/24 - 0s - loss: 0.2786
+Epoch 67/200
+24/24 - 0s - loss: 0.2809
+Epoch 68/200
+24/24 - 0s - loss: 0.2792
+Epoch 69/200
+24/24 - 0s - loss: 0.2747
+Epoch 70/200
+24/24 - 0s - loss: 0.2766
+Epoch 71/200
+24/24 - 0s - loss: 0.2762
+Epoch 72/200
+24/24 - 0s - loss: 0.2763
+Epoch 73/200
+24/24 - 0s - loss: 0.2771
+Epoch 74/200
+24/24 - 0s - loss: 0.2761
+Epoch 75/200
+24/24 - 0s - loss: 0.2747
+Epoch 76/200
+24/24 - 0s - loss: 0.2763
+Epoch 77/200
+24/24 - 0s - loss: 0.2800
+Epoch 78/200
+24/24 - 0s - loss: 0.2800
+Epoch 79/200
+24/24 - 0s - loss: 0.2816
+Epoch 80/200
+24/24 - 0s - loss: 0.2820
+Epoch 81/200
+24/24 - 0s - loss: 0.2858
+Epoch 82/200
+24/24 - 0s - loss: 0.2783
+Epoch 83/200
+24/24 - 0s - loss: 0.2786
+Epoch 84/200
+24/24 - 0s - loss: 0.2781
+Epoch 85/200
+24/24 - 0s - loss: 0.2754
+Epoch 86/200
+24/24 - 0s - loss: 0.2718
+Epoch 87/200
+24/24 - 0s - loss: 0.2689
+Epoch 88/200
+24/24 - 0s - loss: 0.2649
+Epoch 89/200
+24/24 - 0s - loss: 0.2661
+Epoch 90/200
+24/24 - 0s - loss: 0.2634
+Epoch 91/200
+24/24 - 0s - loss: 0.2626
+Epoch 92/200
+24/24 - 0s - loss: 0.2633
+Epoch 93/200
+24/24 - 0s - loss: 0.2674
+Epoch 94/200
+24/24 - 0s - loss: 0.2639
+Epoch 95/200
+24/24 - 0s - loss: 0.2622
+Epoch 96/200
+24/24 - 0s - loss: 0.2603
+Epoch 97/200
+24/24 - 0s - loss: 0.2593
+Epoch 98/200
+24/24 - 0s - loss: 0.2634
+Epoch 99/200
+24/24 - 0s - loss: 0.2648
+Epoch 100/200
+24/24 - 0s - loss: 0.2634
+Epoch 101/200
+24/24 - 0s - loss: 0.2626
+Epoch 102/200
+24/24 - 0s - loss: 0.2626
+Epoch 103/200
+24/24 - 0s - loss: 0.2609
+Epoch 104/200
+24/24 - 0s - loss: 0.2635
+Epoch 105/200
+24/24 - 0s - loss: 0.2652
+Epoch 106/200
+24/24 - 0s - loss: 0.2604
+Epoch 107/200
+24/24 - 0s - loss: 0.2586
+Epoch 108/200
+24/24 - 0s - loss: 0.2579
+Epoch 109/200
+24/24 - 0s - loss: 0.2591
+Epoch 110/200
+24/24 - 0s - loss: 0.2617
+Epoch 111/200
+24/24 - 0s - loss: 0.2577
+Epoch 112/200
+24/24 - 0s - loss: 0.2602
+Epoch 113/200
+24/24 - 0s - loss: 0.2594
+Epoch 114/200
+24/24 - 0s - loss: 0.2580
+Epoch 115/200
+24/24 - 0s - loss: 0.2588
+Epoch 116/200
+24/24 - 0s - loss: 0.2573
+Epoch 117/200
+24/24 - 0s - loss: 0.2564
+Epoch 118/200
+24/24 - 0s - loss: 0.2566
+Epoch 119/200
+24/24 - 0s - loss: 0.2538
+Epoch 120/200
+24/24 - 0s - loss: 0.2552
+Epoch 121/200
+24/24 - 0s - loss: 0.2587
+Epoch 122/200
+24/24 - 0s - loss: 0.2585
+Epoch 123/200
+24/24 - 0s - loss: 0.2528
+Epoch 124/200
+24/24 - 0s - loss: 0.2584
+Epoch 125/200
+24/24 - 0s - loss: 0.2606
+Epoch 126/200
+24/24 - 0s - loss: 0.2555
+Epoch 127/200
+24/24 - 0s - loss: 0.2546
+Epoch 128/200
+24/24 - 0s - loss: 0.2557
+Epoch 129/200
+24/24 - 0s - loss: 0.2606
+Epoch 130/200
+24/24 - 0s - loss: 0.2587
+Epoch 131/200
+24/24 - 0s - loss: 0.2577
+Epoch 132/200
+24/24 - 0s - loss: 0.2610
+Epoch 133/200
+24/24 - 0s - loss: 0.2659
+Epoch 134/200
+24/24 - 0s - loss: 0.2626
+Epoch 135/200
+24/24 - 0s - loss: 0.2612
+Epoch 136/200
+24/24 - 0s - loss: 0.2589
+Epoch 137/200
+24/24 - 0s - loss: 0.2586
+Epoch 138/200
+24/24 - 0s - loss: 0.2600
+Epoch 139/200
+24/24 - 0s - loss: 0.2591
+Epoch 140/200
+24/24 - 0s - loss: 0.2600
+Epoch 141/200
+24/24 - 0s - loss: 0.2576
+Epoch 142/200
+24/24 - 0s - loss: 0.2545
+Epoch 143/200
+24/24 - 0s - loss: 0.2547
+Epoch 144/200
+24/24 - 0s - loss: 0.2590
+Epoch 145/200
+24/24 - 0s - loss: 0.2567
+Epoch 146/200
+24/24 - 0s - loss: 0.2556
+Epoch 147/200
+24/24 - 0s - loss: 0.2533
+Epoch 148/200
+24/24 - 0s - loss: 0.2516
+Epoch 149/200
+24/24 - 0s - loss: 0.2512
+Epoch 150/200
+24/24 - 0s - loss: 0.2496
+Epoch 151/200
+24/24 - 0s - loss: 0.2505
+Epoch 152/200
+24/24 - 0s - loss: 0.2527
+Epoch 153/200
+24/24 - 0s - loss: 0.2491
+Epoch 154/200
+24/24 - 0s - loss: 0.2479
+Epoch 155/200
+24/24 - 0s - loss: 0.2496
+Epoch 156/200
+24/24 - 0s - loss: 0.2511
+Epoch 157/200
+24/24 - 0s - loss: 0.2488
+Epoch 158/200
+24/24 - 0s - loss: 0.2525
+Epoch 159/200
+24/24 - 0s - loss: 0.2506
+Epoch 160/200
+24/24 - 0s - loss: 0.2507
+Epoch 161/200
+24/24 - 0s - loss: 0.2510
+Epoch 162/200
+24/24 - 0s - loss: 0.2512
+Epoch 163/200
+24/24 - 0s - loss: 0.2508
+Epoch 164/200
+24/24 - 0s - loss: 0.2486
+Epoch 165/200
+24/24 - 0s - loss: 0.2482
+Epoch 166/200
+24/24 - 0s - loss: 0.2459
+Epoch 167/200
+24/24 - 0s - loss: 0.2481
+Epoch 168/200
+24/24 - 0s - loss: 0.2484
+Epoch 169/200
+24/24 - 0s - loss: 0.2481
+Epoch 170/200
+24/24 - 0s - loss: 0.2463
+Epoch 171/200
+24/24 - 0s - loss: 0.2473
+Epoch 172/200
+24/24 - 0s - loss: 0.2469
+Epoch 173/200
+24/24 - 0s - loss: 0.2451
+Epoch 174/200
+24/24 - 0s - loss: 0.2487
+Epoch 175/200
+24/24 - 0s - loss: 0.2457
+Epoch 176/200
+24/24 - 0s - loss: 0.2454
+Epoch 177/200
+24/24 - 0s - loss: 0.2445
+Epoch 178/200
+24/24 - 0s - loss: 0.2431
+Epoch 179/200
+24/24 - 0s - loss: 0.2475
+Epoch 180/200
+24/24 - 0s - loss: 0.2461
+Epoch 181/200
+24/24 - 0s - loss: 0.2436
+Epoch 182/200
+24/24 - 0s - loss: 0.2452
+Epoch 183/200
+24/24 - 0s - loss: 0.2460
+Epoch 184/200
+24/24 - 0s - loss: 0.2485
+Epoch 185/200
+24/24 - 0s - loss: 0.2461
+Epoch 186/200
+24/24 - 0s - loss: 0.2460
+Epoch 187/200
+24/24 - 0s - loss: 0.2422
+Epoch 188/200
+24/24 - 0s - loss: 0.2445
+Epoch 189/200
+24/24 - 0s - loss: 0.2435
+Epoch 190/200
+24/24 - 0s - loss: 0.2466
+Epoch 191/200
+24/24 - 0s - loss: 0.2408
+Epoch 192/200
+24/24 - 0s - loss: 0.2419
+Epoch 193/200
+24/24 - 0s - loss: 0.2444
+Epoch 194/200
+24/24 - 0s - loss: 0.2472
+Epoch 195/200
+24/24 - 0s - loss: 0.2462
+Epoch 196/200
+24/24 - 0s - loss: 0.2465
+Epoch 197/200
+24/24 - 0s - loss: 0.2475
+Epoch 198/200
+24/24 - 0s - loss: 0.2477
+Epoch 199/200
+24/24 - 0s - loss: 0.2504
+Epoch 200/200
+24/24 - 0s - loss: 0.2488
+model_conv: weights was loaded
+iter 0; acc, nmi, kappa = (0.5920707732634338, 0.7188695422991059, 0.4703111751427905); loss:0.00000; n_changed_assignment:6104; time:373.179
+iter 1; acc, nmi, kappa = (0.5925622542595019, 0.7233102702355725, 0.47097617978514816); loss:1.36459; n_changed_assignment:25; time:375.790
+end
+0.5925622542595019 0.47097617978514816 0.7233102702355725 [0.46497765 1.         0.         1.         0.97692308 0.
+ 0.        ]
+376.46240973472595
+Epoch 1/200
+24/24 - 1s - loss: 0.8617
+Epoch 2/200
+24/24 - 0s - loss: 0.5911
+Epoch 3/200
+24/24 - 0s - loss: 0.5122
+Epoch 4/200
+24/24 - 0s - loss: 0.4784
+Epoch 5/200
+24/24 - 0s - loss: 0.4699
+Epoch 6/200
+24/24 - 0s - loss: 0.4332
+Epoch 7/200
+24/24 - 0s - loss: 0.4190
+Epoch 8/200
+24/24 - 0s - loss: 0.4046
+Epoch 9/200
+24/24 - 0s - loss: 0.3973
+Epoch 10/200
+24/24 - 0s - loss: 0.3886
+Epoch 11/200
+24/24 - 0s - loss: 0.3842
+Epoch 12/200
+24/24 - 0s - loss: 0.3795
+Epoch 13/200
+24/24 - 0s - loss: 0.3782
+Epoch 14/200
+24/24 - 0s - loss: 0.3741
+Epoch 15/200
+24/24 - 0s - loss: 0.3695
+Epoch 16/200
+24/24 - 0s - loss: 0.3570
+Epoch 17/200
+24/24 - 0s - loss: 0.3556
+Epoch 18/200
+24/24 - 0s - loss: 0.3489
+Epoch 19/200
+24/24 - 0s - loss: 0.3496
+Epoch 20/200
+24/24 - 0s - loss: 0.3463
+Epoch 21/200
+24/24 - 0s - loss: 0.3498
+Epoch 22/200
+24/24 - 0s - loss: 0.3475
+Epoch 23/200
+24/24 - 0s - loss: 0.3364
+Epoch 24/200
+24/24 - 0s - loss: 0.3337
+Epoch 25/200
+24/24 - 0s - loss: 0.3333
+Epoch 26/200
+24/24 - 0s - loss: 0.3253
+Epoch 27/200
+24/24 - 0s - loss: 0.3286
+Epoch 28/200
+24/24 - 0s - loss: 0.3241
+Epoch 29/200
+24/24 - 0s - loss: 0.3188
+Epoch 30/200
+24/24 - 0s - loss: 0.3161
+Epoch 31/200
+24/24 - 0s - loss: 0.3152
+Epoch 32/200
+24/24 - 0s - loss: 0.3097
+Epoch 33/200
+24/24 - 0s - loss: 0.3097
+Epoch 34/200
+24/24 - 0s - loss: 0.3116
+Epoch 35/200
+24/24 - 0s - loss: 0.3093
+Epoch 36/200
+24/24 - 0s - loss: 0.3104
+Epoch 37/200
+24/24 - 0s - loss: 0.3097
+Epoch 38/200
+24/24 - 0s - loss: 0.3118
+Epoch 39/200
+24/24 - 0s - loss: 0.3053
+Epoch 40/200
+24/24 - 0s - loss: 0.3044
+Epoch 41/200
+24/24 - 0s - loss: 0.3080
+Epoch 42/200
+24/24 - 0s - loss: 0.2987
+Epoch 43/200
+24/24 - 0s - loss: 0.2966
+Epoch 44/200
+24/24 - 0s - loss: 0.2932
+Epoch 45/200
+24/24 - 0s - loss: 0.2930
+Epoch 46/200
+24/24 - 0s - loss: 0.2900
+Epoch 47/200
+24/24 - 0s - loss: 0.2906
+Epoch 48/200
+24/24 - 0s - loss: 0.2892
+Epoch 49/200
+24/24 - 0s - loss: 0.2910
+Epoch 50/200
+24/24 - 0s - loss: 0.2863
+Epoch 51/200
+24/24 - 0s - loss: 0.2892
+Epoch 52/200
+24/24 - 0s - loss: 0.2896
+Epoch 53/200
+24/24 - 0s - loss: 0.2844
+Epoch 54/200
+24/24 - 0s - loss: 0.2832
+Epoch 55/200
+24/24 - 0s - loss: 0.2844
+Epoch 56/200
+24/24 - 0s - loss: 0.2855
+Epoch 57/200
+24/24 - 0s - loss: 0.2814
+Epoch 58/200
+24/24 - 0s - loss: 0.2792
+Epoch 59/200
+24/24 - 0s - loss: 0.2775
+Epoch 60/200
+24/24 - 0s - loss: 0.2748
+Epoch 61/200
+24/24 - 0s - loss: 0.2809
+Epoch 62/200
+24/24 - 0s - loss: 0.2757
+Epoch 63/200
+24/24 - 0s - loss: 0.2760
+Epoch 64/200
+24/24 - 0s - loss: 0.2725
+Epoch 65/200
+24/24 - 0s - loss: 0.2755
+Epoch 66/200
+24/24 - 0s - loss: 0.2732
+Epoch 67/200
+24/24 - 0s - loss: 0.2722
+Epoch 68/200
+24/24 - 0s - loss: 0.2716
+Epoch 69/200
+24/24 - 0s - loss: 0.2722
+Epoch 70/200
+24/24 - 0s - loss: 0.2716
+Epoch 71/200
+24/24 - 0s - loss: 0.2750
+Epoch 72/200
+24/24 - 0s - loss: 0.2734
+Epoch 73/200
+24/24 - 0s - loss: 0.2737
+Epoch 74/200
+24/24 - 0s - loss: 0.2750
+Epoch 75/200
+24/24 - 0s - loss: 0.2721
+Epoch 76/200
+24/24 - 0s - loss: 0.2714
+Epoch 77/200
+24/24 - 0s - loss: 0.2692
+Epoch 78/200
+24/24 - 0s - loss: 0.2695
+Epoch 79/200
+24/24 - 0s - loss: 0.2711
+Epoch 80/200
+24/24 - 0s - loss: 0.2726
+Epoch 81/200
+24/24 - 0s - loss: 0.2705
+Epoch 82/200
+24/24 - 0s - loss: 0.2713
+Epoch 83/200
+24/24 - 0s - loss: 0.2706
+Epoch 84/200
+24/24 - 0s - loss: 0.2705
+Epoch 85/200
+24/24 - 0s - loss: 0.2679
+Epoch 86/200
+24/24 - 0s - loss: 0.2665
+Epoch 87/200
+24/24 - 0s - loss: 0.2695
+Epoch 88/200
+24/24 - 0s - loss: 0.2633
+Epoch 89/200
+24/24 - 0s - loss: 0.2635
+Epoch 90/200
+24/24 - 0s - loss: 0.2681
+Epoch 91/200
+24/24 - 0s - loss: 0.2645
+Epoch 92/200
+24/24 - 0s - loss: 0.2633
+Epoch 93/200
+24/24 - 0s - loss: 0.2638
+Epoch 94/200
+24/24 - 0s - loss: 0.2610
+Epoch 95/200
+24/24 - 0s - loss: 0.2623
+Epoch 96/200
+24/24 - 0s - loss: 0.2605
+Epoch 97/200
+24/24 - 0s - loss: 0.2599
+Epoch 98/200
+24/24 - 0s - loss: 0.2576
+Epoch 99/200
+24/24 - 0s - loss: 0.2587
+Epoch 100/200
+24/24 - 0s - loss: 0.2559
+Epoch 101/200
+24/24 - 0s - loss: 0.2577
+Epoch 102/200
+24/24 - 0s - loss: 0.2564
+Epoch 103/200
+24/24 - 0s - loss: 0.2553
+Epoch 104/200
+24/24 - 0s - loss: 0.2589
+Epoch 105/200
+24/24 - 0s - loss: 0.2577
+Epoch 106/200
+24/24 - 0s - loss: 0.2556
+Epoch 107/200
+24/24 - 0s - loss: 0.2592
+Epoch 108/200
+24/24 - 0s - loss: 0.2590
+Epoch 109/200
+24/24 - 0s - loss: 0.2577
+Epoch 110/200
+24/24 - 0s - loss: 0.2565
+Epoch 111/200
+24/24 - 0s - loss: 0.2618
+Epoch 112/200
+24/24 - 0s - loss: 0.2545
+Epoch 113/200
+24/24 - 0s - loss: 0.2520
+Epoch 114/200
+24/24 - 0s - loss: 0.2552
+Epoch 115/200
+24/24 - 0s - loss: 0.2522
+Epoch 116/200
+24/24 - 0s - loss: 0.2572
+Epoch 117/200
+24/24 - 0s - loss: 0.2520
+Epoch 118/200
+24/24 - 0s - loss: 0.2528
+Epoch 119/200
+24/24 - 0s - loss: 0.2534
+Epoch 120/200
+24/24 - 0s - loss: 0.2513
+Epoch 121/200
+24/24 - 0s - loss: 0.2487
+Epoch 122/200
+24/24 - 0s - loss: 0.2485
+Epoch 123/200
+24/24 - 0s - loss: 0.2479
+Epoch 124/200
+24/24 - 0s - loss: 0.2531
+Epoch 125/200
+24/24 - 0s - loss: 0.2523
+Epoch 126/200
+24/24 - 0s - loss: 0.2513
+Epoch 127/200
+24/24 - 0s - loss: 0.2516
+Epoch 128/200
+24/24 - 0s - loss: 0.2561
+Epoch 129/200
+24/24 - 0s - loss: 0.2520
+Epoch 130/200
+24/24 - 0s - loss: 0.2512
+Epoch 131/200
+24/24 - 0s - loss: 0.2535
+Epoch 132/200
+24/24 - 0s - loss: 0.2521
+Epoch 133/200
+24/24 - 0s - loss: 0.2481
+Epoch 134/200
+24/24 - 0s - loss: 0.2516
+Epoch 135/200
+24/24 - 0s - loss: 0.2499
+Epoch 136/200
+24/24 - 0s - loss: 0.2497
+Epoch 137/200
+24/24 - 0s - loss: 0.2555
+Epoch 138/200
+24/24 - 0s - loss: 0.2467
+Epoch 139/200
+24/24 - 0s - loss: 0.2466
+Epoch 140/200
+24/24 - 0s - loss: 0.2477
+Epoch 141/200
+24/24 - 0s - loss: 0.2462
+Epoch 142/200
+24/24 - 0s - loss: 0.2432
+Epoch 143/200
+24/24 - 0s - loss: 0.2441
+Epoch 144/200
+24/24 - 0s - loss: 0.2432
+Epoch 145/200
+24/24 - 0s - loss: 0.2443
+Epoch 146/200
+24/24 - 0s - loss: 0.2457
+Epoch 147/200
+24/24 - 0s - loss: 0.2472
+Epoch 148/200
+24/24 - 0s - loss: 0.2437
+Epoch 149/200
+24/24 - 0s - loss: 0.2472
+Epoch 150/200
+24/24 - 0s - loss: 0.2486
+Epoch 151/200
+24/24 - 0s - loss: 0.2431
+Epoch 152/200
+24/24 - 0s - loss: 0.2478
+Epoch 153/200
+24/24 - 0s - loss: 0.2461
+Epoch 154/200
+24/24 - 0s - loss: 0.2473
+Epoch 155/200
+24/24 - 0s - loss: 0.2431
+Epoch 156/200
+24/24 - 0s - loss: 0.2457
+Epoch 157/200
+24/24 - 0s - loss: 0.2464
+Epoch 158/200
+24/24 - 0s - loss: 0.2456
+Epoch 159/200
+24/24 - 0s - loss: 0.2433
+Epoch 160/200
+24/24 - 0s - loss: 0.2404
+Epoch 161/200
+24/24 - 0s - loss: 0.2399
+Epoch 162/200
+24/24 - 0s - loss: 0.2409
+Epoch 163/200
+24/24 - 0s - loss: 0.2397
+Epoch 164/200
+24/24 - 0s - loss: 0.2396
+Epoch 165/200
+24/24 - 0s - loss: 0.2421
+Epoch 166/200
+24/24 - 0s - loss: 0.2384
+Epoch 167/200
+24/24 - 0s - loss: 0.2391
+Epoch 168/200
+24/24 - 0s - loss: 0.2406
+Epoch 169/200
+24/24 - 0s - loss: 0.2409
+Epoch 170/200
+24/24 - 0s - loss: 0.2418
+Epoch 171/200
+24/24 - 0s - loss: 0.2440
+Epoch 172/200
+24/24 - 0s - loss: 0.2413
+Epoch 173/200
+24/24 - 0s - loss: 0.2394
+Epoch 174/200
+24/24 - 0s - loss: 0.2376
+Epoch 175/200
+24/24 - 0s - loss: 0.2375
+Epoch 176/200
+24/24 - 0s - loss: 0.2358
+Epoch 177/200
+24/24 - 0s - loss: 0.2361
+Epoch 178/200
+24/24 - 0s - loss: 0.2336
+Epoch 179/200
+24/24 - 0s - loss: 0.2317
+Epoch 180/200
+24/24 - 0s - loss: 0.2309
+Epoch 181/200
+24/24 - 0s - loss: 0.2326
+Epoch 182/200
+24/24 - 0s - loss: 0.2370
+Epoch 183/200
+24/24 - 0s - loss: 0.2330
+Epoch 184/200
+24/24 - 0s - loss: 0.2331
+Epoch 185/200
+24/24 - 0s - loss: 0.2335
+Epoch 186/200
+24/24 - 0s - loss: 0.2333
+Epoch 187/200
+24/24 - 0s - loss: 0.2325
+Epoch 188/200
+24/24 - 0s - loss: 0.2312
+Epoch 189/200
+24/24 - 0s - loss: 0.2323
+Epoch 190/200
+24/24 - 0s - loss: 0.2339
+Epoch 191/200
+24/24 - 0s - loss: 0.2342
+Epoch 192/200
+24/24 - 0s - loss: 0.2314
+Epoch 193/200
+24/24 - 0s - loss: 0.2311
+Epoch 194/200
+24/24 - 0s - loss: 0.2328
+Epoch 195/200
+24/24 - 0s - loss: 0.2315
+Epoch 196/200
+24/24 - 0s - loss: 0.2303
+Epoch 197/200
+24/24 - 0s - loss: 0.2295
+Epoch 198/200
+24/24 - 0s - loss: 0.2291
+Epoch 199/200
+24/24 - 0s - loss: 0.2297
+Epoch 200/200
+24/24 - 0s - loss: 0.2323
+model_conv: weights was loaded
+iter 0; acc, nmi, kappa = (0.65694626474443, 0.7210773923188896, 0.5540258231319577); loss:0.00000; n_changed_assignment:6104; time:429.295
+iter 1; acc, nmi, kappa = (0.645478374836173, 0.6953821290664103, 0.5359286786990937); loss:1.06958; n_changed_assignment:237; time:432.434
+iter 2; acc, nmi, kappa = (0.6451507208387942, 0.6969235943979663, 0.5355377652846336); loss:14.99014; n_changed_assignment:82; time:435.210
+iter 3; acc, nmi, kappa = (0.6484272608125818, 0.719544305926663, 0.5428823163058487); loss:0.29347; n_changed_assignment:318; time:437.621
+iter 4; acc, nmi, kappa = (0.6520314547837484, 0.7257085693610487, 0.5478533025561891); loss:0.76830; n_changed_assignment:61; time:440.313
+iter 5; acc, nmi, kappa = (0.655307994757536, 0.7424349590026326, 0.5539820702599263); loss:3.54291; n_changed_assignment:110; time:442.775
+iter 6; acc, nmi, kappa = (0.6554718217562254, 0.7561873406270058, 0.5553658179310161); loss:0.13869; n_changed_assignment:98; time:444.457
+iter 7; acc, nmi, kappa = (0.6566186107470511, 0.75510689307585, 0.5569137916070903); loss:0.65774; n_changed_assignment:56; time:446.139
+iter 8; acc, nmi, kappa = (0.6610419397116645, 0.766487598384063, 0.5632666631209307); loss:1.09807; n_changed_assignment:71; time:448.034
+iter 9; acc, nmi, kappa = (0.6620249017038008, 0.7686283469136451, 0.564652508744165); loss:0.06251; n_changed_assignment:31; time:449.901
+iter 10; acc, nmi, kappa = (0.6633355176933158, 0.7723408713126652, 0.5664917008298807); loss:0.75002; n_changed_assignment:30; time:451.051
+end
+0.6633355176933158 0.5664917008298807 0.7723408713126652 [0.46497765 1.         0.77956989 1.         0.95384615 0.
+ 0.        ]
+451.82516384124756
+Epoch 1/200
+24/24 - 1s - loss: 0.8909
+Epoch 2/200
+24/24 - 0s - loss: 0.6292
+Epoch 3/200
+24/24 - 0s - loss: 0.5293
+Epoch 4/200
+24/24 - 0s - loss: 0.5005
+Epoch 5/200
+24/24 - 0s - loss: 0.4633
+Epoch 6/200
+24/24 - 0s - loss: 0.4410
+Epoch 7/200
+24/24 - 0s - loss: 0.4354
+Epoch 8/200
+24/24 - 0s - loss: 0.4225
+Epoch 9/200
+24/24 - 0s - loss: 0.4081
+Epoch 10/200
+24/24 - 0s - loss: 0.4048
+Epoch 11/200
+24/24 - 0s - loss: 0.3967
+Epoch 12/200
+24/24 - 0s - loss: 0.3931
+Epoch 13/200
+24/24 - 0s - loss: 0.3878
+Epoch 14/200
+24/24 - 0s - loss: 0.3709
+Epoch 15/200
+24/24 - 0s - loss: 0.3687
+Epoch 16/200
+24/24 - 0s - loss: 0.3594
+Epoch 17/200
+24/24 - 0s - loss: 0.3592
+Epoch 18/200
+24/24 - 0s - loss: 0.3590
+Epoch 19/200
+24/24 - 0s - loss: 0.3468
+Epoch 20/200
+24/24 - 0s - loss: 0.3425
+Epoch 21/200
+24/24 - 0s - loss: 0.3359
+Epoch 22/200
+24/24 - 0s - loss: 0.3338
+Epoch 23/200
+24/24 - 0s - loss: 0.3290
+Epoch 24/200
+24/24 - 0s - loss: 0.3351
+Epoch 25/200
+24/24 - 0s - loss: 0.3265
+Epoch 26/200
+24/24 - 0s - loss: 0.3212
+Epoch 27/200
+24/24 - 0s - loss: 0.3221
+Epoch 28/200
+24/24 - 0s - loss: 0.3198
+Epoch 29/200
+24/24 - 0s - loss: 0.3141
+Epoch 30/200
+24/24 - 0s - loss: 0.3190
+Epoch 31/200
+24/24 - 0s - loss: 0.3084
+Epoch 32/200
+24/24 - 0s - loss: 0.3051
+Epoch 33/200
+24/24 - 0s - loss: 0.3067
+Epoch 34/200
+24/24 - 0s - loss: 0.3062
+Epoch 35/200
+24/24 - 0s - loss: 0.3075
+Epoch 36/200
+24/24 - 0s - loss: 0.3063
+Epoch 37/200
+24/24 - 0s - loss: 0.3058
+Epoch 38/200
+24/24 - 0s - loss: 0.3015
+Epoch 39/200
+24/24 - 0s - loss: 0.3079
+Epoch 40/200
+24/24 - 0s - loss: 0.3011
+Epoch 41/200
+24/24 - 0s - loss: 0.2941
+Epoch 42/200
+24/24 - 0s - loss: 0.2952
+Epoch 43/200
+24/24 - 0s - loss: 0.2931
+Epoch 44/200
+24/24 - 0s - loss: 0.2941
+Epoch 45/200
+24/24 - 0s - loss: 0.2930
+Epoch 46/200
+24/24 - 0s - loss: 0.2901
+Epoch 47/200
+24/24 - 0s - loss: 0.2969
+Epoch 48/200
+24/24 - 0s - loss: 0.2952
+Epoch 49/200
+24/24 - 0s - loss: 0.2945
+Epoch 50/200
+24/24 - 0s - loss: 0.2922
+Epoch 51/200
+24/24 - 0s - loss: 0.2901
+Epoch 52/200
+24/24 - 0s - loss: 0.2953
+Epoch 53/200
+24/24 - 0s - loss: 0.2925
+Epoch 54/200
+24/24 - 0s - loss: 0.2860
+Epoch 55/200
+24/24 - 0s - loss: 0.2845
+Epoch 56/200
+24/24 - 0s - loss: 0.2883
+Epoch 57/200
+24/24 - 0s - loss: 0.2838
+Epoch 58/200
+24/24 - 0s - loss: 0.2810
+Epoch 59/200
+24/24 - 0s - loss: 0.2884
+Epoch 60/200
+24/24 - 0s - loss: 0.2819
+Epoch 61/200
+24/24 - 0s - loss: 0.2820
+Epoch 62/200
+24/24 - 0s - loss: 0.2751
+Epoch 63/200
+24/24 - 0s - loss: 0.2799
+Epoch 64/200
+24/24 - 0s - loss: 0.2832
+Epoch 65/200
+24/24 - 0s - loss: 0.2830
+Epoch 66/200
+24/24 - 0s - loss: 0.2785
+Epoch 67/200
+24/24 - 0s - loss: 0.2795
+Epoch 68/200
+24/24 - 0s - loss: 0.2844
+Epoch 69/200
+24/24 - 0s - loss: 0.2770
+Epoch 70/200
+24/24 - 0s - loss: 0.2804
+Epoch 71/200
+24/24 - 0s - loss: 0.2775
+Epoch 72/200
+24/24 - 0s - loss: 0.2833
+Epoch 73/200
+24/24 - 0s - loss: 0.2839
+Epoch 74/200
+24/24 - 0s - loss: 0.2786
+Epoch 75/200
+24/24 - 0s - loss: 0.2744
+Epoch 76/200
+24/24 - 0s - loss: 0.2757
+Epoch 77/200
+24/24 - 0s - loss: 0.2763
+Epoch 78/200
+24/24 - 0s - loss: 0.2706
+Epoch 79/200
+24/24 - 0s - loss: 0.2728
+Epoch 80/200
+24/24 - 0s - loss: 0.2740
+Epoch 81/200
+24/24 - 0s - loss: 0.2722
+Epoch 82/200
+24/24 - 0s - loss: 0.2767
+Epoch 83/200
+24/24 - 0s - loss: 0.2716
+Epoch 84/200
+24/24 - 0s - loss: 0.2693
+Epoch 85/200
+24/24 - 0s - loss: 0.2684
+Epoch 86/200
+24/24 - 0s - loss: 0.2655
+Epoch 87/200
+24/24 - 0s - loss: 0.2669
+Epoch 88/200
+24/24 - 0s - loss: 0.2655
+Epoch 89/200
+24/24 - 0s - loss: 0.2665
+Epoch 90/200
+24/24 - 0s - loss: 0.2641
+Epoch 91/200
+24/24 - 0s - loss: 0.2624
+Epoch 92/200
+24/24 - 0s - loss: 0.2586
+Epoch 93/200
+24/24 - 0s - loss: 0.2611
+Epoch 94/200
+24/24 - 0s - loss: 0.2605
+Epoch 95/200
+24/24 - 0s - loss: 0.2597
+Epoch 96/200
+24/24 - 0s - loss: 0.2584
+Epoch 97/200
+24/24 - 0s - loss: 0.2620
+Epoch 98/200
+24/24 - 0s - loss: 0.2605
+Epoch 99/200
+24/24 - 0s - loss: 0.2592
+Epoch 100/200
+24/24 - 0s - loss: 0.2607
+Epoch 101/200
+24/24 - 0s - loss: 0.2647
+Epoch 102/200
+24/24 - 0s - loss: 0.2624
+Epoch 103/200
+24/24 - 0s - loss: 0.2653
+Epoch 104/200
+24/24 - 0s - loss: 0.2598
+Epoch 105/200
+24/24 - 0s - loss: 0.2613
+Epoch 106/200
+24/24 - 0s - loss: 0.2617
+Epoch 107/200
+24/24 - 0s - loss: 0.2587
+Epoch 108/200
+24/24 - 0s - loss: 0.2579
+Epoch 109/200
+24/24 - 0s - loss: 0.2594
+Epoch 110/200
+24/24 - 0s - loss: 0.2584
+Epoch 111/200
+24/24 - 0s - loss: 0.2573
+Epoch 112/200
+24/24 - 0s - loss: 0.2571
+Epoch 113/200
+24/24 - 0s - loss: 0.2616
+Epoch 114/200
+24/24 - 0s - loss: 0.2579
+Epoch 115/200
+24/24 - 0s - loss: 0.2628
+Epoch 116/200
+24/24 - 0s - loss: 0.2611
+Epoch 117/200
+24/24 - 0s - loss: 0.2569
+Epoch 118/200
+24/24 - 0s - loss: 0.2581
+Epoch 119/200
+24/24 - 0s - loss: 0.2539
+Epoch 120/200
+24/24 - 0s - loss: 0.2563
+Epoch 121/200
+24/24 - 0s - loss: 0.2551
+Epoch 122/200
+24/24 - 0s - loss: 0.2574
+Epoch 123/200
+24/24 - 0s - loss: 0.2558
+Epoch 124/200
+24/24 - 0s - loss: 0.2566
+Epoch 125/200
+24/24 - 0s - loss: 0.2555
+Epoch 126/200
+24/24 - 0s - loss: 0.2579
+Epoch 127/200
+24/24 - 0s - loss: 0.2561
+Epoch 128/200
+24/24 - 0s - loss: 0.2540
+Epoch 129/200
+24/24 - 0s - loss: 0.2571
+Epoch 130/200
+24/24 - 0s - loss: 0.2518
+Epoch 131/200
+24/24 - 0s - loss: 0.2566
+Epoch 132/200
+24/24 - 0s - loss: 0.2547
+Epoch 133/200
+24/24 - 0s - loss: 0.2541
+Epoch 134/200
+24/24 - 0s - loss: 0.2534
+Epoch 135/200
+24/24 - 0s - loss: 0.2505
+Epoch 136/200
+24/24 - 0s - loss: 0.2489
+Epoch 137/200
+24/24 - 0s - loss: 0.2516
+Epoch 138/200
+24/24 - 0s - loss: 0.2495
+Epoch 139/200
+24/24 - 0s - loss: 0.2491
+Epoch 140/200
+24/24 - 0s - loss: 0.2560
+Epoch 141/200
+24/24 - 0s - loss: 0.2508
+Epoch 142/200
+24/24 - 0s - loss: 0.2525
+Epoch 143/200
+24/24 - 0s - loss: 0.2524
+Epoch 144/200
+24/24 - 0s - loss: 0.2495
+Epoch 145/200
+24/24 - 0s - loss: 0.2466
+Epoch 146/200
+24/24 - 0s - loss: 0.2488
+Epoch 147/200
+24/24 - 0s - loss: 0.2476
+Epoch 148/200
+24/24 - 0s - loss: 0.2492
+Epoch 149/200
+24/24 - 0s - loss: 0.2491
+Epoch 150/200
+24/24 - 0s - loss: 0.2477
+Epoch 151/200
+24/24 - 0s - loss: 0.2494
+Epoch 152/200
+24/24 - 0s - loss: 0.2507
+Epoch 153/200
+24/24 - 0s - loss: 0.2485
+Epoch 154/200
+24/24 - 0s - loss: 0.2499
+Epoch 155/200
+24/24 - 0s - loss: 0.2498
+Epoch 156/200
+24/24 - 0s - loss: 0.2500
+Epoch 157/200
+24/24 - 0s - loss: 0.2482
+Epoch 158/200
+24/24 - 0s - loss: 0.2476
+Epoch 159/200
+24/24 - 0s - loss: 0.2480
+Epoch 160/200
+24/24 - 0s - loss: 0.2459
+Epoch 161/200
+24/24 - 0s - loss: 0.2493
+Epoch 162/200
+24/24 - 0s - loss: 0.2479
+Epoch 163/200
+24/24 - 0s - loss: 0.2473
+Epoch 164/200
+24/24 - 0s - loss: 0.2507
+Epoch 165/200
+24/24 - 0s - loss: 0.2491
+Epoch 166/200
+24/24 - 0s - loss: 0.2477
+Epoch 167/200
+24/24 - 0s - loss: 0.2469
+Epoch 168/200
+24/24 - 0s - loss: 0.2458
+Epoch 169/200
+24/24 - 0s - loss: 0.2462
+Epoch 170/200
+24/24 - 0s - loss: 0.2459
+Epoch 171/200
+24/24 - 0s - loss: 0.2496
+Epoch 172/200
+24/24 - 0s - loss: 0.2494
+Epoch 173/200
+24/24 - 0s - loss: 0.2463
+Epoch 174/200
+24/24 - 0s - loss: 0.2442
+Epoch 175/200
+24/24 - 0s - loss: 0.2461
+Epoch 176/200
+24/24 - 0s - loss: 0.2452
+Epoch 177/200
+24/24 - 0s - loss: 0.2439
+Epoch 178/200
+24/24 - 0s - loss: 0.2440
+Epoch 179/200
+24/24 - 0s - loss: 0.2485
+Epoch 180/200
+24/24 - 0s - loss: 0.2453
+Epoch 181/200
+24/24 - 0s - loss: 0.2439
+Epoch 182/200
+24/24 - 0s - loss: 0.2435
+Epoch 183/200
+24/24 - 0s - loss: 0.2443
+Epoch 184/200
+24/24 - 0s - loss: 0.2449
+Epoch 185/200
+24/24 - 0s - loss: 0.2454
+Epoch 186/200
+24/24 - 0s - loss: 0.2489
+Epoch 187/200
+24/24 - 0s - loss: 0.2482
+Epoch 188/200
+24/24 - 0s - loss: 0.2505
+Epoch 189/200
+24/24 - 0s - loss: 0.2438
+Epoch 190/200
+24/24 - 0s - loss: 0.2427
+Epoch 191/200
+24/24 - 0s - loss: 0.2451
+Epoch 192/200
+24/24 - 0s - loss: 0.2468
+Epoch 193/200
+24/24 - 0s - loss: 0.2477
+Epoch 194/200
+24/24 - 0s - loss: 0.2474
+Epoch 195/200
+24/24 - 0s - loss: 0.2439
+Epoch 196/200
+24/24 - 0s - loss: 0.2437
+Epoch 197/200
+24/24 - 0s - loss: 0.2427
+Epoch 198/200
+24/24 - 0s - loss: 0.2409
+Epoch 199/200
+24/24 - 0s - loss: 0.2409
+Epoch 200/200
+24/24 - 0s - loss: 0.2434
+model_conv: weights was loaded
+iter 0; acc, nmi, kappa = (0.59305373525557, 0.7010321416900268, 0.4719837006004285); loss:0.00000; n_changed_assignment:6104; time:503.901
+iter 1; acc, nmi, kappa = (0.59305373525557, 0.6754667636012134, 0.4698571222830561); loss:0.78771; n_changed_assignment:130; time:508.190
+iter 2; acc, nmi, kappa = (0.5927260812581914, 0.6901936824586073, 0.46765754915852276); loss:2.05179; n_changed_assignment:98; time:510.885
+iter 3; acc, nmi, kappa = (0.5928899082568808, 0.7025384616328286, 0.4703072488522346); loss:0.19224; n_changed_assignment:117; time:517.074
+iter 4; acc, nmi, kappa = (0.5928899082568808, 0.6995862102290169, 0.4702159306911097); loss:0.63876; n_changed_assignment:35; time:518.765
+iter 5; acc, nmi, kappa = (0.5925622542595019, 0.6909490069772929, 0.4687430019589528); loss:4.91686; n_changed_assignment:55; time:520.249
+iter 6; acc, nmi, kappa = (0.5925622542595019, 0.7077527286945235, 0.4702811629658593); loss:0.16103; n_changed_assignment:82; time:521.642
+iter 7; acc, nmi, kappa = (0.5922346002621233, 0.7111605160542346, 0.4700474192236722); loss:0.51191; n_changed_assignment:14; time:522.787
+end
+0.5922346002621233 0.4700474192236722 0.7111605160542346 [0.46497765 1.         0.         1.         0.96153846 0.
+ 0.        ]
+523.6860468387604
+Epoch 1/200
+24/24 - 1s - loss: 0.8874
+Epoch 2/200
+24/24 - 0s - loss: 0.5840
+Epoch 3/200
+24/24 - 0s - loss: 0.5269
+Epoch 4/200
+24/24 - 0s - loss: 0.5006
+Epoch 5/200
+24/24 - 0s - loss: 0.4663
+Epoch 6/200
+24/24 - 0s - loss: 0.4491
+Epoch 7/200
+24/24 - 0s - loss: 0.4433
+Epoch 8/200
+24/24 - 0s - loss: 0.4364
+Epoch 9/200
+24/24 - 0s - loss: 0.4221
+Epoch 10/200
+24/24 - 0s - loss: 0.4040
+Epoch 11/200
+24/24 - 0s - loss: 0.3933
+Epoch 12/200
+24/24 - 0s - loss: 0.3822
+Epoch 13/200
+24/24 - 0s - loss: 0.3769
+Epoch 14/200
+24/24 - 0s - loss: 0.3737
+Epoch 15/200
+24/24 - 0s - loss: 0.3642
+Epoch 16/200
+24/24 - 0s - loss: 0.3603
+Epoch 17/200
+24/24 - 0s - loss: 0.3582
+Epoch 18/200
+24/24 - 0s - loss: 0.3408
+Epoch 19/200
+24/24 - 0s - loss: 0.3384
+Epoch 20/200
+24/24 - 0s - loss: 0.3349
+Epoch 21/200
+24/24 - 0s - loss: 0.3321
+Epoch 22/200
+24/24 - 0s - loss: 0.3255
+Epoch 23/200
+24/24 - 0s - loss: 0.3241
+Epoch 24/200
+24/24 - 0s - loss: 0.3223
+Epoch 25/200
+24/24 - 0s - loss: 0.3215
+Epoch 26/200
+24/24 - 0s - loss: 0.3153
+Epoch 27/200
+24/24 - 0s - loss: 0.3139
+Epoch 28/200
+24/24 - 0s - loss: 0.3159
+Epoch 29/200
+24/24 - 0s - loss: 0.3162
+Epoch 30/200
+24/24 - 0s - loss: 0.3116
+Epoch 31/200
+24/24 - 0s - loss: 0.3103
+Epoch 32/200
+24/24 - 0s - loss: 0.3078
+Epoch 33/200
+24/24 - 0s - loss: 0.3052
+Epoch 34/200
+24/24 - 0s - loss: 0.3012
+Epoch 35/200
+24/24 - 0s - loss: 0.2999
+Epoch 36/200
+24/24 - 0s - loss: 0.2958
+Epoch 37/200
+24/24 - 0s - loss: 0.2962
+Epoch 38/200
+24/24 - 0s - loss: 0.2946
+Epoch 39/200
+24/24 - 0s - loss: 0.2914
+Epoch 40/200
+24/24 - 0s - loss: 0.2886
+Epoch 41/200
+24/24 - 0s - loss: 0.2899
+Epoch 42/200
+24/24 - 0s - loss: 0.2929
+Epoch 43/200
+24/24 - 0s - loss: 0.2882
+Epoch 44/200
+24/24 - 0s - loss: 0.2932
+Epoch 45/200
+24/24 - 0s - loss: 0.2891
+Epoch 46/200
+24/24 - 0s - loss: 0.2943
+Epoch 47/200
+24/24 - 0s - loss: 0.2911
+Epoch 48/200
+24/24 - 0s - loss: 0.2876
+Epoch 49/200
+24/24 - 0s - loss: 0.2884
+Epoch 50/200
+24/24 - 0s - loss: 0.2839
+Epoch 51/200
+24/24 - 0s - loss: 0.2865
+Epoch 52/200
+24/24 - 0s - loss: 0.2855
+Epoch 53/200
+24/24 - 0s - loss: 0.2816
+Epoch 54/200
+24/24 - 0s - loss: 0.2819
+Epoch 55/200
+24/24 - 0s - loss: 0.2793
+Epoch 56/200
+24/24 - 0s - loss: 0.2777
+Epoch 57/200
+24/24 - 0s - loss: 0.2770
+Epoch 58/200
+24/24 - 0s - loss: 0.2765
+Epoch 59/200
+24/24 - 0s - loss: 0.2797
+Epoch 60/200
+24/24 - 0s - loss: 0.2775
+Epoch 61/200
+24/24 - 0s - loss: 0.2769
+Epoch 62/200
+24/24 - 0s - loss: 0.2730
+Epoch 63/200
+24/24 - 0s - loss: 0.2775
+Epoch 64/200
+24/24 - 0s - loss: 0.2775
+Epoch 65/200
+24/24 - 0s - loss: 0.2750
+Epoch 66/200
+24/24 - 0s - loss: 0.2756
+Epoch 67/200
+24/24 - 0s - loss: 0.2763
+Epoch 68/200
+24/24 - 0s - loss: 0.2719
+Epoch 69/200
+24/24 - 0s - loss: 0.2718
+Epoch 70/200
+24/24 - 0s - loss: 0.2714
+Epoch 71/200
+24/24 - 0s - loss: 0.2701
+Epoch 72/200
+24/24 - 0s - loss: 0.2679
+Epoch 73/200
+24/24 - 0s - loss: 0.2708
+Epoch 74/200
+24/24 - 0s - loss: 0.2738
+Epoch 75/200
+24/24 - 0s - loss: 0.2687
+Epoch 76/200
+24/24 - 0s - loss: 0.2698
+Epoch 77/200
+24/24 - 0s - loss: 0.2717
+Epoch 78/200
+24/24 - 0s - loss: 0.2693
+Epoch 79/200
+24/24 - 0s - loss: 0.2686
+Epoch 80/200
+24/24 - 0s - loss: 0.2706
+Epoch 81/200
+24/24 - 0s - loss: 0.2697
+Epoch 82/200
+24/24 - 0s - loss: 0.2714
+Epoch 83/200
+24/24 - 0s - loss: 0.2704
+Epoch 84/200
+24/24 - 0s - loss: 0.2641
+Epoch 85/200
+24/24 - 0s - loss: 0.2712
+Epoch 86/200
+24/24 - 0s - loss: 0.2662
+Epoch 87/200
+24/24 - 0s - loss: 0.2616
+Epoch 88/200
+24/24 - 0s - loss: 0.2618
+Epoch 89/200
+24/24 - 0s - loss: 0.2594
+Epoch 90/200
+24/24 - 0s - loss: 0.2592
+Epoch 91/200
+24/24 - 0s - loss: 0.2604
+Epoch 92/200
+24/24 - 0s - loss: 0.2654
+Epoch 93/200
+24/24 - 0s - loss: 0.2637
+Epoch 94/200
+24/24 - 0s - loss: 0.2626
+Epoch 95/200
+24/24 - 0s - loss: 0.2617
+Epoch 96/200
+24/24 - 0s - loss: 0.2583
+Epoch 97/200
+24/24 - 0s - loss: 0.2610
+Epoch 98/200
+24/24 - 0s - loss: 0.2606
+Epoch 99/200
+24/24 - 0s - loss: 0.2584
+Epoch 100/200
+24/24 - 0s - loss: 0.2609
+Epoch 101/200
+24/24 - 0s - loss: 0.2577
+Epoch 102/200
+24/24 - 0s - loss: 0.2574
+Epoch 103/200
+24/24 - 0s - loss: 0.2569
+Epoch 104/200
+24/24 - 0s - loss: 0.2588
+Epoch 105/200
+24/24 - 0s - loss: 0.2579
+Epoch 106/200
+24/24 - 0s - loss: 0.2584
+Epoch 107/200
+24/24 - 0s - loss: 0.2573
+Epoch 108/200
+24/24 - 0s - loss: 0.2630
+Epoch 109/200
+24/24 - 0s - loss: 0.2604
+Epoch 110/200
+24/24 - 0s - loss: 0.2577
+Epoch 111/200
+24/24 - 0s - loss: 0.2614
+Epoch 112/200
+24/24 - 0s - loss: 0.2609
+Epoch 113/200
+24/24 - 0s - loss: 0.2599
+Epoch 114/200
+24/24 - 0s - loss: 0.2607
+Epoch 115/200
+24/24 - 0s - loss: 0.2594
+Epoch 116/200
+24/24 - 0s - loss: 0.2609
+Epoch 117/200
+24/24 - 0s - loss: 0.2592
+Epoch 118/200
+24/24 - 0s - loss: 0.2627
+Epoch 119/200
+24/24 - 0s - loss: 0.2642
+Epoch 120/200
+24/24 - 0s - loss: 0.2583
+Epoch 121/200
+24/24 - 0s - loss: 0.2601
+Epoch 122/200
+24/24 - 0s - loss: 0.2537
+Epoch 123/200
+24/24 - 0s - loss: 0.2530
+Epoch 124/200
+24/24 - 0s - loss: 0.2532
+Epoch 125/200
+24/24 - 0s - loss: 0.2567
+Epoch 126/200
+24/24 - 0s - loss: 0.2542
+Epoch 127/200
+24/24 - 0s - loss: 0.2553
+Epoch 128/200
+24/24 - 0s - loss: 0.2566
+Epoch 129/200
+24/24 - 0s - loss: 0.2561
+Epoch 130/200
+24/24 - 0s - loss: 0.2534
+Epoch 131/200
+24/24 - 0s - loss: 0.2576
+Epoch 132/200
+24/24 - 0s - loss: 0.2549
+Epoch 133/200
+24/24 - 0s - loss: 0.2593
+Epoch 134/200
+24/24 - 0s - loss: 0.2551
+Epoch 135/200
+24/24 - 0s - loss: 0.2571
+Epoch 136/200
+24/24 - 0s - loss: 0.2545
+Epoch 137/200
+24/24 - 0s - loss: 0.2551
+Epoch 138/200
+24/24 - 0s - loss: 0.2541
+Epoch 139/200
+24/24 - 0s - loss: 0.2527
+Epoch 140/200
+24/24 - 0s - loss: 0.2516
+Epoch 141/200
+24/24 - 0s - loss: 0.2538
+Epoch 142/200
+24/24 - 0s - loss: 0.2508
+Epoch 143/200
+24/24 - 0s - loss: 0.2515
+Epoch 144/200
+24/24 - 0s - loss: 0.2526
+Epoch 145/200
+24/24 - 0s - loss: 0.2503
+Epoch 146/200
+24/24 - 0s - loss: 0.2495
+Epoch 147/200
+24/24 - 0s - loss: 0.2480
+Epoch 148/200
+24/24 - 0s - loss: 0.2485
+Epoch 149/200
+24/24 - 0s - loss: 0.2456
+Epoch 150/200
+24/24 - 0s - loss: 0.2452
+Epoch 151/200
+24/24 - 0s - loss: 0.2476
+Epoch 152/200
+24/24 - 0s - loss: 0.2455
+Epoch 153/200
+24/24 - 0s - loss: 0.2459
+Epoch 154/200
+24/24 - 0s - loss: 0.2466
+Epoch 155/200
+24/24 - 0s - loss: 0.2451
+Epoch 156/200
+24/24 - 0s - loss: 0.2463
+Epoch 157/200
+24/24 - 0s - loss: 0.2432
+Epoch 158/200
+24/24 - 0s - loss: 0.2448
+Epoch 159/200
+24/24 - 0s - loss: 0.2428
+Epoch 160/200
+24/24 - 0s - loss: 0.2422
+Epoch 161/200
+24/24 - 0s - loss: 0.2407
+Epoch 162/200
+24/24 - 0s - loss: 0.2455
+Epoch 163/200
+24/24 - 0s - loss: 0.2436
+Epoch 164/200
+24/24 - 0s - loss: 0.2431
+Epoch 165/200
+24/24 - 0s - loss: 0.2437
+Epoch 166/200
+24/24 - 0s - loss: 0.2420
+Epoch 167/200
+24/24 - 0s - loss: 0.2469
+Epoch 168/200
+24/24 - 0s - loss: 0.2479
+Epoch 169/200
+24/24 - 0s - loss: 0.2444
+Epoch 170/200
+24/24 - 0s - loss: 0.2460
+Epoch 171/200
+24/24 - 0s - loss: 0.2443
+Epoch 172/200
+24/24 - 0s - loss: 0.2472
+Epoch 173/200
+24/24 - 0s - loss: 0.2487
+Epoch 174/200
+24/24 - 0s - loss: 0.2459
+Epoch 175/200
+24/24 - 0s - loss: 0.2448
+Epoch 176/200
+24/24 - 0s - loss: 0.2441
+Epoch 177/200
+24/24 - 0s - loss: 0.2436
+Epoch 178/200
+24/24 - 0s - loss: 0.2450
+Epoch 179/200
+24/24 - 0s - loss: 0.2480
+Epoch 180/200
+24/24 - 0s - loss: 0.2498
+Epoch 181/200
+24/24 - 0s - loss: 0.2456
+Epoch 182/200
+24/24 - 0s - loss: 0.2442
+Epoch 183/200
+24/24 - 0s - loss: 0.2477
+Epoch 184/200
+24/24 - 0s - loss: 0.2486
+Epoch 185/200
+24/24 - 0s - loss: 0.2489
+Epoch 186/200
+24/24 - 0s - loss: 0.2523
+Epoch 187/200
+24/24 - 0s - loss: 0.2493
+Epoch 188/200
+24/24 - 0s - loss: 0.2488
+Epoch 189/200
+24/24 - 0s - loss: 0.2526
+Epoch 190/200
+24/24 - 0s - loss: 0.2479
+Epoch 191/200
+24/24 - 0s - loss: 0.2422
+Epoch 192/200
+24/24 - 0s - loss: 0.2428
+Epoch 193/200
+24/24 - 0s - loss: 0.2431
+Epoch 194/200
+24/24 - 0s - loss: 0.2437
+Epoch 195/200
+24/24 - 0s - loss: 0.2421
+Epoch 196/200
+24/24 - 0s - loss: 0.2391
+Epoch 197/200
+24/24 - 0s - loss: 0.2394
+Epoch 198/200
+24/24 - 0s - loss: 0.2389
+Epoch 199/200
+24/24 - 0s - loss: 0.2390
+Epoch 200/200
+24/24 - 0s - loss: 0.2385
+model_conv: weights was loaded
+iter 0; acc, nmi, kappa = (0.591743119266055, 0.6209441602421338, 0.45494000715510996); loss:0.00000; n_changed_assignment:6104; time:575.720
+iter 1; acc, nmi, kappa = (0.5912516382699868, 0.6276359084389752, 0.4544766341284122); loss:1.40324; n_changed_assignment:46; time:577.359
+iter 2; acc, nmi, kappa = (0.5910878112712975, 0.6272240844325375, 0.4544631120198708); loss:7.77476; n_changed_assignment:27; time:580.414
+end
+0.5910878112712975 0.4544631120198708 0.6272240844325375 [0.46497765 1.         0.         1.         0.90769231 0.
+ 0.        ]
+581.5137498378754
+Epoch 1/200
+24/24 - 1s - loss: 0.9728
+Epoch 2/200
+24/24 - 0s - loss: 0.6592
+Epoch 3/200
+24/24 - 0s - loss: 0.5718
+Epoch 4/200
+24/24 - 0s - loss: 0.5048
+Epoch 5/200
+24/24 - 0s - loss: 0.4626
+Epoch 6/200
+24/24 - 0s - loss: 0.4390
+Epoch 7/200
+24/24 - 0s - loss: 0.4203
+Epoch 8/200
+24/24 - 0s - loss: 0.4151
+Epoch 9/200
+24/24 - 0s - loss: 0.3977
+Epoch 10/200
+24/24 - 0s - loss: 0.3902
+Epoch 11/200
+24/24 - 0s - loss: 0.3807
+Epoch 12/200
+24/24 - 0s - loss: 0.3681
+Epoch 13/200
+24/24 - 0s - loss: 0.3663
+Epoch 14/200
+24/24 - 0s - loss: 0.3632
+Epoch 15/200
+24/24 - 0s - loss: 0.3583
+Epoch 16/200
+24/24 - 0s - loss: 0.3526
+Epoch 17/200
+24/24 - 0s - loss: 0.3455
+Epoch 18/200
+24/24 - 0s - loss: 0.3430
+Epoch 19/200
+24/24 - 0s - loss: 0.3471
+Epoch 20/200
+24/24 - 0s - loss: 0.3406
+Epoch 21/200
+24/24 - 0s - loss: 0.3500
+Epoch 22/200
+24/24 - 0s - loss: 0.3451
+Epoch 23/200
+24/24 - 0s - loss: 0.3393
+Epoch 24/200
+24/24 - 0s - loss: 0.3366
+Epoch 25/200
+24/24 - 0s - loss: 0.3358
+Epoch 26/200
+24/24 - 0s - loss: 0.3246
+Epoch 27/200
+24/24 - 0s - loss: 0.3241
+Epoch 28/200
+24/24 - 0s - loss: 0.3187
+Epoch 29/200
+24/24 - 0s - loss: 0.3125
+Epoch 30/200
+24/24 - 0s - loss: 0.3147
+Epoch 31/200
+24/24 - 0s - loss: 0.3087
+Epoch 32/200
+24/24 - 0s - loss: 0.3051
+Epoch 33/200
+24/24 - 0s - loss: 0.3076
+Epoch 34/200
+24/24 - 0s - loss: 0.3139
+Epoch 35/200
+24/24 - 0s - loss: 0.3102
+Epoch 36/200
+24/24 - 0s - loss: 0.3028
+Epoch 37/200
+24/24 - 0s - loss: 0.3016
+Epoch 38/200
+24/24 - 0s - loss: 0.2970
+Epoch 39/200
+24/24 - 0s - loss: 0.2982
+Epoch 40/200
+24/24 - 0s - loss: 0.2996
+Epoch 41/200
+24/24 - 0s - loss: 0.2913
+Epoch 42/200
+24/24 - 0s - loss: 0.2917
+Epoch 43/200
+24/24 - 0s - loss: 0.2960
+Epoch 44/200
+24/24 - 0s - loss: 0.2872
+Epoch 45/200
+24/24 - 0s - loss: 0.2895
+Epoch 46/200
+24/24 - 0s - loss: 0.2916
+Epoch 47/200
+24/24 - 0s - loss: 0.2835
+Epoch 48/200
+24/24 - 0s - loss: 0.2869
+Epoch 49/200
+24/24 - 0s - loss: 0.2853
+Epoch 50/200
+24/24 - 0s - loss: 0.2899
+Epoch 51/200
+24/24 - 0s - loss: 0.2848
+Epoch 52/200
+24/24 - 0s - loss: 0.2818
+Epoch 53/200
+24/24 - 0s - loss: 0.2821
+Epoch 54/200
+24/24 - 0s - loss: 0.2857
+Epoch 55/200
+24/24 - 0s - loss: 0.2821
+Epoch 56/200
+24/24 - 0s - loss: 0.2799
+Epoch 57/200
+24/24 - 0s - loss: 0.2789
+Epoch 58/200
+24/24 - 0s - loss: 0.2792
+Epoch 59/200
+24/24 - 0s - loss: 0.2769
+Epoch 60/200
+24/24 - 0s - loss: 0.2748
+Epoch 61/200
+24/24 - 0s - loss: 0.2753
+Epoch 62/200
+24/24 - 0s - loss: 0.2774
+Epoch 63/200
+24/24 - 0s - loss: 0.2744
+Epoch 64/200
+24/24 - 0s - loss: 0.2746
+Epoch 65/200
+24/24 - 0s - loss: 0.2755
+Epoch 66/200
+24/24 - 0s - loss: 0.2735
+Epoch 67/200
+24/24 - 0s - loss: 0.2765
+Epoch 68/200
+24/24 - 0s - loss: 0.2760
+Epoch 69/200
+24/24 - 0s - loss: 0.2731
+Epoch 70/200
+24/24 - 0s - loss: 0.2736
+Epoch 71/200
+24/24 - 0s - loss: 0.2688
+Epoch 72/200
+24/24 - 0s - loss: 0.2727
+Epoch 73/200
+24/24 - 0s - loss: 0.2728
+Epoch 74/200
+24/24 - 0s - loss: 0.2709
+Epoch 75/200
+24/24 - 0s - loss: 0.2708
+Epoch 76/200
+24/24 - 0s - loss: 0.2691
+Epoch 77/200
+24/24 - 0s - loss: 0.2674
+Epoch 78/200
+24/24 - 0s - loss: 0.2714
+Epoch 79/200
+24/24 - 0s - loss: 0.2666
+Epoch 80/200
+24/24 - 0s - loss: 0.2701
+Epoch 81/200
+24/24 - 0s - loss: 0.2698
+Epoch 82/200
+24/24 - 0s - loss: 0.2692
+Epoch 83/200
+24/24 - 0s - loss: 0.2717
+Epoch 84/200
+24/24 - 0s - loss: 0.2683
+Epoch 85/200
+24/24 - 0s - loss: 0.2642
+Epoch 86/200
+24/24 - 0s - loss: 0.2664
+Epoch 87/200
+24/24 - 0s - loss: 0.2680
+Epoch 88/200
+24/24 - 0s - loss: 0.2680
+Epoch 89/200
+24/24 - 0s - loss: 0.2669
+Epoch 90/200
+24/24 - 0s - loss: 0.2664
+Epoch 91/200
+24/24 - 0s - loss: 0.2679
+Epoch 92/200
+24/24 - 0s - loss: 0.2697
+Epoch 93/200
+24/24 - 0s - loss: 0.2727
+Epoch 94/200
+24/24 - 0s - loss: 0.2639
+Epoch 95/200
+24/24 - 0s - loss: 0.2656
+Epoch 96/200
+24/24 - 0s - loss: 0.2652
+Epoch 97/200
+24/24 - 0s - loss: 0.2643
+Epoch 98/200
+24/24 - 0s - loss: 0.2633
+Epoch 99/200
+24/24 - 0s - loss: 0.2648
+Epoch 100/200
+24/24 - 0s - loss: 0.2639
+Epoch 101/200
+24/24 - 0s - loss: 0.2602
+Epoch 102/200
+24/24 - 0s - loss: 0.2591
+Epoch 103/200
+24/24 - 0s - loss: 0.2550
+Epoch 104/200
+24/24 - 0s - loss: 0.2576
+Epoch 105/200
+24/24 - 0s - loss: 0.2581
+Epoch 106/200
+24/24 - 0s - loss: 0.2556
+Epoch 107/200
+24/24 - 0s - loss: 0.2597
+Epoch 108/200
+24/24 - 0s - loss: 0.2583
+Epoch 109/200
+24/24 - 0s - loss: 0.2582
+Epoch 110/200
+24/24 - 0s - loss: 0.2580
+Epoch 111/200
+24/24 - 0s - loss: 0.2609
+Epoch 112/200
+24/24 - 0s - loss: 0.2557
+Epoch 113/200
+24/24 - 0s - loss: 0.2556
+Epoch 114/200
+24/24 - 0s - loss: 0.2562
+Epoch 115/200
+24/24 - 0s - loss: 0.2587
+Epoch 116/200
+24/24 - 0s - loss: 0.2558
+Epoch 117/200
+24/24 - 0s - loss: 0.2594
+Epoch 118/200
+24/24 - 0s - loss: 0.2559
+Epoch 119/200
+24/24 - 0s - loss: 0.2554
+Epoch 120/200
+24/24 - 0s - loss: 0.2575
+Epoch 121/200
+24/24 - 0s - loss: 0.2580
+Epoch 122/200
+24/24 - 0s - loss: 0.2638
+Epoch 123/200
+24/24 - 0s - loss: 0.2588
+Epoch 124/200
+24/24 - 0s - loss: 0.2646
+Epoch 125/200
+24/24 - 0s - loss: 0.2624
+Epoch 126/200
+24/24 - 0s - loss: 0.2572
+Epoch 127/200
+24/24 - 0s - loss: 0.2567
+Epoch 128/200
+24/24 - 0s - loss: 0.2570
+Epoch 129/200
+24/24 - 0s - loss: 0.2573
+Epoch 130/200
+24/24 - 0s - loss: 0.2613
+Epoch 131/200
+24/24 - 0s - loss: 0.2554
+Epoch 132/200
+24/24 - 0s - loss: 0.2601
+Epoch 133/200
+24/24 - 0s - loss: 0.2533
+Epoch 134/200
+24/24 - 0s - loss: 0.2521
+Epoch 135/200
+24/24 - 0s - loss: 0.2526
+Epoch 136/200
+24/24 - 0s - loss: 0.2509
+Epoch 137/200
+24/24 - 0s - loss: 0.2498
+Epoch 138/200
+24/24 - 0s - loss: 0.2509
+Epoch 139/200
+24/24 - 0s - loss: 0.2528
+Epoch 140/200
+24/24 - 0s - loss: 0.2486
+Epoch 141/200
+24/24 - 0s - loss: 0.2498
+Epoch 142/200
+24/24 - 0s - loss: 0.2486
+Epoch 143/200
+24/24 - 0s - loss: 0.2489
+Epoch 144/200
+24/24 - 0s - loss: 0.2504
+Epoch 145/200
+24/24 - 0s - loss: 0.2496
+Epoch 146/200
+24/24 - 0s - loss: 0.2483
+Epoch 147/200
+24/24 - 0s - loss: 0.2492
+Epoch 148/200
+24/24 - 0s - loss: 0.2501
+Epoch 149/200
+24/24 - 0s - loss: 0.2562
+Epoch 150/200
+24/24 - 0s - loss: 0.2555
+Epoch 151/200
+24/24 - 0s - loss: 0.2547
+Epoch 152/200
+24/24 - 0s - loss: 0.2515
+Epoch 153/200
+24/24 - 0s - loss: 0.2565
+Epoch 154/200
+24/24 - 0s - loss: 0.2607
+Epoch 155/200
+24/24 - 0s - loss: 0.2540
+Epoch 156/200
+24/24 - 0s - loss: 0.2515
+Epoch 157/200
+24/24 - 0s - loss: 0.2480
+Epoch 158/200
+24/24 - 0s - loss: 0.2517
+Epoch 159/200
+24/24 - 0s - loss: 0.2528
+Epoch 160/200
+24/24 - 0s - loss: 0.2626
+Epoch 161/200
+24/24 - 0s - loss: 0.2642
+Epoch 162/200
+24/24 - 0s - loss: 0.2617
+Epoch 163/200
+24/24 - 0s - loss: 0.2603
+Epoch 164/200
+24/24 - 0s - loss: 0.2543
+Epoch 165/200
+24/24 - 0s - loss: 0.2548
+Epoch 166/200
+24/24 - 0s - loss: 0.2500
+Epoch 167/200
+24/24 - 0s - loss: 0.2476
+Epoch 168/200
+24/24 - 0s - loss: 0.2476
+Epoch 169/200
+24/24 - 0s - loss: 0.2475
+Epoch 170/200
+24/24 - 0s - loss: 0.2465
+Epoch 171/200
+24/24 - 0s - loss: 0.2445
+Epoch 172/200
+24/24 - 0s - loss: 0.2458
+Epoch 173/200
+24/24 - 0s - loss: 0.2459
+Epoch 174/200
+24/24 - 0s - loss: 0.2467
+Epoch 175/200
+24/24 - 0s - loss: 0.2469
+Epoch 176/200
+24/24 - 0s - loss: 0.2446
+Epoch 177/200
+24/24 - 0s - loss: 0.2422
+Epoch 178/200
+24/24 - 0s - loss: 0.2450
+Epoch 179/200
+24/24 - 0s - loss: 0.2439
+Epoch 180/200
+24/24 - 0s - loss: 0.2459
+Epoch 181/200
+24/24 - 0s - loss: 0.2460
+Epoch 182/200
+24/24 - 0s - loss: 0.2432
+Epoch 183/200
+24/24 - 0s - loss: 0.2419
+Epoch 184/200
+24/24 - 0s - loss: 0.2442
+Epoch 185/200
+24/24 - 0s - loss: 0.2434
+Epoch 186/200
+24/24 - 0s - loss: 0.2456
+Epoch 187/200
+24/24 - 0s - loss: 0.2491
+Epoch 188/200
+24/24 - 0s - loss: 0.2504
+Epoch 189/200
+24/24 - 0s - loss: 0.2493
+Epoch 190/200
+24/24 - 0s - loss: 0.2466
+Epoch 191/200
+24/24 - 0s - loss: 0.2495
+Epoch 192/200
+24/24 - 0s - loss: 0.2476
+Epoch 193/200
+24/24 - 0s - loss: 0.2497
+Epoch 194/200
+24/24 - 0s - loss: 0.2460
+Epoch 195/200
+24/24 - 0s - loss: 0.2520
+Epoch 196/200
+24/24 - 0s - loss: 0.2483
+Epoch 197/200
+24/24 - 0s - loss: 0.2441
+Epoch 198/200
+24/24 - 0s - loss: 0.2478
+Epoch 199/200
+24/24 - 0s - loss: 0.2428
+Epoch 200/200
+24/24 - 0s - loss: 0.2398
+model_conv: weights was loaded
+iter 0; acc, nmi, kappa = (0.591743119266055, 0.6852399615987597, 0.4666833462871529); loss:0.00000; n_changed_assignment:6104; time:633.805
+iter 1; acc, nmi, kappa = (0.593872870249017, 0.6923044921960287, 0.4696493772667971); loss:0.93184; n_changed_assignment:44; time:636.230
+iter 2; acc, nmi, kappa = (0.5933813892529489, 0.6866396637536405, 0.46843681675849125); loss:2.92306; n_changed_assignment:63; time:638.772
+iter 3; acc, nmi, kappa = (0.5925622542595019, 0.6811910957748334, 0.4671258596046095); loss:0.34322; n_changed_assignment:36; time:641.106
+iter 4; acc, nmi, kappa = (0.5925622542595019, 0.6820369850826578, 0.46706560381101336); loss:0.58449; n_changed_assignment:26; time:642.590
+end
+0.5925622542595019 0.46706560381101336 0.6820369850826578 [0.46497765 1.         0.         1.         0.97692308 0.
+ 0.        ]
+643.7399351596832
+Epoch 1/200
+24/24 - 1s - loss: 0.9717
+Epoch 2/200
+24/24 - 0s - loss: 0.6637
+Epoch 3/200
+24/24 - 0s - loss: 0.5167
+Epoch 4/200
+24/24 - 0s - loss: 0.4738
+Epoch 5/200
+24/24 - 0s - loss: 0.4476
+Epoch 6/200
+24/24 - 0s - loss: 0.4462
+Epoch 7/200
+24/24 - 0s - loss: 0.4233
+Epoch 8/200
+24/24 - 0s - loss: 0.4177
+Epoch 9/200
+24/24 - 0s - loss: 0.4082
+Epoch 10/200
+24/24 - 0s - loss: 0.4008
+Epoch 11/200
+24/24 - 0s - loss: 0.3859
+Epoch 12/200
+24/24 - 0s - loss: 0.3750
+Epoch 13/200
+24/24 - 0s - loss: 0.3727
+Epoch 14/200
+24/24 - 0s - loss: 0.3751
+Epoch 15/200
+24/24 - 0s - loss: 0.3697
+Epoch 16/200
+24/24 - 0s - loss: 0.3704
+Epoch 17/200
+24/24 - 0s - loss: 0.3652
+Epoch 18/200
+24/24 - 0s - loss: 0.3657
+Epoch 19/200
+24/24 - 0s - loss: 0.3513
+Epoch 20/200
+24/24 - 0s - loss: 0.3524
+Epoch 21/200
+24/24 - 0s - loss: 0.3314
+Epoch 22/200
+24/24 - 0s - loss: 0.3279
+Epoch 23/200
+24/24 - 0s - loss: 0.3265
+Epoch 24/200
+24/24 - 0s - loss: 0.3259
+Epoch 25/200
+24/24 - 0s - loss: 0.3232
+Epoch 26/200
+24/24 - 0s - loss: 0.3258
+Epoch 27/200
+24/24 - 0s - loss: 0.3219
+Epoch 28/200
+24/24 - 0s - loss: 0.3190
+Epoch 29/200
+24/24 - 0s - loss: 0.3189
+Epoch 30/200
+24/24 - 0s - loss: 0.3147
+Epoch 31/200
+24/24 - 0s - loss: 0.3081
+Epoch 32/200
+24/24 - 0s - loss: 0.3073
+Epoch 33/200
+24/24 - 0s - loss: 0.3084
+Epoch 34/200
+24/24 - 0s - loss: 0.3079
+Epoch 35/200
+24/24 - 0s - loss: 0.2984
+Epoch 36/200
+24/24 - 0s - loss: 0.2959
+Epoch 37/200
+24/24 - 0s - loss: 0.2928
+Epoch 38/200
+24/24 - 0s - loss: 0.2943
+Epoch 39/200
+24/24 - 0s - loss: 0.2888
+Epoch 40/200
+24/24 - 0s - loss: 0.2915
+Epoch 41/200
+24/24 - 0s - loss: 0.2935
+Epoch 42/200
+24/24 - 0s - loss: 0.2875
+Epoch 43/200
+24/24 - 0s - loss: 0.2866
+Epoch 44/200
+24/24 - 0s - loss: 0.2868
+Epoch 45/200
+24/24 - 0s - loss: 0.2856
+Epoch 46/200
+24/24 - 0s - loss: 0.2833
+Epoch 47/200
+24/24 - 0s - loss: 0.2830
+Epoch 48/200
+24/24 - 0s - loss: 0.2851
+Epoch 49/200
+24/24 - 0s - loss: 0.2824
+Epoch 50/200
+24/24 - 0s - loss: 0.2827
+Epoch 51/200
+24/24 - 0s - loss: 0.2834
+Epoch 52/200
+24/24 - 0s - loss: 0.2837
+Epoch 53/200
+24/24 - 0s - loss: 0.2840
+Epoch 54/200
+24/24 - 0s - loss: 0.2824
+Epoch 55/200
+24/24 - 0s - loss: 0.2820
+Epoch 56/200
+24/24 - 0s - loss: 0.2794
+Epoch 57/200
+24/24 - 0s - loss: 0.2802
+Epoch 58/200
+24/24 - 0s - loss: 0.2825
+Epoch 59/200
+24/24 - 0s - loss: 0.2887
+Epoch 60/200
+24/24 - 0s - loss: 0.2776
+Epoch 61/200
+24/24 - 0s - loss: 0.2771
+Epoch 62/200
+24/24 - 0s - loss: 0.2766
+Epoch 63/200
+24/24 - 0s - loss: 0.2705
+Epoch 64/200
+24/24 - 0s - loss: 0.2733
+Epoch 65/200
+24/24 - 0s - loss: 0.2734
+Epoch 66/200
+24/24 - 0s - loss: 0.2722
+Epoch 67/200
+24/24 - 0s - loss: 0.2730
+Epoch 68/200
+24/24 - 0s - loss: 0.2717
+Epoch 69/200
+24/24 - 0s - loss: 0.2670
+Epoch 70/200
+24/24 - 0s - loss: 0.2652
+Epoch 71/200
+24/24 - 0s - loss: 0.2662
+Epoch 72/200
+24/24 - 0s - loss: 0.2684
+Epoch 73/200
+24/24 - 0s - loss: 0.2702
+Epoch 74/200
+24/24 - 0s - loss: 0.2657
+Epoch 75/200
+24/24 - 0s - loss: 0.2668
+Epoch 76/200
+24/24 - 0s - loss: 0.2681
+Epoch 77/200
+24/24 - 0s - loss: 0.2674
+Epoch 78/200
+24/24 - 0s - loss: 0.2668
+Epoch 79/200
+24/24 - 0s - loss: 0.2685
+Epoch 80/200
+24/24 - 0s - loss: 0.2702
+Epoch 81/200
+24/24 - 0s - loss: 0.2677
+Epoch 82/200
+24/24 - 0s - loss: 0.2651
+Epoch 83/200
+24/24 - 0s - loss: 0.2634
+Epoch 84/200
+24/24 - 0s - loss: 0.2667
+Epoch 85/200
+24/24 - 0s - loss: 0.2644
+Epoch 86/200
+24/24 - 0s - loss: 0.2639
+Epoch 87/200
+24/24 - 0s - loss: 0.2636
+Epoch 88/200
+24/24 - 0s - loss: 0.2669
+Epoch 89/200
+24/24 - 0s - loss: 0.2654
+Epoch 90/200
+24/24 - 0s - loss: 0.2597
+Epoch 91/200
+24/24 - 0s - loss: 0.2622
+Epoch 92/200
+24/24 - 0s - loss: 0.2645
+Epoch 93/200
+24/24 - 0s - loss: 0.2641
+Epoch 94/200
+24/24 - 0s - loss: 0.2642
+Epoch 95/200
+24/24 - 0s - loss: 0.2621
+Epoch 96/200
+24/24 - 0s - loss: 0.2617
+Epoch 97/200
+24/24 - 0s - loss: 0.2613
+Epoch 98/200
+24/24 - 0s - loss: 0.2575
+Epoch 99/200
+24/24 - 0s - loss: 0.2595
+Epoch 100/200
+24/24 - 0s - loss: 0.2581
+Epoch 101/200
+24/24 - 0s - loss: 0.2581
+Epoch 102/200
+24/24 - 0s - loss: 0.2553
+Epoch 103/200
+24/24 - 0s - loss: 0.2564
+Epoch 104/200
+24/24 - 0s - loss: 0.2580
+Epoch 105/200
+24/24 - 0s - loss: 0.2556
+Epoch 106/200
+24/24 - 0s - loss: 0.2577
+Epoch 107/200
+24/24 - 0s - loss: 0.2541
+Epoch 108/200
+24/24 - 0s - loss: 0.2555
+Epoch 109/200
+24/24 - 0s - loss: 0.2528
+Epoch 110/200
+24/24 - 0s - loss: 0.2532
+Epoch 111/200
+24/24 - 0s - loss: 0.2531
+Epoch 112/200
+24/24 - 0s - loss: 0.2555
+Epoch 113/200
+24/24 - 0s - loss: 0.2564
+Epoch 114/200
+24/24 - 0s - loss: 0.2545
+Epoch 115/200
+24/24 - 0s - loss: 0.2533
+Epoch 116/200
+24/24 - 0s - loss: 0.2519
+Epoch 117/200
+24/24 - 0s - loss: 0.2565
+Epoch 118/200
+24/24 - 0s - loss: 0.2526
+Epoch 119/200
+24/24 - 0s - loss: 0.2493
+Epoch 120/200
+24/24 - 0s - loss: 0.2510
+Epoch 121/200
+24/24 - 0s - loss: 0.2491
+Epoch 122/200
+24/24 - 0s - loss: 0.2521
+Epoch 123/200
+24/24 - 0s - loss: 0.2534
+Epoch 124/200
+24/24 - 0s - loss: 0.2535
+Epoch 125/200
+24/24 - 0s - loss: 0.2515
+Epoch 126/200
+24/24 - 0s - loss: 0.2509
+Epoch 127/200
+24/24 - 0s - loss: 0.2527
+Epoch 128/200
+24/24 - 0s - loss: 0.2541
+Epoch 129/200
+24/24 - 0s - loss: 0.2524
+Epoch 130/200
+24/24 - 0s - loss: 0.2542
+Epoch 131/200
+24/24 - 0s - loss: 0.2524
+Epoch 132/200
+24/24 - 0s - loss: 0.2506
+Epoch 133/200
+24/24 - 0s - loss: 0.2502
+Epoch 134/200
+24/24 - 0s - loss: 0.2497
+Epoch 135/200
+24/24 - 0s - loss: 0.2485
+Epoch 136/200
+24/24 - 0s - loss: 0.2510
+Epoch 137/200
+24/24 - 0s - loss: 0.2490
+Epoch 138/200
+24/24 - 0s - loss: 0.2495
+Epoch 139/200
+24/24 - 0s - loss: 0.2542
+Epoch 140/200
+24/24 - 0s - loss: 0.2562
+Epoch 141/200
+24/24 - 0s - loss: 0.2592
+Epoch 142/200
+24/24 - 0s - loss: 0.2568
+Epoch 143/200
+24/24 - 0s - loss: 0.2540
+Epoch 144/200
+24/24 - 0s - loss: 0.2534
+Epoch 145/200
+24/24 - 0s - loss: 0.2498
+Epoch 146/200
+24/24 - 0s - loss: 0.2476
+Epoch 147/200
+24/24 - 0s - loss: 0.2471
+Epoch 148/200
+24/24 - 0s - loss: 0.2477
+Epoch 149/200
+24/24 - 0s - loss: 0.2485
+Epoch 150/200
+24/24 - 0s - loss: 0.2469
+Epoch 151/200
+24/24 - 0s - loss: 0.2463
+Epoch 152/200
+24/24 - 0s - loss: 0.2491
+Epoch 153/200
+24/24 - 0s - loss: 0.2477
+Epoch 154/200
+24/24 - 0s - loss: 0.2536
+Epoch 155/200
+24/24 - 0s - loss: 0.2511
+Epoch 156/200
+24/24 - 0s - loss: 0.2481
+Epoch 157/200
+24/24 - 0s - loss: 0.2470
+Epoch 158/200
+24/24 - 0s - loss: 0.2458
+Epoch 159/200
+24/24 - 0s - loss: 0.2445
+Epoch 160/200
+24/24 - 0s - loss: 0.2435
+Epoch 161/200
+24/24 - 0s - loss: 0.2439
+Epoch 162/200
+24/24 - 0s - loss: 0.2461
+Epoch 163/200
+24/24 - 0s - loss: 0.2466
+Epoch 164/200
+24/24 - 0s - loss: 0.2441
+Epoch 165/200
+24/24 - 0s - loss: 0.2427
+Epoch 166/200
+24/24 - 0s - loss: 0.2419
+Epoch 167/200
+24/24 - 0s - loss: 0.2434
+Epoch 168/200
+24/24 - 0s - loss: 0.2407
+Epoch 169/200
+24/24 - 0s - loss: 0.2393
+Epoch 170/200
+24/24 - 0s - loss: 0.2414
+Epoch 171/200
+24/24 - 0s - loss: 0.2409
+Epoch 172/200
+24/24 - 0s - loss: 0.2412
+Epoch 173/200
+24/24 - 0s - loss: 0.2396
+Epoch 174/200
+24/24 - 0s - loss: 0.2392
+Epoch 175/200
+24/24 - 0s - loss: 0.2384
+Epoch 176/200
+24/24 - 0s - loss: 0.2400
+Epoch 177/200
+24/24 - 0s - loss: 0.2420
+Epoch 178/200
+24/24 - 0s - loss: 0.2397
+Epoch 179/200
+24/24 - 0s - loss: 0.2389
+Epoch 180/200
+24/24 - 0s - loss: 0.2379
+Epoch 181/200
+24/24 - 0s - loss: 0.2450
+Epoch 182/200
+24/24 - 0s - loss: 0.2396
+Epoch 183/200
+24/24 - 0s - loss: 0.2462
+Epoch 184/200
+24/24 - 0s - loss: 0.2450
+Epoch 185/200
+24/24 - 0s - loss: 0.2444
+Epoch 186/200
+24/24 - 0s - loss: 0.2441
+Epoch 187/200
+24/24 - 0s - loss: 0.2419
+Epoch 188/200
+24/24 - 0s - loss: 0.2439
+Epoch 189/200
+24/24 - 0s - loss: 0.2408
+Epoch 190/200
+24/24 - 0s - loss: 0.2466
+Epoch 191/200
+24/24 - 0s - loss: 0.2488
+Epoch 192/200
+24/24 - 0s - loss: 0.2528
+Epoch 193/200
+24/24 - 0s - loss: 0.2498
+Epoch 194/200
+24/24 - 0s - loss: 0.2470
+Epoch 195/200
+24/24 - 0s - loss: 0.2479
+Epoch 196/200
+24/24 - 0s - loss: 0.2425
+Epoch 197/200
+24/24 - 0s - loss: 0.2415
+Epoch 198/200
+24/24 - 0s - loss: 0.2420
+Epoch 199/200
+24/24 - 0s - loss: 0.2434
+Epoch 200/200
+24/24 - 0s - loss: 0.2380
+model_conv: weights was loaded
+iter 0; acc, nmi, kappa = (0.5933813892529489, 0.6955461792039698, 0.47346860245081435); loss:0.00000; n_changed_assignment:6104; time:695.959
+iter 1; acc, nmi, kappa = (0.5933813892529489, 0.6870047092722453, 0.47220672822391263); loss:0.74623; n_changed_assignment:69; time:700.384
+iter 2; acc, nmi, kappa = (0.5932175622542595, 0.6931942319117255, 0.4731560683820164); loss:2.17286; n_changed_assignment:64; time:701.922
+iter 3; acc, nmi, kappa = (0.5928899082568808, 0.6853139881566859, 0.4715255730582857); loss:0.13867; n_changed_assignment:76; time:703.416
+iter 4; acc, nmi, kappa = (0.5927260812581914, 0.6811000404374836, 0.46994321812224804); loss:0.47513; n_changed_assignment:72; time:704.802
+iter 5; acc, nmi, kappa = (0.5925622542595019, 0.6846080983024753, 0.46996309941454717); loss:1.09836; n_changed_assignment:54; time:707.237
+iter 6; acc, nmi, kappa = (0.5920707732634338, 0.6740200997215956, 0.4680618399425047); loss:0.33452; n_changed_assignment:61; time:708.633
+iter 7; acc, nmi, kappa = (0.5922346002621233, 0.6718264508218493, 0.46891068854897955); loss:0.86028; n_changed_assignment:78; time:709.917
+iter 8; acc, nmi, kappa = (0.5920707732634338, 0.698757725708167, 0.4715001378887901); loss:0.38856; n_changed_assignment:139; time:712.024
+iter 9; acc, nmi, kappa = (0.5920707732634338, 0.6968627485851004, 0.46823410258417075); loss:0.07469; n_changed_assignment:26; time:713.413
+end
+0.5920707732634338 0.46823410258417075 0.6968627485851004 [0.46497765 1.         0.         1.         0.95384615 0.
+ 0.        ]
+714.6526780128479
+acc: 0.6101408912188727 kappa: 0.4921930524915602 nmi 0.7011375042175336 ca [4.55290611e-01 1.00000000e+00 2.43010753e-01 1.00000000e+00
+ 8.56923077e-01 0.00000000e+00 3.77358491e-04]
+
+Process finished with exit code 0
+

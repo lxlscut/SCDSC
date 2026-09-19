@@ -1,0 +1,96 @@
+/home/xianlli/anaconda3/envs/spectralnet-20240530/lib/python3.11/site-packages/finch/finch.py:13: UserWarning: pynndescent not installed: No module named 'pynndescent'
+  warnings.warn('pynndescent not installed: {}'.format(e))
+hello world
+/home/xianlli/anaconda3/envs/spectralnet-20240530/lib/python3.11/site-packages/sklearn/preprocessing/_data.py:240: UserWarning: Numerical issues were encountered when centering the data and might not be solved. Dataset may contain too large values. You may need to prescale your features.
+  warnings.warn(
+/home/xianlli/anaconda3/envs/spectralnet-20240530/lib/python3.11/site-packages/sklearn/preprocessing/_data.py:259: UserWarning: Numerical issues were encountered when scaling the data and might not be solved. The standard deviation of the data is probably very close to 0.
+  warnings.warn(
+x_patches shape: (166, 600, 8, 7, 7), labels: [-1  1  2  3  4  5  6]
+/home/xianlli/anaconda3/envs/spectralnet-20240530/lib/python3.11/site-packages/sklearn/preprocessing/_data.py:240: UserWarning: Numerical issues were encountered when centering the data and might not be solved. Dataset may contain too large values. You may need to prescale your features.
+  warnings.warn(
+/home/xianlli/anaconda3/envs/spectralnet-20240530/lib/python3.11/site-packages/sklearn/preprocessing/_data.py:259: UserWarning: Numerical issues were encountered when scaling the data and might not be solved. The standard deviation of the data is probably very close to 0.
+  warnings.warn(
+x_patches shape: (166, 600, 8, 7, 7), labels: [-1  1  2  3  4  5  6]
+/home/xianlli/anaconda3/envs/spectralnet-20240530/lib/python3.11/site-packages/sklearn/preprocessing/_data.py:240: UserWarning: Numerical issues were encountered when centering the data and might not be solved. Dataset may contain too large values. You may need to prescale your features.
+  warnings.warn(
+/home/xianlli/anaconda3/envs/spectralnet-20240530/lib/python3.11/site-packages/sklearn/preprocessing/_data.py:259: UserWarning: Numerical issues were encountered when scaling the data and might not be solved. The standard deviation of the data is probably very close to 0.
+  warnings.warn(
+num_ber_sample: 30214
+1825
+Partition 0: 3608 clusters
+Partition 1: 211 clusters
+Partition 2: 35 clusters
+Partition 3: 8 clusters
+Partition 4: 2 clusters
+acc: 0.7623287217846032 kappa 0.6963397127837926 nmi: 0.8200511188757644 ari: 0.7654871313721788 pur: 0.8792943668498048 ca [0.93951413 0.         0.         0.99868464 0.68050662 0.94076875]
+410
+Partition 0: 3608 clusters
+Partition 1: 211 clusters
+Partition 2: 35 clusters
+Partition 3: 8 clusters
+Partition 4: 2 clusters
+acc: 0.7623287217846032 kappa 0.6963397127837926 nmi: 0.8200511188757644 ari: 0.7654871313721788 pur: 0.8792943668498048 ca [0.93951413 0.         0.         0.99868464 0.68050662 0.94076875]
+4507
+Partition 0: 3608 clusters
+Partition 1: 211 clusters
+Partition 2: 35 clusters
+Partition 3: 8 clusters
+Partition 4: 2 clusters
+acc: 0.7623287217846032 kappa 0.6963397127837926 nmi: 0.8200511188757644 ari: 0.7654871313721788 pur: 0.8792943668498048 ca [0.93951413 0.         0.         0.99868464 0.68050662 0.94076875]
+4013
+Partition 0: 3608 clusters
+Partition 1: 211 clusters
+Partition 2: 35 clusters
+Partition 3: 8 clusters
+Partition 4: 2 clusters
+acc: 0.7623287217846032 kappa 0.6963397127837926 nmi: 0.8200511188757644 ari: 0.7654871313721788 pur: 0.8792943668498048 ca [0.93951413 0.         0.         0.99868464 0.68050662 0.94076875]
+3658
+Partition 0: 3608 clusters
+Partition 1: 211 clusters
+Partition 2: 35 clusters
+Partition 3: 8 clusters
+Partition 4: 2 clusters
+acc: 0.7623287217846032 kappa 0.6963397127837926 nmi: 0.8200511188757644 ari: 0.7654871313721788 pur: 0.8792943668498048 ca [0.93951413 0.         0.         0.99868464 0.68050662 0.94076875]
+2287
+Partition 0: 3608 clusters
+Partition 1: 211 clusters
+Partition 2: 35 clusters
+Partition 3: 8 clusters
+Partition 4: 2 clusters
+acc: 0.7623287217846032 kappa 0.6963397127837926 nmi: 0.8200511188757644 ari: 0.7654871313721788 pur: 0.8792943668498048 ca [0.93951413 0.         0.         0.99868464 0.68050662 0.94076875]
+1680
+Partition 0: 3608 clusters
+Partition 1: 211 clusters
+Partition 2: 35 clusters
+Partition 3: 8 clusters
+Partition 4: 2 clusters
+acc: 0.7623287217846032 kappa 0.6963397127837926 nmi: 0.8200511188757644 ari: 0.7654871313721788 pur: 0.8792943668498048 ca [0.93951413 0.         0.         0.99868464 0.68050662 0.94076875]
+8936
+Partition 0: 3608 clusters
+Partition 1: 211 clusters
+Partition 2: 35 clusters
+Partition 3: 8 clusters
+Partition 4: 2 clusters
+acc: 0.7623287217846032 kappa 0.6963397127837926 nmi: 0.8200511188757644 ari: 0.7654871313721788 pur: 0.8792943668498048 ca [0.93951413 0.         0.         0.99868464 0.68050662 0.94076875]
+1425
+Partition 0: 3608 clusters
+Partition 1: 211 clusters
+Partition 2: 35 clusters
+Partition 3: 8 clusters
+Partition 4: 2 clusters
+acc: 0.7623287217846032 kappa 0.6963397127837926 nmi: 0.8200511188757644 ari: 0.7654871313721788 pur: 0.8792943668498048 ca [0.93951413 0.         0.         0.99868464 0.68050662 0.94076875]
+9675
+Partition 0: 3608 clusters
+Partition 1: 211 clusters
+Partition 2: 35 clusters
+Partition 3: 8 clusters
+Partition 4: 2 clusters
+acc: 0.7623287217846032 kappa 0.6963397127837926 nmi: 0.8200511188757644 ari: 0.7654871313721788 pur: 0.8792943668498048 ca [0.93951413 0.         0.         0.99868464 0.68050662 0.94076875]
+Average Run Time: 16.9924 ± 0.3696 seconds
+ACC: 76.23 ± 0.00
+NMI: 0.8201 ± 0.0000
+Kappa: 0.6963 ± 0.0000
+Mean CA: [0.93951413 0.         0.         0.99868464 0.68050662 0.94076875]
+ACC List (10 runs): [76.23, 76.23, 76.23, 76.23, 76.23, 76.23, 76.23, 76.23, 76.23, 76.23]
+NMI List (10 runs): [0.8201, 0.8201, 0.8201, 0.8201, 0.8201, 0.8201, 0.8201, 0.8201, 0.8201, 0.8201]
+Kappa List (10 runs): [0.6963, 0.6963, 0.6963, 0.6963, 0.6963, 0.6963, 0.6963, 0.6963, 0.6963, 0.6963]
