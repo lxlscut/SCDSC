@@ -1,0 +1,94 @@
+/home/xianlli/anaconda3/envs/spectralnet/bin/python /home/xianlli/code/Signal_processing/comparison/main.py
+/home/xianlli/anaconda3/envs/spectralnet/lib/python3.11/site-packages/finch/finch.py:13: UserWarning: pynndescent not installed: No module named 'pynndescent'
+  warnings.warn('pynndescent not installed: {}'.format(e))
+hello world
+/home/xianlli/anaconda3/envs/spectralnet/lib/python3.11/site-packages/sklearn/preprocessing/_data.py:240: UserWarning: Numerical issues were encountered when centering the data and might not be solved. Dataset may contain too large values. You may need to prescale your features.
+  warnings.warn(
+/home/xianlli/anaconda3/envs/spectralnet/lib/python3.11/site-packages/sklearn/preprocessing/_data.py:259: UserWarning: Numerical issues were encountered when scaling the data and might not be solved. The standard deviation of the data is probably very close to 0. 
+  warnings.warn(
+x_patches shape: (610, 340, 8, 7, 7), labels: [0 1 2 3 4 5 6 7 8 9]
+/home/xianlli/anaconda3/envs/spectralnet/lib/python3.11/site-packages/sklearn/preprocessing/_data.py:240: UserWarning: Numerical issues were encountered when centering the data and might not be solved. Dataset may contain too large values. You may need to prescale your features.
+  warnings.warn(
+/home/xianlli/anaconda3/envs/spectralnet/lib/python3.11/site-packages/sklearn/preprocessing/_data.py:259: UserWarning: Numerical issues were encountered when scaling the data and might not be solved. The standard deviation of the data is probably very close to 0. 
+  warnings.warn(
+x_patches shape: (610, 340, 8, 7, 7), labels: [0 1 2 3 4 5 6 7 8 9]
+/home/xianlli/anaconda3/envs/spectralnet/lib/python3.11/site-packages/sklearn/preprocessing/_data.py:240: UserWarning: Numerical issues were encountered when centering the data and might not be solved. Dataset may contain too large values. You may need to prescale your features.
+  warnings.warn(
+/home/xianlli/anaconda3/envs/spectralnet/lib/python3.11/site-packages/sklearn/preprocessing/_data.py:259: UserWarning: Numerical issues were encountered when scaling the data and might not be solved. The standard deviation of the data is probably very close to 0. 
+  warnings.warn(
+num_ber_sample: 42776
+1825
+Training SpectralNet:
+Train Loss: 9.0106716, Valid Loss: 9.7082836, LR: 0.000100: 100%|██████████| 30/30 [01:37<00:00,  3.25s/it]
+acc: 0.6648354217318122 kappa 0.563827372702267 nmi: 0.6781121892800657 ari: 0.496078176582202 pur: 0.7903731064148121 ca [9.02578797e-01 7.11941659e-01 0.00000000e+00 7.95365535e-01
+ 1.00000000e+00 2.29270233e-01 7.51879699e-04 9.06844106e-01
+ 9.52481521e-01]
+471
+/home/xianlli/code/Signal_processing/comparison/main.py:127: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  X = torch.tensor(X, device='cuda:1')
+Training SpectralNet:
+Train Loss: 7.6048366, Valid Loss: 9.7037858, LR: 0.000100: 100%|██████████| 30/30 [01:37<00:00,  3.24s/it]
+/home/xianlli/code/Signal_processing/comparison/main.py:127: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  X = torch.tensor(X, device='cuda:1')
+  0%|          | 0/30 [00:00<?, ?it/s]acc: 0.6409668973256031 kappa 0.529392253400694 nmi: 0.6503188472601972 ari: 0.4809826482339611 pur: 0.7659668973256032 ca [0.94751923 0.71188804 0.         0.76501305 1.         0.01173195
+ 0.00150376 0.86909288 0.95987328]
+1099
+Training SpectralNet:
+Train Loss: 8.7572162, Valid Loss: 11.1962318, LR: 0.001000: 100%|██████████| 30/30 [01:37<00:00,  3.27s/it]
+acc: 0.5726108097998878 kappa 0.42629436266390863 nmi: 0.6361929537009351 ari: 0.4077406672727563 pur: 0.7001823452403216 ca [0.97979189 0.71076197 0.         0.79373368 1.         0.00377809
+ 0.00676692 0.01249321 0.94086589]
+6626
+Training SpectralNet:
+/home/xianlli/code/Signal_processing/comparison/main.py:127: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  X = torch.tensor(X, device='cuda:1')
+Train Loss: 8.1329958, Valid Loss: 9.7912455, LR: 0.000100: 100%|██████████| 30/30 [01:36<00:00,  3.23s/it]
+acc: 0.6436085655507762 kappa 0.5325220092238484 nmi: 0.6522570331314388 ari: 0.48321604538902074 pur: 0.7667617355526464 ca [0.93319258 0.71644592 0.         0.7689295  1.         0.01133426
+ 0.0037594  0.91499185 0.89757128]
+1333
+Training SpectralNet:
+/home/xianlli/code/Signal_processing/comparison/main.py:127: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  X = torch.tensor(X, device='cuda:1')
+Train Loss: 7.8365543, Valid Loss: 8.2464578, LR: 0.000100: 100%|██████████| 30/30 [01:40<00:00,  3.36s/it]
+acc: 0.6436553207406022 kappa 0.5326668024441319 nmi: 0.6608965623813047 ari: 0.48727468550096387 pur: 0.7677669721339069 ca [0.94736842 0.71655317 0.         0.77578329 1.         0.00795387
+ 0.00225564 0.86827811 0.97782471]
+7963
+Training SpectralNet:
+/home/xianlli/code/Signal_processing/comparison/main.py:127: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  X = torch.tensor(X, device='cuda:1')
+Train Loss: 8.4680805, Valid Loss: 10.1527778, LR: 0.000100: 100%|██████████| 30/30 [02:59<00:00,  5.98s/it]
+/home/xianlli/code/Signal_processing/comparison/main.py:127: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  X = torch.tensor(X, device='cuda:1')
+acc: 0.5572049747521974 kappa 0.4449194901740817 nmi: 0.6394092209335982 ari: 0.382015510290393 pur: 0.7687488311202544 ca [0.9535515  0.51359322 0.         0.77056136 1.         0.00437463
+ 0.         0.89272135 0.97043295]
+1155
+Training SpectralNet:
+Train Loss: 11.0433193, Valid Loss: 12.3810558, LR: 0.000100: 100%|██████████| 30/30 [04:16<00:00,  8.54s/it]
+acc: 0.5747849261268001 kappa 0.4330375766848209 nmi: 0.5936917280086426 ari: 0.4016687882000306 pur: 0.6989900878997569 ca [0.9689338  0.72132554 0.         0.76599217 1.         0.00218731
+ 0.00526316 0.06002173 0.82259768]
+3092
+Training SpectralNet:
+/home/xianlli/code/Signal_processing/comparison/main.py:127: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  X = torch.tensor(X, device='cuda:1')
+Train Loss: 10.2992283, Valid Loss: 13.5489103, LR: 0.000100: 100%|██████████| 30/30 [03:53<00:00,  7.80s/it]
+acc: 0.6065784552085282 kappa 0.5290205224887726 nmi: 0.6852426105658648 ari: 0.42963185069757176 pur: 0.7646577520104731 ca [0.90514251 0.3723524  0.         0.76958225 1.         0.98667727
+ 0.00150376 0.92151005 0.9936642 ]
+801
+/home/xianlli/code/Signal_processing/comparison/main.py:127: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  X = torch.tensor(X, device='cuda:1')
+  0%|          | 0/30 [00:00<?, ?it/s]Training SpectralNet:
+Train Loss: 7.0956713, Valid Loss: 12.7123159, LR: 0.000100: 100%|██████████| 30/30 [04:23<00:00,  8.77s/it]
+/home/xianlli/code/Signal_processing/comparison/main.py:127: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  X = torch.tensor(X, device='cuda:1')
+  0%|          | 0/30 [00:00<?, ?it/s]acc: 0.5726341873948009 kappa 0.4309479021092256 nmi: 0.5977178458452859 ari: 0.3908758886321437 pur: 0.6995043949878437 ca [0.97949027 0.71054748 0.         0.76925587 1.         0.00954464
+ 0.00601504 0.019283   0.97148891]
+1723
+Training SpectralNet:
+Train Loss: 10.4042298, Valid Loss: 11.2417673, LR: 0.000010: 100%|██████████| 30/30 [03:52<00:00,  7.76s/it]
+acc: 0.5124135028988217 kappa 0.3820895757743147 nmi: 0.6139197976362112 ari: 0.3187294555015693 pur: 0.7253600149616607 ca [1.00000000e+00 5.11180224e-01 0.00000000e+00 7.69908616e-01
+ 1.00000000e+00 2.27480612e-01 0.00000000e+00 8.14774579e-04
+ 9.54593453e-01]
+acc: 0.598929306152983 kappa 0.4804717867666066 nmi: 0.6407758788743545 ari: 0.4278213716300612 pur: 0.7448312137647279 ca: [0.9517569  0.63965896 0.         0.77441253 1.         0.14943329
+ 0.00278195 0.54660511 0.94413939]
+
+Process finished with exit code 0
+

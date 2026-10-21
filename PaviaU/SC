@@ -1,0 +1,84 @@
+/home/xianlli/anaconda3/envs/spectralnet/bin/python /home/xianlli/code/Signal_processing/comparison/main.py
+/home/xianlli/anaconda3/envs/spectralnet/lib/python3.11/site-packages/finch/finch.py:13: UserWarning: pynndescent not installed: No module named 'pynndescent'
+  warnings.warn('pynndescent not installed: {}'.format(e))
+hello world
+/home/xianlli/anaconda3/envs/spectralnet/lib/python3.11/site-packages/sklearn/preprocessing/_data.py:240: UserWarning: Numerical issues were encountered when centering the data and might not be solved. Dataset may contain too large values. You may need to prescale your features.
+  warnings.warn(
+/home/xianlli/anaconda3/envs/spectralnet/lib/python3.11/site-packages/sklearn/preprocessing/_data.py:259: UserWarning: Numerical issues were encountered when scaling the data and might not be solved. The standard deviation of the data is probably very close to 0. 
+  warnings.warn(
+x_patches shape: (610, 340, 8, 7, 7), labels: [0 1 2 3 4 5 6 7 8 9]
+/home/xianlli/anaconda3/envs/spectralnet/lib/python3.11/site-packages/sklearn/preprocessing/_data.py:240: UserWarning: Numerical issues were encountered when centering the data and might not be solved. Dataset may contain too large values. You may need to prescale your features.
+  warnings.warn(
+/home/xianlli/anaconda3/envs/spectralnet/lib/python3.11/site-packages/sklearn/preprocessing/_data.py:259: UserWarning: Numerical issues were encountered when scaling the data and might not be solved. The standard deviation of the data is probably very close to 0. 
+  warnings.warn(
+x_patches shape: (610, 340, 8, 7, 7), labels: [0 1 2 3 4 5 6 7 8 9]
+/home/xianlli/anaconda3/envs/spectralnet/lib/python3.11/site-packages/sklearn/preprocessing/_data.py:240: UserWarning: Numerical issues were encountered when centering the data and might not be solved. Dataset may contain too large values. You may need to prescale your features.
+  warnings.warn(
+/home/xianlli/anaconda3/envs/spectralnet/lib/python3.11/site-packages/sklearn/preprocessing/_data.py:259: UserWarning: Numerical issues were encountered when scaling the data and might not be solved. The standard deviation of the data is probably very close to 0. 
+  warnings.warn(
+num_ber_sample: 42776
+1825
+1825
+/home/xianlli/anaconda3/envs/spectralnet/lib/python3.11/site-packages/sklearn/manifold/_spectral_embedding.py:274: UserWarning: Graph is not fully connected, spectral embedding may not work as expected.
+  warnings.warn(
+acc: 0.6730175799513747 kappa 0.5290588845468048 nmi: 0.6905318800589965 ari: 0.5816025429229098 pur: 0.6963717972694969 ca [1.         1.         0.         0.73759791 0.39182156 0.
+ 0.         0.         0.7624076 ]
+410
+410
+/home/xianlli/anaconda3/envs/spectralnet/lib/python3.11/site-packages/sklearn/manifold/_spectral_embedding.py:274: UserWarning: Graph is not fully connected, spectral embedding may not work as expected.
+  warnings.warn(
+acc: 0.6729942023564616 kappa 0.5288499256681395 nmi: 0.6904880744607872 ari: 0.5815546070802101 pur: 0.6963484196745838 ca [1.         1.         0.         0.73727154 0.39182156 0.
+ 0.         0.         0.7624076 ]
+4507
+4507
+/home/xianlli/anaconda3/envs/spectralnet/lib/python3.11/site-packages/sklearn/manifold/_spectral_embedding.py:274: UserWarning: Graph is not fully connected, spectral embedding may not work as expected.
+  warnings.warn(
+acc: 0.6730175799513747 kappa 0.5290588845468048 nmi: 0.6905318800589964 ari: 0.5816025429229098 pur: 0.6963717972694969 ca [1.         1.         0.         0.73759791 0.39182156 0.
+ 0.         0.         0.7624076 ]
+4013
+4013
+/home/xianlli/anaconda3/envs/spectralnet/lib/python3.11/site-packages/sklearn/manifold/_spectral_embedding.py:274: UserWarning: Graph is not fully connected, spectral embedding may not work as expected.
+  warnings.warn(
+acc: 0.6730175799513747 kappa 0.5290588845468048 nmi: 0.6905318800589964 ari: 0.5816025429229098 pur: 0.6963717972694969 ca [1.         1.         0.         0.73759791 0.39182156 0.
+ 0.         0.         0.7624076 ]
+3658
+3658
+/home/xianlli/anaconda3/envs/spectralnet/lib/python3.11/site-packages/sklearn/manifold/_spectral_embedding.py:274: UserWarning: Graph is not fully connected, spectral embedding may not work as expected.
+  warnings.warn(
+acc: 0.6730175799513747 kappa 0.5290588845468048 nmi: 0.6905318800589964 ari: 0.5816025429229098 pur: 0.6963717972694969 ca [1.         1.         0.         0.73759791 0.39182156 0.
+ 0.         0.         0.7624076 ]
+2287
+2287
+/home/xianlli/anaconda3/envs/spectralnet/lib/python3.11/site-packages/sklearn/manifold/_spectral_embedding.py:274: UserWarning: Graph is not fully connected, spectral embedding may not work as expected.
+  warnings.warn(
+acc: 0.6730175799513747 kappa 0.5288893895174553 nmi: 0.6905318800589964 ari: 0.5816025429229098 pur: 0.6963717972694969 ca [1.         1.         0.         0.73759791 0.39182156 0.
+ 0.         0.         0.7624076 ]
+1680
+1680
+/home/xianlli/anaconda3/envs/spectralnet/lib/python3.11/site-packages/sklearn/manifold/_spectral_embedding.py:274: UserWarning: Graph is not fully connected, spectral embedding may not work as expected.
+  warnings.warn(
+acc: 0.6730175799513747 kappa 0.5290588845468048 nmi: 0.6905318800589964 ari: 0.5816025429229098 pur: 0.6963717972694969 ca [1.         1.         0.         0.73759791 0.39182156 0.
+ 0.         0.         0.7624076 ]
+8936
+8936
+/home/xianlli/anaconda3/envs/spectralnet/lib/python3.11/site-packages/sklearn/manifold/_spectral_embedding.py:274: UserWarning: Graph is not fully connected, spectral embedding may not work as expected.
+  warnings.warn(
+acc: 0.6730175799513747 kappa 0.5290588845468048 nmi: 0.6905318800589964 ari: 0.5816025429229098 pur: 0.6963717972694969 ca [1.         1.         0.         0.73759791 0.39182156 0.
+ 0.         0.         0.7624076 ]
+1425
+1425
+/home/xianlli/anaconda3/envs/spectralnet/lib/python3.11/site-packages/sklearn/manifold/_spectral_embedding.py:274: UserWarning: Graph is not fully connected, spectral embedding may not work as expected.
+  warnings.warn(
+acc: 0.6730175799513747 kappa 0.5290588845468048 nmi: 0.6905318800589964 ari: 0.5816025429229098 pur: 0.6963717972694969 ca [1.         1.         0.         0.73759791 0.39182156 0.
+ 0.         0.         0.7624076 ]
+9675
+9675
+/home/xianlli/anaconda3/envs/spectralnet/lib/python3.11/site-packages/sklearn/manifold/_spectral_embedding.py:274: UserWarning: Graph is not fully connected, spectral embedding may not work as expected.
+  warnings.warn(
+acc: 0.6730175799513747 kappa 0.5290588845468048 nmi: 0.6905318800589965 ari: 0.5816025429229098 pur: 0.6963717972694969 ca [1.         1.         0.         0.73759791 0.39182156 0.
+ 0.         0.         0.7624076 ]
+acc: 0.6730152421918834 kappa 0.5290210391560033 nmi: 0.6905274994991755 ari: 0.5815977493386397 pur: 0.6963694595100055 ca: [1.         1.         0.         0.73756527 0.39182156 0.
+ 0.         0.         0.7624076 ]
+
+Process finished with exit code 0
+

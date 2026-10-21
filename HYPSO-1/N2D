@@ -1,0 +1,75 @@
+/home/xianlli/anaconda3/envs/ss/bin/python /home/xianlli/code/Signal_processing/comparison/main.py 
+hello world
+/home/xianlli/anaconda3/envs/ss/lib/python3.11/site-packages/sklearn/preprocessing/_data.py:258: UserWarning: Numerical issues were encountered when centering the data and might not be solved. Dataset may contain too large values. You may need to prescale your features.
+  warnings.warn(
+/home/xianlli/anaconda3/envs/ss/lib/python3.11/site-packages/sklearn/preprocessing/_data.py:277: UserWarning: Numerical issues were encountered when scaling the data and might not be solved. The standard deviation of the data is probably very close to 0. 
+  warnings.warn(
+x_patches shape: ((150, 150, 8, 7, 7), (22500,), (array([0, 1, 2], dtype=int8), array([8679, 4344, 9477])))
+/home/xianlli/anaconda3/envs/ss/lib/python3.11/site-packages/sklearn/preprocessing/_data.py:258: UserWarning: Numerical issues were encountered when centering the data and might not be solved. Dataset may contain too large values. You may need to prescale your features.
+  warnings.warn(
+/home/xianlli/anaconda3/envs/ss/lib/python3.11/site-packages/sklearn/preprocessing/_data.py:277: UserWarning: Numerical issues were encountered when scaling the data and might not be solved. The standard deviation of the data is probably very close to 0. 
+  warnings.warn(
+x_patches shape: ((150, 150, 8, 7, 7), (22500,), (array([0, 1, 2], dtype=int8), array([8679, 4344, 9477])))
+/home/xianlli/anaconda3/envs/ss/lib/python3.11/site-packages/sklearn/preprocessing/_data.py:258: UserWarning: Numerical issues were encountered when centering the data and might not be solved. Dataset may contain too large values. You may need to prescale your features.
+  warnings.warn(
+/home/xianlli/anaconda3/envs/ss/lib/python3.11/site-packages/sklearn/preprocessing/_data.py:277: UserWarning: Numerical issues were encountered when scaling the data and might not be solved. The standard deviation of the data is probably very close to 0. 
+  warnings.warn(
+num_ber_sample: 22500
+1825
+cuda:0 was automatically chosen as device for the computation.
+AE training:   0%|          | 0/100 [00:00<?, ?it/s]Neural network is not fitted yet, will be pretrained.
+AE training: 100%|██████████| 100/100 [00:46<00:00,  2.15it/s, Training Loss=0.612]
+acc: 0.7893333333333333 kappa 0.6860993119967986 nmi: 0.5640586236547238 ari: 0.5644219426068293 pur: 0.7893333333333333 ca [0.97257749 0.90515654 0.56842883]
+1976
+cuda:0 was automatically chosen as device for the computation.
+Neural network is not fitted yet, will be pretrained.
+AE training: 100%|██████████| 100/100 [00:46<00:00,  2.17it/s, Training Loss=0.522]
+acc: 0.7852444444444444 kappa 0.6808758204602083 nmi: 0.49936903148328654 ari: 0.4892066296143704 pur: 0.7852444444444444 ca [0.85666551 0.94590239 0.64619605]
+2230
+cuda:0 was automatically chosen as device for the computation.
+Neural network is not fitted yet, will be pretrained.
+AE training: 100%|██████████| 100/100 [00:46<00:00,  2.16it/s, Training Loss=0.62]
+acc: 0.7806666666666666 kappa 0.6694051989251331 nmi: 0.47526048933103054 ari: 0.48952312354598826 pur: 0.7806666666666666 ca [0.76748473 0.83724678 0.76680384]
+3905
+cuda:0 was automatically chosen as device for the computation.
+Neural network is not fitted yet, will be pretrained.
+AE training: 100%|██████████| 100/100 [00:46<00:00,  2.15it/s, Training Loss=0.59]
+acc: 0.7357777777777778 kappa 0.5981623553321394 nmi: 0.41789298298123323 ari: 0.42957063801117823 pur: 0.7357777777777778 ca [0.74743634 0.6691989  0.75561887]
+3464
+cuda:0 was automatically chosen as device for the computation.
+Neural network is not fitted yet, will be pretrained.
+AE training: 100%|██████████| 100/100 [00:46<00:00,  2.14it/s, Training Loss=0.572]
+acc: 0.5108444444444444 kappa 0.2605720924473268 nmi: 0.3102112329818033 ari: 0.2426786509990341 pur: 0.6328888888888888 ca [0.47459385 0.41758748 0.58678907]
+2598
+cuda:0 was automatically chosen as device for the computation.
+Neural network is not fitted yet, will be pretrained.
+AE training: 100%|██████████| 100/100 [00:46<00:00,  2.15it/s, Training Loss=0.604]
+acc: 0.7370666666666666 kappa 0.6073820214608685 nmi: 0.5092234822832684 ari: 0.49493423827380173 pur: 0.7663555555555556 ca [0.9118562  0.79742173 0.54932996]
+8132
+cuda:0 was automatically chosen as device for the computation.
+Neural network is not fitted yet, will be pretrained.
+AE training: 100%|██████████| 100/100 [00:46<00:00,  2.14it/s, Training Loss=0.651]
+acc: 0.48364444444444443 kappa 0.22486672039832867 nmi: 0.2969262170961216 ari: 0.22614122877455448 pur: 0.6110222222222222 ca [0.55651573 0.54719153 0.38778094]
+6069
+cuda:0 was automatically chosen as device for the computation.
+Neural network is not fitted yet, will be pretrained.
+AE training: 100%|██████████| 100/100 [00:46<00:00,  2.15it/s, Training Loss=0.654]
+acc: 0.7757777777777778 kappa 0.6595217694289431 nmi: 0.4568627365369362 ari: 0.48588077466151675 pur: 0.7757777777777778 ca [0.79098975 0.77117864 0.76395484]
+3812
+cuda:0 was automatically chosen as device for the computation.
+Neural network is not fitted yet, will be pretrained.
+AE training: 100%|██████████| 100/100 [00:46<00:00,  2.15it/s, Training Loss=0.655]
+acc: 0.6153777777777778 kappa 0.4300344324010562 nmi: 0.34841208130429413 ari: 0.34870137234050186 pur: 0.7105333333333334 ca [0.78407651 0.69083794 0.42629524]
+269
+cuda:0 was automatically chosen as device for the computation.
+Neural network is not fitted yet, will be pretrained.
+AE training: 100%|██████████| 100/100 [00:46<00:00,  2.16it/s, Training Loss=0.597]
+acc: 0.6609333333333334 kappa 0.49100306835724494 nmi: 0.34242218429548216 ari: 0.3169826243474188 pur: 0.6799555555555555 ca [0.61435649 0.66804788 0.70032711]
+Average Run Time: 110.5910 ± 0.5456 seconds
+ACC: 68.75 ± 10.95
+NMI: 0.4221 ± 0.0882
+Kappa: 0.5308 ± 0.1647
+Mean CA: [0.74765526 0.72497698 0.61515247]
+ACC List (10 runs): [78.93, 78.52, 78.07, 73.58, 51.08, 73.71, 48.36, 77.58, 61.54, 66.09]
+NMI List (10 runs): [0.5641, 0.4994, 0.4753, 0.4179, 0.3102, 0.5092, 0.2969, 0.4569, 0.3484, 0.3424]
+Kappa List (10 runs): [0.6861, 0.6809, 0.6694, 0.5982, 0.2606, 0.6074, 0.2249, 0.6595, 0.4300, 0.4910]

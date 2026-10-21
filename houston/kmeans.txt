@@ -1,0 +1,57 @@
+(spectralnet-20240530) xianlli@wraight:~/code/Signal_processing/comparison$ python main.py
+/home/xianlli/anaconda3/envs/spectralnet-20240530/lib/python3.11/site-packages/finch/finch.py:13: UserWarning: pynndescent not installed: No module named 'pynndescent'
+  warnings.warn('pynndescent not installed: {}'.format(e))
+hello world
+/home/xianlli/anaconda3/envs/spectralnet-20240530/lib/python3.11/site-packages/sklearn/preprocessing/_data.py:240: UserWarning: Numerical issues were encountered when centering the data and might not be solved. Dataset may contain too large values. You may need to prescale your features.
+  warnings.warn(
+/home/xianlli/anaconda3/envs/spectralnet-20240530/lib/python3.11/site-packages/sklearn/preprocessing/_data.py:259: UserWarning: Numerical issues were encountered when scaling the data and might not be solved. The standard deviation of the data is probably very close to 0.
+  warnings.warn(
+x_patches shape: (130, 130, 8, 7, 7), labels: [0 1 2 3 4 5 6 7]
+/home/xianlli/anaconda3/envs/spectralnet-20240530/lib/python3.11/site-packages/sklearn/preprocessing/_data.py:240: UserWarning: Numerical issues were encountered when centering the data and might not be solved. Dataset may contain too large values. You may need to prescale your features.
+  warnings.warn(
+/home/xianlli/anaconda3/envs/spectralnet-20240530/lib/python3.11/site-packages/sklearn/preprocessing/_data.py:259: UserWarning: Numerical issues were encountered when scaling the data and might not be solved. The standard deviation of the data is probably very close to 0.
+  warnings.warn(
+x_patches shape: (130, 130, 8, 7, 7), labels: [0 1 2 3 4 5 6 7]
+/home/xianlli/anaconda3/envs/spectralnet-20240530/lib/python3.11/site-packages/sklearn/preprocessing/_data.py:240: UserWarning: Numerical issues were encountered when centering the data and might not be solved. Dataset may contain too large values. You may need to prescale your features.
+  warnings.warn(
+/home/xianlli/anaconda3/envs/spectralnet-20240530/lib/python3.11/site-packages/sklearn/preprocessing/_data.py:259: UserWarning: Numerical issues were encountered when scaling the data and might not be solved. The standard deviation of the data is probably very close to 0.
+  warnings.warn(
+num_ber_sample: 6104
+1825
+acc: 0.6440039318479686 kappa 0.533960194259731 nmi: 0.6965823195517228 ari: 0.534948727536913 pur: 0.7616317169069463 ca [0.46497765 1.         0.56989247 1.         0.94615385 0.
+ 0.        ]
+410
+acc: 0.6456422018348624 kappa 0.5363634524828225 nmi: 0.6982940259562932 ari: 0.5379416437455417 pur: 0.7632699868938401 ca [0.46497765 1.         0.58602151 1.         0.95384615 0.
+ 0.        ]
+4507
+acc: 0.6458060288335518 kappa 0.5365386925815591 nmi: 0.6976861795408746 ari: 0.5375812428180121 pur: 0.7634338138925295 ca [0.46497765 1.         0.58960573 1.         0.94615385 0.
+ 0.        ]
+4013
+acc: 0.6458060288335518 kappa 0.5365386925815591 nmi: 0.6976861795408745 ari: 0.5375812428180121 pur: 0.7634338138925295 ca [0.46497765 1.         0.58960573 1.         0.94615385 0.
+ 0.        ]
+3658
+acc: 0.6440039318479686 kappa 0.533960194259731 nmi: 0.6965823195517225 ari: 0.534948727536913 pur: 0.7616317169069463 ca [0.46497765 1.         0.56989247 1.         0.94615385 0.
+ 0.        ]
+2287
+acc: 0.6440039318479686 kappa 0.533960194259731 nmi: 0.6965823195517226 ari: 0.534948727536913 pur: 0.7616317169069463 ca [0.46497765 1.         0.56989247 1.         0.94615385 0.
+ 0.        ]
+1680
+acc: 0.645478374836173 kappa 0.5359587252686704 nmi: 0.6975950151153124 ari: 0.536110763613992 pur: 0.7631061598951507 ca [0.46497765 1.         0.58602151 1.         0.94615385 0.
+ 0.        ]
+8936
+acc: 0.6441677588466579 kappa 0.5342053162174651 nmi: 0.6971026679142822 ari: 0.5352763725298735 pur: 0.7617955439056356 ca [0.46497765 1.         0.56989247 1.         0.95384615 0.
+ 0.        ]
+1425
+acc: 0.6456422018348624 kappa 0.5362487561864019 nmi: 0.6976319392651088 ari: 0.5368440375030753 pur: 0.7632699868938401 ca [0.46497765 1.         0.58781362 1.         0.94615385 0.
+ 0.        ]
+9675
+acc: 0.645478374836173 kappa 0.5359587252686704 nmi: 0.6975950151153124 ari: 0.536110763613992 pur: 0.7631061598951507 ca [0.46497765 1.         0.58602151 1.         0.94615385 0.
+ 0.        ]
+Average Run Time: 2.2105 ± 0.1724 seconds
+ACC: 64.50 ± 0.08
+NMI: 0.6973 ± 0.0006
+Kappa: 0.5354 ± 0.0011
+ACC List (10 runs): [64.40, 64.56, 64.58, 64.58, 64.40, 64.40, 64.55, 64.42, 64.56, 64.55]
+NMI List (10 runs): [0.6966, 0.6983, 0.6977, 0.6977, 0.6966, 0.6966, 0.6976, 0.6971, 0.6976, 0.6976]
+Kappa List (10 runs): [0.5340, 0.5364, 0.5365, 0.5365, 0.5340, 0.5340, 0.5360, 0.5342, 0.5362, 0.5360]
+(spectralnet-20240530) xianlli@wraight:~/code/Signal_processing/comparison$

@@ -1,0 +1,64 @@
+/home/xianlli/anaconda3/envs/spectralnet/bin/python /home/xianlli/code/Signal_processing/comparison/main.py
+/home/xianlli/anaconda3/envs/spectralnet/lib/python3.11/site-packages/finch/finch.py:13: UserWarning: pynndescent not installed: No module named 'pynndescent'
+  warnings.warn('pynndescent not installed: {}'.format(e))
+hello world
+/home/xianlli/anaconda3/envs/spectralnet/lib/python3.11/site-packages/sklearn/preprocessing/_data.py:240: UserWarning: Numerical issues were encountered when centering the data and might not be solved. Dataset may contain too large values. You may need to prescale your features.
+  warnings.warn(
+/home/xianlli/anaconda3/envs/spectralnet/lib/python3.11/site-packages/sklearn/preprocessing/_data.py:259: UserWarning: Numerical issues were encountered when scaling the data and might not be solved. The standard deviation of the data is probably very close to 0. 
+  warnings.warn(
+x_patches shape: (610, 340, 8, 7, 7), labels: [0 1 2 3 4 5 6 7 8 9]
+/home/xianlli/anaconda3/envs/spectralnet/lib/python3.11/site-packages/sklearn/preprocessing/_data.py:240: UserWarning: Numerical issues were encountered when centering the data and might not be solved. Dataset may contain too large values. You may need to prescale your features.
+  warnings.warn(
+/home/xianlli/anaconda3/envs/spectralnet/lib/python3.11/site-packages/sklearn/preprocessing/_data.py:259: UserWarning: Numerical issues were encountered when scaling the data and might not be solved. The standard deviation of the data is probably very close to 0. 
+  warnings.warn(
+x_patches shape: (610, 340, 8, 7, 7), labels: [0 1 2 3 4 5 6 7 8 9]
+/home/xianlli/anaconda3/envs/spectralnet/lib/python3.11/site-packages/sklearn/preprocessing/_data.py:240: UserWarning: Numerical issues were encountered when centering the data and might not be solved. Dataset may contain too large values. You may need to prescale your features.
+  warnings.warn(
+/home/xianlli/anaconda3/envs/spectralnet/lib/python3.11/site-packages/sklearn/preprocessing/_data.py:259: UserWarning: Numerical issues were encountered when scaling the data and might not be solved. The standard deviation of the data is probably very close to 0. 
+  warnings.warn(
+num_ber_sample: 42776
+1825
+Autoencoder is not fitted yet, will be pretrained.
+acc: 0.6141527959603517 kappa 0.5298883707788438 nmi: 0.716966377984478 ari: 0.4640149598078513 pur: 0.7967318122311576 ca [0.97964108 0.45959569 0.         0.97682768 0.78959108 0.50447405
+ 0.         0.99646931 0.99577614]
+471
+Autoencoder is not fitted yet, will be pretrained.
+acc: 0.5294557695904245 kappa 0.4453807056551299 nmi: 0.6497938951994758 ari: 0.3730403851581758 pur: 0.7725126239012531 ca [0.96742573 0.35599764 0.         0.96899478 0.76356877 0.38178564
+ 0.         0.99891363 0.        ]
+1099
+Autoencoder is not fitted yet, will be pretrained.
+acc: 0.550285206657939 kappa 0.471380667009654 nmi: 0.6644656319741988 ari: 0.37889957642785843 pur: 0.765850009351038 ca [0.92896999 0.35889324 0.         0.96475196 0.76802974 0.60409624
+ 0.         0.99375339 0.        ]
+6626
+Autoencoder is not fitted yet, will be pretrained.
+acc: 0.6056901066018328 kappa 0.5273950085905958 nmi: 0.6814675547424767 ari: 0.4229661030573069 pur: 0.7680942584626893 ca [0.9622983  0.46447531 0.         0.94941253 0.75092937 0.66931796
+ 0.         0.97256926 0.        ]
+1333
+Autoencoder is not fitted yet, will be pretrained.
+acc: 0.5821254909294932 kappa 0.5024094878936953 nmi: 0.6854113353255328 ari: 0.41512446471852243 pur: 0.7762764166822518 ca [0.96998944 0.43439327 0.         0.95691906 0.72342007 0.55915689
+ 0.         0.99158066 0.        ]
+7963
+Autoencoder is not fitted yet, will be pretrained.
+acc: 0.5377781933794652 kappa 0.4576052347911629 nmi: 0.6643165793353635 ari: 0.379076167415396 pur: 0.771834673648775 ca [0.96712411 0.3363183  0.         0.96442559 0.55613383 0.58620004
+ 0.         0.99592613 0.00105597]
+1155
+Autoencoder is not fitted yet, will be pretrained.
+acc: 0.5197306901066019 kappa 0.44276901762233134 nmi: 0.6551625410086804 ari: 0.3740613872864321 pur: 0.7773517860482514 ca [0.9711959  0.31143761 0.         0.96736292 0.99925651 0.35931597
+ 0.         0.99646931 0.21119324]
+3092
+Autoencoder is not fitted yet, will be pretrained.
+acc: 0.5331961847765102 kappa 0.45484420611489873 nmi: 0.6598956590114912 ari: 0.3833886925088337 pur: 0.7726061342809052 ca [0.98778465 0.33117057 0.         0.93276762 0.76654275 0.50367866
+ 0.         0.99402499 0.        ]
+801
+Autoencoder is not fitted yet, will be pretrained.
+acc: 0.5491630821021134 kappa 0.4696956807467755 nmi: 0.6680955429691784 ari: 0.39214348033453994 pur: 0.775832242378904 ca [0.96802895 0.34639927 0.         0.93603133 0.99776952 0.5042752
+ 0.         0.99565454 0.21119324]
+1723
+Autoencoder is not fitted yet, will be pretrained.
+acc: 0.5896296988965775 kappa 0.5093221080928044 nmi: 0.676473027804482 ari: 0.41381654650399785 pur: 0.767813727323733 ca [0.95083698 0.44919299 0.         0.94157963 0.55241636 0.64386558
+ 0.         0.99755568 0.00105597]
+acc: 0.5611207219001308 kappa 0.4810690487295891 nmi: 0.6722048145355357 ari: 0.39965317632189146 pur: 0.7744903684308959 ca: [0.96532951 0.38478739 0.         0.95590731 0.7667658  0.53161662
+ 0.         0.99329169 0.14202746]
+
+Process finished with exit code 0
+
